@@ -1,0 +1,27 @@
+params =
+{
+    Name="Actor_Template",
+    Actor_Template =
+    {
+        RANK = -1.000000,
+    },
+}
+
+params.Actor_Template.COMPONENTS = {}
+component =
+{
+    NAME = "Ray_MoviePlayerComponent_Template",
+	Ray_MoviePlayerComponent_Template =
+	{
+		video="intro",
+		autoPlay=0,
+		fadeOutTime=0.0,
+		playFromMemory = 0,
+		fadeInTime=1.0,
+		canSkipMovie=1,
+	},
+}
+
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+

@@ -1,0 +1,42 @@
+-- Base
+params =
+{NAME = "Actor_Template",
+Actor_Template =
+{
+    COMPONENTS =
+    {
+    }
+}}
+
+-- Text menu item
+-- Test string: "WWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+component =
+{NAME="UIMenuItemText_Template",
+UIMenuItemText_Template =
+{
+    fontName = "Misc/Fonts/font02.fnt",
+    fontHeight = 40.000000,
+    textColor = "0xffffc47c",
+    textColorHighlighted = "0xffffc47c",
+    textColorInactive = "0xffffc47c",
+	textShadowOffset = vector2dNew( 3.5, 3.5 ),
+	textShadowColor = "0xaa000000",
+    textMode = 1,
+	textModeY = 1,
+    rank = 5,
+    isActive = 1,
+}}
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+-- Text box
+component =
+{NAME="UITextBox_Template",
+UITextBox_Template =
+{
+    boxWidth = 490.000000,
+    boxHeight = 180.000000,
+    boxPosition = 1,
+    is2DText = 1
+}}
+appendTable(params.Actor_Template.COMPONENTS, {component})
+

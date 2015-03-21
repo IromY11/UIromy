@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<Scene OBJECTID="0011c84e8d7b3927" ENGINE_VERSION="0" GRIDUNIT="0.500000" MUSIC_THEME="">
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c856709db348" POS2D="-2.057214 54.645905" RELATIVEZ="465.854279" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="@1305815967159" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/background.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-514.465881 -529.718323" MAX="516.845581 492.320496" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" syncOffset="0.000000" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.500000" RELATIVEPOSY="0.500000" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="3" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c85670a15376" POS2D="800.000000 323.998596" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.500000 1.500000" USERFRIENDLY="sideway_wii@1305816021173" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/sideway_wii.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-192.000000 -48.000000" MAX="192.000000 48.000000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="TextureGraphicComponent2D">
+					<TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" SCREEN_POURCENT_X="30.000000" SCREEN_POURCENT_Y="13.333333" texture="" quadSize="256.000000 64.000000">
+						<ENUM NAME="ALIGN" SEL="1" />
+					</TextureGraphicComponent2D>
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.500000" RELATIVEPOSY="0.359998" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="1" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c8568fd680f4" POS2D="368.506012 169.841904" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="playertext@130589962020" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/playertext.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-50.000000 -40.000000" MAX="50.000000 40.000000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="TextureGraphicComponent2D">
+					<TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="-1" SCREEN_POURCENT_X="0.000000" SCREEN_POURCENT_Y="0.000000" texture="" quadSize="128.000000 128.000000">
+						<ENUM NAME="ALIGN" SEL="0" />
+					</TextureGraphicComponent2D>
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.287895" RELATIVEPOSY="0.235892" friendly="" id="template_player" menuBaseName="TRCMessage_sideway_wii" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c8568fd6d0f5" POS2D="751.500000 532.237793" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="maintext@130589962522" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/maintext.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-300.000000 -90.000000" MAX="300.000000 90.000031" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.500000" RELATIVEPOSY="0.636648" friendly="template_message" id="template_message" menuBaseName="TRCMessage_sideway_wii" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="1" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c8568fd700f6" POS2D="1063.181030 707.259521" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttontext@130589962824" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/buttontext.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-150.000000 -40.000000" MAX="150.000000 40.000000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.664488" RELATIVEPOSY="0.785844" friendly="template_button" id="template_button" menuBaseName="TRCMessage_sideway_wii" menuSonBaseName="" locFileName="" defaultSelectedByInstance="1" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0024d862cc7d3f6e" POS2D="802.947754 454.904419" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="background_shadow@131400732188" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/background_shadow.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-514.465881 -529.718323" MAX="516.845581 492.320496" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="0.360784 0.360784 0.360784 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" syncOffset="0.000000" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.501842" RELATIVEPOSY="0.505449" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0024d862d568c012" POS2D="871.058472 460.063477" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="fond_sombre@131402003388" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/pause/actors/fond_sombre.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-754.412292 -469.590668" MAX="1200.000000 441.794586" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" syncOffset="0.000000" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.544412" RELATIVEPOSY="0.511182" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+	</Scene>
+</root>

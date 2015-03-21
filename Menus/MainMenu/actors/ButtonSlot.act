@@ -1,0 +1,81 @@
+
+params =
+{
+    
+NAME = "Actor_Template",
+Actor_Template =
+    {
+        --scaleForced = vector2dNew(0.5000000,0.5000000),
+        COMPONENTS =
+        {
+            {
+                NAME="AnimLightComponent_Template",
+                AnimLightComponent_Template =
+                {
+					animationPath = "World/Common/UI/BubbleMenu/Animation/",
+    				draw2D = 1,
+                    animSet=
+                    {
+						SubAnimSet_Template =
+                        {
+							animations=
+							{								
+								{SubAnim_Template={friendlyName="IDLE",name="BasicButton_Idle.anm",loop=1}},
+								{SubAnim_Template={friendlyName="ROLLOVER",name="BasicButton_Over.anm"}},	
+								{SubAnim_Template={friendlyName="ROLLOUT",name="BasicButton_Out.anm"}},
+								{SubAnim_Template={friendlyName="RELEASE",name="BasicButton_release.anm"}},
+								{SubAnim_Template={friendlyName="PRESS",name="BasicButton_press.anm"}},
+								{SubAnim_Template={friendlyName="IDLE_SELECTED",name="standopen.anm",loop=1}},
+							},
+						},
+					},				
+                }
+            },
+			{
+				NAME="LinkComponent_Template",
+				LinkComponent_Template =
+				{
+				}
+			},
+					
+			{
+				NAME="UIButtonComponent_Template",
+				UIButtonComponent_Template =
+				{
+					is2dActor = 1,
+					animSize = vector2dNew( 60, 60 ),			
+					speed = 0.1,
+					path = "Scene/Menus/MainMenu/actors/buttonSlotText.act",
+					actorScaleSmoothFactor = 0.1,
+					minActorScale = 0.8,
+					fontName = "Misc/Fonts/font02.fnt",
+					fontHeight = 40.000000,
+					fontHeightSelected = 55.0,
+					textColor = "0xfffb9226",
+					textColorHighlighted = "0xffffffff",
+					textColorInactive = "0xfffb9226",
+					textShadowOffset = vector2dNew( 3.5, 3.5 ),
+					textShadowColor = "0xaa000000",
+					actorColorInactive = "0xffbbbbbb",
+					actorColorHighlighted = "0xffffffff",
+					actorColor= "0xffbbbbbb",
+					textMode = 1,
+					textModeY = 1,
+					rank = 1,
+					isActive = 1,					
+				}			
+			},
+
+
+			{
+				NAME="UITextBox_Template",
+				UITextBox_Template=
+				{
+					boxWidth = 800.000000,
+					boxHeight = 61.000000,
+					is2DText = 1
+				}
+			},
+        }
+    }
+}

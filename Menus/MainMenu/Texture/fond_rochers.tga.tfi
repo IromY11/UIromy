@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+  <TextureConfiguration TargetName="PC" CompressionMode="DXT5" MipmapLevelStart="0" UseMipmap="True" WrapMode="WrapMode_Repeat" Filter="MipmapFilter_Box" />
+  <TextureConfiguration TargetName="X360" CompressionMode="DXT5" MipmapLevelStart="0" UseMipmap="True" WrapMode="WrapMode_Repeat" Filter="MipmapFilter_Box" />
+  <TextureConfiguration TargetName="PS3" CompressionMode="DXT5" MipmapLevelStart="0" UseMipmap="True" WrapMode="WrapMode_Repeat" Filter="MipmapFilter_Box" />
+</root>

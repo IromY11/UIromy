@@ -1,0 +1,55 @@
+params =
+{
+    
+NAME = "Actor_Template",
+Actor_Template =
+    {
+    },
+    ActorEditorParams =
+    {
+        componentFiles =
+        {            
+        },
+    },
+}
+
+params.Actor_Template.COMPONENTS = {}
+component =
+{
+    Name="UIMenuItemText_Template",
+    UIMenuItemText_Template =
+    {
+        fontName = "Misc/Fonts/font02.fnt",
+		idleSelectedScale  =0.00,
+		idleSelectedPulseFrequency = 0.0,
+        fontHeight = 40.000000,
+		fontHeightSelected = 42.000000,
+        textColor = "0xfffb9226",
+		textColorHighlighted = "0xffffffff",
+		textColorInactive = "0xfffb9226",
+		textShadowOffset = vector2dNew( 3.5, 3.5 ),
+		textShadowColor = "0xaa000000",
+        textMode = 1,
+		textModeY = 1,
+		isActive = 1,
+        rank = 10,
+    },
+}
+
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+
+component =
+{
+    Name="UITextBox_Template",
+    UITextBox_Template =
+    {
+		boxWidth = 700.000000,
+        boxHeight = 130.000000,
+		is2DText = 1
+    },
+}
+
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+

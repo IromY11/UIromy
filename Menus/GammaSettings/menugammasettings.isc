@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<root>
+    <Scene OBJECTID="0011c85750e6213d" ENGINE_VERSION="15358" GRIDUNIT="0.500000">
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857511aa168" POS2D="1.127016 -1.231084" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.276855" USERFRIENDLY="gammatext@130642240259" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.558854" RELATIVEPOSY="0.614312" friendly="gamma_plus" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857511c3195" POS2D="-1.372985 -1.231084" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.265625" USERFRIENDLY="gammatext@130642242372" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.428301" RELATIVEPOSY="0.614312" friendly="gamma_moins" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c8575126121a" POS2D="5.627017 -1.231084" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="gammatext@1306422573110" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.793850" RELATIVEPOSY="0.614312" friendly="gamma_value" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c8575130d249" POS2D="1.664900 -4.865827" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="gammatext@1306422733123" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.586943" RELATIVEPOSY="0.951813" friendly="Save" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857725480f3" POS2D="-0.183859 2.382175" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="10.346042 3.159433" USERFRIENDLY="mir@130651326822" LUA="scene/menus/gammasettings/mir.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="-9.905962 -3.024508" MAX="9.905974 3.024503" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="TextureGraphicComponent2D">
+                    <TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" RELATIVEPOSX="0.490399" RELATIVEPOSY="0.278805" SCREEN_POURCENT_X="103.460411" SCREEN_POURCENT_Y="56.167698" texture="" quadSize="128.000000 128.000000">
+                        <ENUM NAME="ALIGN" SEL="0" />
+                    </TextureGraphicComponent2D>
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857725eb0f5" POS2D="5.664899 -4.865827" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="gammatext@130651342323" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.795828" RELATIVEPOSY="0.951813" friendly="Default" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c85772d62149" POS2D="0.030626 -3.429761" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="10.321289 2.912354" USERFRIENDLY="bg_black@130651521422" LUA="scene/menus/gammasettings/bg_black.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="-9.882275 -2.787977" MAX="9.882263 2.787980" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="TextureGraphicComponent2D">
+                    <TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" RELATIVEPOSX="0.501599" RELATIVEPOSY="0.818468" SCREEN_POURCENT_X="103.212891" SCREEN_POURCENT_Y="51.775185" texture="" quadSize="128.000000 128.000000">
+                        <ENUM NAME="ALIGN" SEL="0" />
+                    </TextureGraphicComponent2D>
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857733cf14c" POS2D="-5.372992 -1.231084" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.265625" USERFRIENDLY="gammatext@130651651521" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.219415" RELATIVEPOSY="0.614312" friendly="gamma" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857733e214e" POS2D="-5.372992 -2.231085" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.265625" USERFRIENDLY="gammatext@130651653422" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.219415" RELATIVEPOSY="0.707166" friendly="brightness" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857733e2150" POS2D="1.127015 -2.231085" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.276855" USERFRIENDLY="gammatext@130651653423" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.558854" RELATIVEPOSY="0.707166" friendly="brightness_plus" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857733e2152" POS2D="-1.372987 -2.231085" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.265625" USERFRIENDLY="gammatext@130651653424" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.428301" RELATIVEPOSY="0.707166" friendly="brightness_moins" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857733e7154" POS2D="-5.373002 -3.231084" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.265625" USERFRIENDLY="gammatext@130651653925" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.219415" RELATIVEPOSY="0.800020" friendly="contrast" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857733e7156" POS2D="1.127018 -3.231084" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.276855" USERFRIENDLY="gammatext@130651653926" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.558854" RELATIVEPOSY="0.800020" friendly="contrast_plus" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857733e7158" POS2D="-1.372988 -3.231084" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 0.265625" USERFRIENDLY="gammatext@130651653927" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.428301" RELATIVEPOSY="0.800020" friendly="contrast_moins" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857734e2192" POS2D="5.627016 -2.231084" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="gammatext@130651677440" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.793850" RELATIVEPOSY="0.707166" friendly="brightness_value" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="0011c857734e4194" POS2D="5.627019 -3.231082" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="gammatext@130651677641" LUA="scene/menus/gammasettings/gammatext.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.793850" RELATIVEPOSY="0.800020" friendly="contrast_value" menuBaseName="menugammasettings" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+    </Scene>
+</root>

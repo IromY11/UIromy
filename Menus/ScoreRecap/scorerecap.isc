@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<Scene OBJECTID="000e30508bd39331" ENGINE_VERSION="0" GRIDUNIT="0.500000" MUSIC_THEME="">
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e305095234be1" POS2D="-7.612685 3.502669" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="scorerecap@130454333218" LUA="scene/menus/scorerecap/actors/scorerecap.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.839292 -7.887494" MAX="15.123682 0.000000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="Ray_ScoreBoardComponent">
+					<Ray_ScoreBoardComponent />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e30571542a16b" POS2D="-4.398726 2.094087" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="0.471596 0.471596" USERFRIENDLY="lumcountpicto@130626460224" LUA="scene/menus/scorerecap/actors/lumcountpicto.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.902917 -0.451454" MAX="0.902908 0.451459" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="uimenuitemtextfnt04_template@130626463426" offsetPos="-4.108773 1.949111 -11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="TextureGraphicComponent2D">
+					<TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" RELATIVEPOSX="0.270252" RELATIVEPOSY="0.305555" SCREEN_POURCENT_X="9.431920" SCREEN_POURCENT_Y="8.383928" texture="" quadSize="256.000000 128.000000">
+						<ENUM NAME="ALIGN" SEL="0" />
+					</TextureGraphicComponent2D>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e30571544e16c" POS2D="-0.289952 0.144976" RELATIVEZ="11.999999" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="uimenuitemtextfnt04_template@130626463426" LUA="scene/menus/scorerecap/actors/uimenuitemtextfnt04_template.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-5.011691 -2.474928" MAX="0.662741 2.400570" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="scorerecap@130454333218" offsetPos="7.322733 -3.357693 11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.303123" RELATIVEPOSY="0.324999" friendly="LumCounter1" menuBaseName="scorerecap" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e3057154b519b" POS2D="1.437098 1.552160" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="0.471596 0.471596" USERFRIENDLY="lumcountpicto@130626473339" LUA="scene/menus/scorerecap/actors/lumcountpicto.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.902912 -0.451455" MAX="0.902913 0.451458" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="uimenuitemtextfnt04_template@130626473340" offsetPos="1.278316 1.445154 -11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="TextureGraphicComponent2D">
+					<TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" RELATIVEPOSX="0.575060" RELATIVEPOSY="0.355875" SCREEN_POURCENT_X="9.431920" SCREEN_POURCENT_Y="8.383928" texture="" quadSize="256.000000 128.000000">
+						<ENUM NAME="ALIGN" SEL="0" />
+					</TextureGraphicComponent2D>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e3057154b519d" POS2D="0.158782 0.107006" RELATIVEZ="11.999999" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="uimenuitemtextfnt04_template@130626473340" LUA="scene/menus/scorerecap/actors/uimenuitemtextfnt04_template.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.662741 -2.474928" MAX="2.181228 1.896612" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="scorerecap@130454333218" offsetPos="7.771467 -3.395663 11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.607812" RELATIVEPOSY="0.370833" friendly="LumCounter2" menuBaseName="scorerecap" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e3057154b719f" POS2D="3.547291 -2.801702" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="0.471596 0.471596" USERFRIENDLY="lumcountpicto@130626473541" LUA="scene/menus/scorerecap/actors/lumcountpicto.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.902910 -0.451459" MAX="0.902915 0.451453" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="uimenuitemtextfnt04_template@130626473542" offsetPos="3.226274 -2.571582 -11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="TextureGraphicComponent2D">
+					<TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" RELATIVEPOSX="0.685277" RELATIVEPOSY="0.760150" SCREEN_POURCENT_X="9.431920" SCREEN_POURCENT_Y="8.383928" texture="" quadSize="256.000000 128.000000">
+						<ENUM NAME="ALIGN" SEL="0" />
+					</TextureGraphicComponent2D>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e3057154b71a1" POS2D="0.321017 -0.230120" RELATIVEZ="11.999999" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="uimenuitemtextfnt04_template@130626473542" LUA="scene/menus/scorerecap/actors/uimenuitemtextfnt04_template.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.662741 -3.023041" MAX="4.129189 -1.149446" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="scorerecap@130454333218" offsetPos="7.933702 -3.732789 11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.717969" RELATIVEPOSY="0.777779" friendly="LumCounter3" menuBaseName="scorerecap" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e3057154b81a3" POS2D="-7.549056 -2.703902" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="0.471596 0.471596" USERFRIENDLY="lumcountpicto@130626473643" LUA="scene/menus/scorerecap/actors/lumcountpicto.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.902920 -0.451459" MAX="0.902906 0.451453" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="uimenuitemtextfnt04_template@130626473644" offsetPos="-7.017478 -2.479534 -11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="TextureGraphicComponent2D">
+					<TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" RELATIVEPOSX="0.105708" RELATIVEPOSY="0.751069" SCREEN_POURCENT_X="9.431920" SCREEN_POURCENT_Y="8.383928" texture="" quadSize="256.000000 128.000000">
+						<ENUM NAME="ALIGN" SEL="0" />
+					</TextureGraphicComponent2D>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e3057154b81a5" POS2D="-0.531578 -0.224368" RELATIVEZ="11.999999" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="uimenuitemtextfnt04_template@130626473644" LUA="scene/menus/scorerecap/actors/uimenuitemtextfnt04_template.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-7.920398 -2.930993" MAX="0.662741 -1.149446" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="scorerecap@130454333218" offsetPos="7.081107 -3.727037 11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.139060" RELATIVEPOSY="0.770835" friendly="LumCounter4" menuBaseName="scorerecap" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e305730af7147" POS2D="0.661592 -0.312962" RELATIVEZ="11.999999" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="uimenuitemtextfnt04_next@130633463622" LUA="scene/menus/scorerecap/actors/uimenuitemtextfnt04_next.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.662741 -2.474928" MAX="0.662741 -1.149446" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="scorerecap@130454333218" offsetPos="8.274278 -3.815631 11.999999" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.949219" RELATIVEPOSY="0.877779" friendly="next" menuBaseName="" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e3058368cb1c1" POS2D="7.030149 -3.903976" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="0.502287 0.502287" USERFRIENDLY="ps3xbutton@130696051149" LUA="scene/menus/scorerecap/actors/ps3xbutton.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.480824 -0.480839" MAX="0.480849 0.480834" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="scorerecap@130454333218" offsetPos="14.642834 -7.406645 0.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="TextureGraphicComponent2D">
+					<TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" RELATIVEPOSX="0.867189" RELATIVEPOSY="0.862501" SCREEN_POURCENT_X="5.022870" SCREEN_POURCENT_Y="8.929546" texture="" quadSize="128.000000 128.000000">
+						<ENUM NAME="ALIGN" SEL="0" />
+					</TextureGraphicComponent2D>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="000e3058368ce1c2" POS2D="7.030154 -3.903982" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="0.502287 0.502287" USERFRIENDLY="xboxabutton@130696051451" LUA="scene/menus/scorerecap/actors/xboxabutton.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-0.480829 -0.480843" MAX="0.480843 0.480830" />
+				</AABB_RELATIVE>
+				<parentBind>
+					<ActorBind parentPath="scorerecap@130454333218" offsetPos="14.642839 -7.406651 0.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</ActorBind>
+				</parentBind>
+				<COMPONENTS NAME="TextureGraphicComponent2D">
+					<TextureGraphicComponent2D ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" RELATIVEPOSX="0.867189" RELATIVEPOSY="0.862502" SCREEN_POURCENT_X="5.022870" SCREEN_POURCENT_Y="8.929546" texture="" quadSize="128.000000 128.000000">
+						<ENUM NAME="ALIGN" SEL="0" />
+					</TextureGraphicComponent2D>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+	</Scene>
+</root>

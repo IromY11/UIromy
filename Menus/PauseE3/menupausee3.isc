@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<root>
+    <Scene OBJECTID="000e305068796231" ENGINE_VERSION="0" GRIDUNIT="0.500000">
+        <ACTORS NAME="Actor">
+            <Actor OBJECTID="000e3050687b127a" POS2D="0.011480 0.226365" RELATIVEZ="11.500000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="pause_menu_buttons@130441144942" LUA="demo/e32011/pause_menu/pause_menu_buttons.act" xFLIPPED="0">
+                <AABB_RELATIVE>
+                    <AABB MIN="-0.526774 -0.435318" MAX="0.499337 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="AnimLightComponent">
+                    <AnimLightComponent ColorFactor="1.001961 1.001961 1.001961 1.001961" ColorFog="1.001961 1.001961 1.001961 0.001961" animInstance="" />
+                </COMPONENTS>
+                <COMPONENTS NAME="Ray_MenuE3Component">
+                    <Ray_MenuE3Component />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+    </Scene>
+</root>

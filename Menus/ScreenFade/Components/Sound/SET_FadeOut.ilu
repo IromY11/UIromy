@@ -1,0 +1,43 @@
+
+DESCRIPTOR = 
+{
+	{
+		SoundDescriptor_Template =
+		{   
+			name="MRK_FadeOut",
+			volume=-10,
+			category="AMB",
+			-- limitCategory="breakable_destroy",
+			limitMode=LimiterMode.StopOldest,
+			maxInstances=1,
+			params=
+			{SoundParams={
+				numChannels=1,
+				loop=0, --if loop = 1 special behaviour for random and sequence
+				playMode=1, --0 for first,1 for random, 2 for random remember last, 3 for random sequence, 4 for sequence
+				randomVolMin=0.0,
+				randomVolMax=0.0,
+				randomPitchMin=1.0,
+				randomPitchMax=1.0,
+				fadeInTime=0.0,
+				fadeOutTime=0.0,
+				
+				-- modifiers=
+					-- {
+				
+						-- PANNING_SHORT_PERSPECTIVE,
+						-- SCREENROLLOFF_SHORT_PERSPECTIVE,
+						
+					-- }
+			}},
+			files=
+			{
+				{
+                    VAL="Sound/400_UI/420_HUD/Sfx_FadeOut.wav",
+                },
+			},
+		},
+	},     
+}
+
+appendTable(component.SoundComponent_Template.soundList,DESCRIPTOR) 

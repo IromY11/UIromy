@@ -1,0 +1,3754 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<MenuBubble type="string" value="World/Common/UI/BubbleMenu/Animation/BubbleMenu_A.TGA"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="19.603292164067"/>
+					<PosLocal type="vector" x="0.46287277340889" y="0.07822659611702" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-0.26566523952157"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-8.1031964796394"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="16.600702505571"/>
+					<PosLocal type="vector" x="-0.14830899238586" y="0.068620383739471" z="0"/>
+				</D110820154013>
+				<D110820154018>
+				</D110820154018>
+				<D110820154021>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.0978778600693" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.51926511526108" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="0.076517969369888" y="-0.46473613381386" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.18901467323303" y="0.016394972801208" z="0"/>
+					<ScaleX type="number" value="0.42616939837125"/>
+					<ScaleY type="number" value="0.42616939837125"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.34479794489829"/>
+					<ScaleY type="number" value="0.34479794489829"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="-1.8553214160043"/>
+					<PosLocal type="vector" x="-0.015867352485657" y="-0.10398158431053" z="0"/>
+					<ScaleX type="number" value="1.5327805656508"/>
+					<ScaleY type="number" value="1.5327805656508"/>
+				</D110820154056>
+				<D110820154061>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.040851693600416" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.7784913556878"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.2323055473577"/>
+					<ScaleY type="number" value="10.209602810904"/>
+				</D110820154120>
+				<D110820154450>
+					<PosLocal type="vector" x="1.1436619758606" y="0.66227614879608" z="0"/>
+					<ScaleX type="number" value="0.5077798054488"/>
+					<ScaleY type="number" value="0.5077798054488"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.030531108379364" y="-0.090705811977386" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-8.8401713260021"/>
+					<PosLocal type="vector" x="0.1902841925621" y="-0.13294160366058" z="0"/>
+					<ScaleX type="number" value="2.0910010807626"/>
+					<ScaleY type="number" value="3.4443352988617"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="0.8982579176151"/>
+					<PosLocal type="vector" x="0.028133988380432" y="-0.76041674613953" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.47531926631927" y="-1.3003245592117" z="0"/>
+					<ScaleX type="number" value="3.3883651424101"/>
+					<ScaleY type="number" value="3.3883651424101"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32237565517426" y="-0.033368736505508" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+					<ScaleX type="number" value="3.5143265382926"/>
+					<ScaleY type="number" value="-3.5143265382926"/>
+				</D110820183501>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Grass01"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Side01"/>
+				</Element>
+				<Element index="3">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Side02"/>
+				</Element>
+				<Element index="4">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Square01"/>
+				</Element>
+				<Element index="5">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Schmuks01"/>
+				</Element>
+				<Element index="6">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Arm02"/>
+				</Element>
+				<Element index="7">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Hair01"/>
+				</Element>
+				<Element index="8">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Arm01"/>
+				</Element>
+				<Element index="9">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Leg01"/>
+				</Element>
+				<Element index="10">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Leg02"/>
+				</Element>
+				<Element index="11">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco02"/>
+				</Element>
+				<Element index="12">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco05"/>
+				</Element>
+				<Element index="13">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco06"/>
+				</Element>
+				<Element index="14">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco07"/>
+				</Element>
+				<Element index="15">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco01"/>
+				</Element>
+				<Element index="16">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco03"/>
+				</Element>
+				<Element index="17">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco08"/>
+				</Element>
+				<Element index="18">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco09"/>
+				</Element>
+				<Element index="19">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco10"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="2">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="19.603292164067"/>
+					<PosLocal type="vector" x="0.46287277340889" y="0.07822659611702" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-0.26566523952157"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-8.1031964796394"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="16.600702505571"/>
+					<PosLocal type="vector" x="-0.14830899238586" y="0.068620383739471" z="0"/>
+				</D110820154013>
+				<D110820154018>
+				</D110820154018>
+				<D110820154021>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.0978778600693" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.51926511526108" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="0.076517969369888" y="-0.46473613381386" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.18901467323303" y="0.016394972801208" z="0"/>
+					<ScaleX type="number" value="0.42616939837125"/>
+					<ScaleY type="number" value="0.42616939837125"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.34479794489829"/>
+					<ScaleY type="number" value="0.34479794489829"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="-1.8553214160043"/>
+					<PosLocal type="vector" x="-0.015867352485657" y="-0.10398158431053" z="0"/>
+					<ScaleX type="number" value="1.5327805656508"/>
+					<ScaleY type="number" value="1.5327805656508"/>
+				</D110820154056>
+				<D110820154061>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.040851693600416" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.7784913556878"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.2323055473577"/>
+					<ScaleY type="number" value="10.209602810904"/>
+				</D110820154120>
+				<D110820154450>
+					<PosLocal type="vector" x="1.1436619758606" y="0.66227614879608" z="0"/>
+					<ScaleX type="number" value="0.5077798054488"/>
+					<ScaleY type="number" value="0.5077798054488"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.030531108379364" y="-0.090705811977386" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-8.8401713260021"/>
+					<PosLocal type="vector" x="0.1902841925621" y="-0.13294160366058" z="0"/>
+					<ScaleX type="number" value="2.0910010807626"/>
+					<ScaleY type="number" value="3.4443352988617"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="0.8982579176151"/>
+					<PosLocal type="vector" x="0.028133988380432" y="-0.76041674613953" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.47531926631927" y="-1.3003245592117" z="0"/>
+					<ScaleX type="number" value="3.3883651424101"/>
+					<ScaleY type="number" value="3.3883651424101"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32237565517426" y="-0.033368736505508" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="3">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="4">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="19.603292164067"/>
+					<PosLocal type="vector" x="0.46287277340889" y="0.07822659611702" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="3.9860225212939"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-4.226210601742"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="9.6499758359172"/>
+					<PosLocal type="vector" x="-0.19982680678368" y="0.055334120988846" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-9.9943318502168"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-16.490807819067"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.0978778600693" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.51926511526108" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="0.076517969369888" y="-0.46473613381386" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.18901467323303" y="0.016394972801208" z="0"/>
+					<ScaleX type="number" value="0.42616939837125"/>
+					<ScaleY type="number" value="0.42616939837125"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.34479794489829"/>
+					<ScaleY type="number" value="0.34479794489829"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="-0.10378150056638"/>
+					<PosLocal type="vector" x="-0.015867352485657" y="-0.10398158431053" z="0"/>
+					<ScaleX type="number" value="1.5327805656508"/>
+					<ScaleY type="number" value="1.5327805656508"/>
+				</D110820154056>
+				<D110820154061>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.040851693600416" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="-8.163280688002"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-3.5820464769427"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-3.0682258008889"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.7784913556878"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.2323055473577"/>
+					<ScaleY type="number" value="10.209602810904"/>
+				</D110820154120>
+				<D110820154450>
+					<PosLocal type="vector" x="1.1436619758606" y="0.66227614879608" z="0"/>
+					<ScaleX type="number" value="0.5077798054488"/>
+					<ScaleY type="number" value="0.5077798054488"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.030531108379364" y="-0.090705811977386" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-8.8401713260021"/>
+					<PosLocal type="vector" x="0.1902841925621" y="-0.13294160366058" z="0"/>
+					<ScaleX type="number" value="2.0910010807626"/>
+					<ScaleY type="number" value="3.4443352988617"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="0.8982579176151"/>
+					<PosLocal type="vector" x="0.028133988380432" y="-0.76041674613953" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.47531926631927" y="-1.3003245592117" z="0"/>
+					<ScaleX type="number" value="3.3883651424101"/>
+					<ScaleY type="number" value="3.3883651424101"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32237565517426" y="-0.033368736505508" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="5">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="6">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="19.603292164067"/>
+					<PosLocal type="vector" x="0.46287277340889" y="0.07822659611702" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="8.2377102821095"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-0.34922472384467"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="2.6992491662634"/>
+					<PosLocal type="vector" x="-0.25134459137917" y="0.04204785823822" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-19.988663700434"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-32.981615638134"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.0978778600693" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.51926511526108" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="0.076517969369888" y="-0.46473613381386" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.18901467323303" y="0.016394972801208" z="0"/>
+					<ScaleX type="number" value="0.42616939837125"/>
+					<ScaleY type="number" value="0.42616939837125"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.34479794489829"/>
+					<ScaleY type="number" value="0.34479794489829"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="12.384265413579"/>
+					<PosLocal type="vector" x="-0.015867352485657" y="-0.10398158431053" z="0"/>
+					<ScaleX type="number" value="1.5327805656508"/>
+					<ScaleY type="number" value="1.5327805656508"/>
+				</D110820154056>
+				<D110820154061>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.040851693600416" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="-16.326561376004"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-7.1640929538854"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-6.1364516017779"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.7784913556878"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.2323055473577"/>
+					<ScaleY type="number" value="10.209602810904"/>
+				</D110820154120>
+				<D110820154450>
+					<PosLocal type="vector" x="1.1436619758606" y="0.66227614879608" z="0"/>
+					<ScaleX type="number" value="0.5077798054488"/>
+					<ScaleY type="number" value="0.5077798054488"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.030531108379364" y="-0.090705811977386" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-8.8401713260021"/>
+					<PosLocal type="vector" x="0.1902841925621" y="-0.13294160366058" z="0"/>
+					<ScaleX type="number" value="2.0910010807626"/>
+					<ScaleY type="number" value="3.4443352988617"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="0.8982579176151"/>
+					<PosLocal type="vector" x="0.028133988380432" y="-0.76041674613953" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.47531926631927" y="-1.3003245592117" z="0"/>
+					<ScaleX type="number" value="3.3883651424101"/>
+					<ScaleY type="number" value="3.3883651424101"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32237565517426" y="-0.033368736505508" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="7">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="8">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="15.847400644666"/>
+					<PosLocal type="vector" x="0.48632138967514" y="0.10256683826447" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-5.1524677984983"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-2.5646452255003"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-4.2514775033904"/>
+					<PosLocal type="vector" x="-0.30286237597466" y="0.028761595487595" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-29.98299555065"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-49.4724234572"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.76329267024994" y="-1.0973830223083" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.521763920784" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="0.046595096588135" y="-0.4650644659996" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.16975766420364" y="0.013406574726105" z="0"/>
+					<ScaleX type="number" value="0.4048180508781"/>
+					<ScaleY type="number" value="0.45783170037824"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.33721363149656"/>
+					<ScaleY type="number" value="0.35364754385067"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="-7.7628771285566"/>
+					<PosLocal type="vector" x="-0.03310938924551" y="-0.11913001537323" z="0"/>
+					<ScaleX type="number" value="1.6738523448077"/>
+					<ScaleY type="number" value="1.4180965734684"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="-6.8232403201399"/>
+					<PosLocal type="vector" x="0.11199164390564" y="-0.040184162557125" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="14.104648665194"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="-15.999469426022"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="-4.6311555477194"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-10.746139430828"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-9.2046774026668"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.9011988936809"/>
+					<ScaleY type="number" value="1.0689952962665"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.2855332309109"/>
+					<ScaleY type="number" value="10.65059206782"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="3.0451216347236"/>
+					<PosLocal type="vector" x="1.2474793195724" y="0.67047345638275" z="0"/>
+					<ScaleX type="number" value="0.6011783811531"/>
+					<ScaleY type="number" value="0.46131702434467"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.037867069244385" y="-0.08959898352623" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-8.02855080723"/>
+					<PosLocal type="vector" x="0.16448950767517" y="-0.12846606969833" z="0"/>
+					<ScaleX type="number" value="2.0523272415951"/>
+					<ScaleY type="number" value="3.5167445941735"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-0.56516811861184"/>
+					<PosLocal type="vector" x="0.04632693529129" y="-0.76075291633606" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.48206758499146" y="-1.3007206916809" z="0"/>
+					<ScaleX type="number" value="3.4623116662284"/>
+					<ScaleY type="number" value="3.3189624786925"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32512664794922" y="-0.034475564956665" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="9">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="13.969454884966"/>
+					<PosLocal type="vector" x="0.4980456829071" y="0.11473697423935" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-11.847556838802"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-3.6723554763281"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-7.7268408382173"/>
+					<PosLocal type="vector" x="-0.32862129807472" y="0.022118479013443" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-34.980161475759"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-57.717827366734"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.75427204370499" y="-1.0971356630325" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.52301335334778" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="0.031633675098419" y="-0.46522864699364" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.16012912988663" y="0.01191234588623" z="0"/>
+					<ScaleX type="number" value="0.39414237713153"/>
+					<ScaleY type="number" value="0.47366285138173"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.33342147479569"/>
+					<ScaleY type="number" value="0.35807234332686"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="7.0780336263234"/>
+					<PosLocal type="vector" x="-0.041730403900146" y="-0.12670421600342" z="0"/>
+					<ScaleX type="number" value="1.7443882343861"/>
+					<ScaleY type="number" value="1.3607545773771"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="-10.23486048021"/>
+					<PosLocal type="vector" x="0.16798746585846" y="-0.039850398898125" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="21.156972997792"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="-23.999204139033"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="1.216547366423"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-12.5371626693"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-10.738790303111"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.9625526626774"/>
+					<ScaleY type="number" value="1.1034929443998"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.3121470726876"/>
+					<ScaleY type="number" value="10.871086696278"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="4.5676824520854"/>
+					<PosLocal type="vector" x="1.2993879318237" y="0.67457211017609" z="0"/>
+					<ScaleX type="number" value="0.64787766900525"/>
+					<ScaleY type="number" value="0.4380856337926"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.041535079479218" y="-0.089045584201813" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-7.6227405478439"/>
+					<PosLocal type="vector" x="0.15159219503403" y="-0.12622827291489" z="0"/>
+					<ScaleX type="number" value="2.0329903220114"/>
+					<ScaleY type="number" value="3.5529492418294"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-1.2968811367253"/>
+					<PosLocal type="vector" x="0.055423378944397" y="-0.76092100143433" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.48544174432755" y="-1.3009186983109" z="0"/>
+					<ScaleX type="number" value="3.4992849281375"/>
+					<ScaleY type="number" value="3.2842611468336"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32650220394135" y="-0.035028994083405" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="10">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="11">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="10.213563365565"/>
+					<PosLocal type="vector" x="0.52149426937103" y="0.13907724618912" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-25.23773491941"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-5.8877759779838"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-14.677567507871"/>
+					<PosLocal type="vector" x="-0.38013908267021" y="0.0088322162628174" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-44.974493325976"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-46.174261893387"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.73623079061508" y="-1.0966408252716" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.52551221847534" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="0.001710832118988" y="-0.46555697917938" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.14087212085724" y="0.0089239478111267" z="0"/>
+					<ScaleX type="number" value="0.37279102963839"/>
+					<ScaleY type="number" value="0.50532515338871"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.32583716139396"/>
+					<ScaleY type="number" value="0.36692194227924"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="36.759855136083"/>
+					<PosLocal type="vector" x="-0.05897244811058" y="-0.14185264706612" z="0"/>
+					<ScaleX type="number" value="1.885460013543"/>
+					<ScaleY type="number" value="1.2460705851947"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="-17.05810080035"/>
+					<PosLocal type="vector" x="0.2799791097641" y="-0.039182871580124" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="35.261621662986"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="-39.998673565055"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="12.911953194708"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-16.119209146242"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-13.807016104"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.0852602006705"/>
+					<ScaleY type="number" value="1.1724882406663"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.3653747562408"/>
+					<ScaleY type="number" value="11.312075953195"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="8.6278446317168"/>
+					<PosLocal type="vector" x="1.4378107786179" y="0.68550187349319" z="0"/>
+					<ScaleX type="number" value="0.42726268042757"/>
+					<ScaleY type="number" value="0.73107530860185"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.048871040344238" y="-0.087938755750656" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-6.8111200290718"/>
+					<PosLocal type="vector" x="0.12579751014709" y="-0.12175270915031" z="0"/>
+					<ScaleX type="number" value="1.994316482844"/>
+					<ScaleY type="number" value="3.6253585371412"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-2.7603071729523"/>
+					<PosLocal type="vector" x="0.07361626625061" y="-0.76125717163086" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.49219006299973" y="-1.3013147115707" z="0"/>
+					<ScaleX type="number" value="3.5732314519558"/>
+					<ScaleY type="number" value="3.214858483116"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32925319671631" y="-0.036135822534561" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="12">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="8.3356176058643"/>
+					<PosLocal type="vector" x="0.533218562603" y="0.151247382164" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-31.932823959714"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-6.9954862288116"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-18.152930842698"/>
+					<PosLocal type="vector" x="-0.40589794516563" y="0.0021890997886658" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-49.971659251084"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-40.402479156714"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.72721016407013" y="-1.0963933467865" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.52676165103912" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.013250589370728" y="-0.46572113037109" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.13124358654022" y="0.0074297189712524" z="0"/>
+					<ScaleX type="number" value="0.36211535589181"/>
+					<ScaleY type="number" value="0.52115630439221"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.3220450046931"/>
+					<ScaleY type="number" value="0.37134674175544"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="18.345174709887"/>
+					<PosLocal type="vector" x="-0.098821431398392" y="-0.13634347915649" z="0"/>
+					<ScaleX type="number" value="1.8373673615577"/>
+					<ScaleY type="number" value="1.2851674007115"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="-20.46972096042"/>
+					<PosLocal type="vector" x="0.33597487211227" y="-0.038849107921124" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="42.313945995583"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="-47.998408278066"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="22.664797044867"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-14.104308002962"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-12.081139091"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.1466139696671"/>
+					<ScaleY type="number" value="1.2069858887995"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.3919885980174"/>
+					<ScaleY type="number" value="11.532570581653"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="10.657925721533"/>
+					<PosLocal type="vector" x="1.5070221424103" y="0.69096678495407" z="0"/>
+					<ScaleX type="number" value="0.31695518613872"/>
+					<ScaleY type="number" value="0.87757014600648"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.052539050579071" y="-0.087385356426239" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-6.4053097696857"/>
+					<PosLocal type="vector" x="0.11290013790131" y="-0.11951494216919" z="0"/>
+					<ScaleX type="number" value="1.9749795632602"/>
+					<ScaleY type="number" value="3.6615631847971"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-3.4920201910657"/>
+					<PosLocal type="vector" x="0.080597043037415" y="-0.75989305973053" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.47381258010864" y="-1.3011908531189" z="0"/>
+					<ScaleX type="number" value="3.5112182091878"/>
+					<ScaleY type="number" value="3.2793868588843"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.33062869310379" y="-0.036689221858978" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="13">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="6.4576718461639"/>
+					<PosLocal type="vector" x="0.54494285583496" y="0.16341748833656" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-38.627913000018"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-8.1031964796394"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-21.628294177525"/>
+					<PosLocal type="vector" x="-0.43165680766106" y="-0.0044540166854858" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-54.968825176192"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-34.63069642004"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.71818953752518" y="-1.0961459875107" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.52801108360291" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.028212010860443" y="-0.46588531136513" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.12161511182785" y="0.0059354901313782" z="0"/>
+					<ScaleX type="number" value="0.35143968214524"/>
+					<ScaleY type="number" value="0.5369874553957"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.31825284799223"/>
+					<ScaleY type="number" value="0.37577154123163"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="-0.069505716309186"/>
+					<PosLocal type="vector" x="-0.1386704146862" y="-0.13083428144455" z="0"/>
+					<ScaleX type="number" value="1.7892747095724"/>
+					<ScaleY type="number" value="1.3242642162282"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="-20.937618068683"/>
+					<PosLocal type="vector" x="0.38397127389908" y="-0.038563024252653" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="49.366270328181"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="-11.691811404371"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="32.417640895027"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-12.089406859682"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-10.355262078"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.2079677386636"/>
+					<ScaleY type="number" value="1.2414835369328"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.418602439794"/>
+					<ScaleY type="number" value="11.753065210111"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="12.561126743235"/>
+					<PosLocal type="vector" x="1.3049681186676" y="0.70506274700165" z="0"/>
+					<ScaleX type="number" value="0.46036970597232"/>
+					<ScaleY type="number" value="0.73055479633147"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.056207060813904" y="-0.0868319272995" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-5.9994995102997"/>
+					<PosLocal type="vector" x="0.10000276565552" y="-0.11727714538574" z="0"/>
+					<ScaleX type="number" value="1.9556426436765"/>
+					<ScaleY type="number" value="3.697767832453"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-4.2237332091792"/>
+					<PosLocal type="vector" x="0.087577819824219" y="-0.75852900743484" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.45543509721756" y="-1.3010671138763" z="0"/>
+					<ScaleX type="number" value="3.4492049664198"/>
+					<ScaleY type="number" value="3.3439152346527"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.33200418949127" y="-0.037242621183395" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="14">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="2.952173094723"/>
+					<PosLocal type="vector" x="0.56682825088501" y="0.18613505363464" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-48.85784573615"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-8.1031964796394"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-25.103657512352"/>
+					<PosLocal type="vector" x="-0.45741567015648" y="-0.011097133159637" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-59.965991101301"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-28.858913683367"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.70916891098022" y="-1.0958986282349" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.52926051616669" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.028638601303101" y="-0.46581369638443" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.11198657751083" y="0.0044412612915039" z="0"/>
+					<ScaleX type="number" value="0.34076400839867"/>
+					<ScaleY type="number" value="0.55281860639919"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.31446069129137"/>
+					<ScaleY type="number" value="0.38019634070782"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="18.765075435336"/>
+					<PosLocal type="vector" x="-0.17851939797401" y="-0.1253250837326" z="0"/>
+					<ScaleX type="number" value="1.7411820575871"/>
+					<ScaleY type="number" value="1.3633610317449"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="-21.405515176947"/>
+					<PosLocal type="vector" x="0.43196767568588" y="-0.038276940584183" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="56.418594660778"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="24.614785469324"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="42.170484745187"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-10.074505716401"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-8.6293850650002"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.2693215076602"/>
+					<ScaleY type="number" value="1.275981185066"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.4201903872135"/>
+					<ScaleY type="number" value="11.766221291792"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="14.464327764937"/>
+					<PosLocal type="vector" x="1.1029139757156" y="0.71915864944458" z="0"/>
+					<ScaleX type="number" value="0.60378422580593"/>
+					<ScaleY type="number" value="0.58353944665646"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.059875071048737" y="-0.086278527975082" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-5.5936892509136"/>
+					<PosLocal type="vector" x="0.087105393409729" y="-0.11503937840462" z="0"/>
+					<ScaleX type="number" value="1.9363057240928"/>
+					<ScaleY type="number" value="3.7339724801089"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-4.9554462272927"/>
+					<PosLocal type="vector" x="0.094558596611023" y="-0.75716495513916" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.43705767393112" y="-1.3009433746338" z="0"/>
+					<ScaleX type="number" value="3.3871917236519"/>
+					<ScaleY type="number" value="3.408443610421"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.33337968587875" y="-0.037796020507813" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="15">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="-0.55332565671782"/>
+					<PosLocal type="vector" x="0.58871358633041" y="0.20885264873505" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-59.087778472282"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-8.1031964796394"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-28.579020847179"/>
+					<PosLocal type="vector" x="-0.4831745326519" y="-0.017740249633789" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-64.963157026409"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-23.087130946693"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.77528423070908" y="-1.097234249115" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.53050994873047" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.029065191745758" y="-0.46574205160141" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.10235804319382" y="0.002947062253952" z="0"/>
+					<ScaleX type="number" value="0.3300883346521"/>
+					<ScaleY type="number" value="0.56864975740268"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.3106685345905"/>
+					<ScaleY type="number" value="0.38462114018401"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="37.599656586981"/>
+					<PosLocal type="vector" x="-0.21836838126183" y="-0.11981588602066" z="0"/>
+					<ScaleX type="number" value="1.6930894056018"/>
+					<ScaleY type="number" value="1.4024578472617"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="-11.354753865014"/>
+					<PosLocal type="vector" x="0.47036477923393" y="-0.038048073649406" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="45.134875728622"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="19.69182837546"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="51.923328595346"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-8.0596045731211"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-6.9035080520001"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.3306752766567"/>
+					<ScaleY type="number" value="1.3104788331993"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.4217783346329"/>
+					<ScaleY type="number" value="11.779377373473"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="16.367528786639"/>
+					<PosLocal type="vector" x="0.90085989236832" y="0.73325455188751" z="0"/>
+					<ScaleX type="number" value="0.74719874563953"/>
+					<ScaleY type="number" value="0.43652409698145"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.063543081283569" y="-0.085725128650665" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-5.1878789915275"/>
+					<PosLocal type="vector" x="0.07420802116394" y="-0.11280161142349" z="0"/>
+					<ScaleX type="number" value="1.9169688045091"/>
+					<ScaleY type="number" value="3.7701771277648"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-5.6871592454061"/>
+					<PosLocal type="vector" x="0.10153937339783" y="-0.75580084323883" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.41868019104004" y="-1.3008196353912" z="0"/>
+					<ScaleX type="number" value="3.3251784808839"/>
+					<ScaleY type="number" value="3.4729719861894"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.33475518226624" y="-0.03834941983223" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="16">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="-4.0588244081586"/>
+					<PosLocal type="vector" x="0.61059892177582" y="0.23157021403313" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-69.317711208415"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-8.1031964796394"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-33.713080319082"/>
+					<PosLocal type="vector" x="-0.45561161637306" y="-0.056065440177917" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-69.960322951518"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-17.31534821002"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.84139955043793" y="-1.0985699892044" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.53175938129425" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.029491782188416" y="-0.46567043662071" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.092729508876801" y="0.0014528632164001" z="0"/>
+					<ScaleX type="number" value="0.31941266090552"/>
+					<ScaleY type="number" value="0.58448090840618"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.30687637788964"/>
+					<ScaleY type="number" value="0.3890459396602"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="26.773439985661"/>
+					<PosLocal type="vector" x="-0.25821736454964" y="-0.11430668830872" z="0"/>
+					<ScaleX type="number" value="1.6449967536165"/>
+					<ScaleY type="number" value="1.4415546627784"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="-1.3039925530808"/>
+					<PosLocal type="vector" x="0.50876188278198" y="-0.03781920671463" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="33.851156796467"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="14.768871281595"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="61.676172445506"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-6.0447034298408"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-5.1776310390001"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.3920290456533"/>
+					<ScaleY type="number" value="1.3449764813325"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.4233662820523"/>
+					<ScaleY type="number" value="11.792533455154"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="18.270729808341"/>
+					<PosLocal type="vector" x="0.698805809021" y="0.74735045433044" z="0"/>
+					<ScaleX type="number" value="0.89061326547313"/>
+					<ScaleY type="number" value="0.28950874730644"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.067211091518402" y="-0.085171699523926" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-4.7820687321415"/>
+					<PosLocal type="vector" x="0.061310648918152" y="-0.11056381464005" z="0"/>
+					<ScaleX type="number" value="1.8976318849253"/>
+					<ScaleY type="number" value="3.8063817754207"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-6.4188722635196"/>
+					<PosLocal type="vector" x="0.10852015018463" y="-0.7544367313385" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.40030270814896" y="-1.3006958961487" z="0"/>
+					<ScaleX type="number" value="3.2631652381159"/>
+					<ScaleY type="number" value="3.5375003619577"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.33613067865372" y="-0.038902819156647" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="17">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="-7.5643231595995"/>
+					<PosLocal type="vector" x="0.63248431682587" y="0.25428777933121" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-79.547643944547"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-8.1031964796394"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-38.847139790985"/>
+					<PosLocal type="vector" x="-0.42804870009422" y="-0.094390660524368" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-74.957488876626"/>
+				</D110820154018>
+				<D110820154021>
+					<AngleLocal type="number" value="-11.543565473347"/>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.82137763500214" y="-1.1036151647568" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.53300881385803" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.029918372631073" y="-0.46559882164001" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.083100974559784" y="-4.1335821151733e-005" z="0"/>
+					<ScaleX type="number" value="0.30873698715895"/>
+					<ScaleY type="number" value="0.60031205940967"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.30308422118877"/>
+					<ScaleY type="number" value="0.39347073913639"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="15.947223384342"/>
+					<PosLocal type="vector" x="-0.29806634783745" y="-0.10879752039909" z="0"/>
+					<ScaleX type="number" value="1.5969041016312"/>
+					<ScaleY type="number" value="1.4806514782951"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="8.7467687588521"/>
+					<PosLocal type="vector" x="0.54715901613235" y="-0.037590339779854" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<AngleLocal type="number" value="22.567437864311"/>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<AngleLocal type="number" value="9.8459141877298"/>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="71.429016295665"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<AngleLocal type="number" value="-4.0298022865606"/>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<AngleLocal type="number" value="-3.4517540260001"/>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.4533828146498"/>
+					<ScaleY type="number" value="1.3794741294658"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.4249542294718"/>
+					<ScaleY type="number" value="11.805689536835"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="12.180486538894"/>
+					<PosLocal type="vector" x="0.64937734603882" y="0.75680315494537" z="0"/>
+					<ScaleX type="number" value="0.76300211213169"/>
+					<ScaleY type="number" value="0.36226576668722"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.070879101753235" y="-0.084618270397186" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-4.3762584727554"/>
+					<PosLocal type="vector" x="0.048413276672363" y="-0.1083260178566" z="0"/>
+					<ScaleX type="number" value="1.8782949653416"/>
+					<ScaleY type="number" value="3.8425864230766"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-7.1505852816331"/>
+					<PosLocal type="vector" x="0.11550092697144" y="-0.75307267904282" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.38192528486252" y="-1.3005721569061" z="0"/>
+					<ScaleX type="number" value="3.201151995348"/>
+					<ScaleY type="number" value="3.602028737726"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.3375061750412" y="-0.039456218481064" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="18">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="19">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="-14.575320662481"/>
+					<PosLocal type="vector" x="0.67625504732132" y="0.29972290992737" z="0"/>
+					<ScaleX type="number" value="1.5734360769996"/>
+					<ScaleY type="number" value="1.5734360769996"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-100.00750941681"/>
+					<ScaleX type="number" value="2.58947684737"/>
+					<ScaleY type="number" value="2.58947684737"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-8.1031964796394"/>
+					<ScaleX type="number" value="2.1639258965246"/>
+					<ScaleY type="number" value="2.1639258965246"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-49.115258734792"/>
+					<PosLocal type="vector" x="-0.3729228079319" y="-0.17104107141495" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-84.951820726843"/>
+				</D110820154018>
+				<D110820154021>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.1137055158615" z="0"/>
+					<ScaleX type="number" value="1.2613493586733"/>
+					<ScaleY type="number" value="1.2613493586733"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.5355076789856" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="2.3879712987438"/>
+					<ScaleY type="number" value="2.3879712987438"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.030771553516388" y="-0.4654555618763" z="0"/>
+					<ScaleX type="number" value="3.1823580141144"/>
+					<ScaleY type="number" value="3.652780409157"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-56.974062772154"/>
+					<PosLocal type="vector" x="-0.063843965530396" y="-0.0030297636985779" z="0"/>
+					<ScaleX type="number" value="0.2873856396658"/>
+					<ScaleY type="number" value="0.63197436141665"/>
+				</D110820154046>
+				<D110820154051>
+					<ScaleX type="number" value="0.29549990778704"/>
+					<ScaleY type="number" value="0.40232033808877"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="42.889123205196"/>
+					<PosLocal type="vector" x="-0.35119831562042" y="-0.10145193338394" z="0"/>
+					<ScaleX type="number" value="1.5327805656508"/>
+					<ScaleY type="number" value="1.5327805656508"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="28.848291382718"/>
+					<PosLocal type="vector" x="0.6239532828331" y="-0.037132605910301" z="0"/>
+					<ScaleX type="number" value="1.8080363672443"/>
+					<ScaleY type="number" value="1.8080363672443"/>
+				</D110820154061>
+				<D110820154066>
+					<ScaleX type="number" value="1.7744713468293"/>
+					<ScaleY type="number" value="1.7744713468293"/>
+				</D110820154066>
+				<D110820154069>
+					<ScaleX type="number" value="2.1924363965154"/>
+					<ScaleY type="number" value="2.1924363965154"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="90.934703995985"/>
+					<PosLocal type="vector" x="5.9604644775391e-008" y="-0.070355705916882" z="0"/>
+					<ScaleX type="number" value="1.6099027543088"/>
+					<ScaleY type="number" value="1.6099027543088"/>
+				</D110820154074>
+				<D110820154079>
+					<ScaleX type="number" value="1.8484344590153"/>
+					<ScaleY type="number" value="1.8484344590153"/>
+				</D110820154079>
+				<D110820154082>
+					<ScaleX type="number" value="2.0780188893378"/>
+					<ScaleY type="number" value="2.0780188893378"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0084492862224579" y="0.0029785335063934" z="0"/>
+					<ScaleX type="number" value="1.1507111296718"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.5760903526429"/>
+					<ScaleY type="number" value="1.4484694257323"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.031294524669647" y="-0.0031477212905884" z="0"/>
+					<ScaleX type="number" value="1.6125273863436"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.3769634001122"/>
+				</D110820154112>
+				<D110820154115>
+					<ScaleX type="number" value="1.1086876773732"/>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.4281301243106"/>
+					<ScaleY type="number" value="11.832001700197"/>
+				</D110820154120>
+				<D110820154450>
+					<PosLocal type="vector" x="0.55052042007446" y="0.77570855617523" z="0"/>
+					<ScaleX type="number" value="0.5077798054488"/>
+					<ScaleY type="number" value="0.5077798054488"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="166.17229140577"/>
+					<PosLocal type="vector" x="0.0782151222229" y="-0.08351144194603" z="0"/>
+					<ScaleX type="number" value="1.3211001405614"/>
+					<ScaleY type="number" value="1.3211001405614"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-3.5646379539832"/>
+					<PosLocal type="vector" x="0.022618591785431" y="-0.10385045409203" z="0"/>
+					<ScaleX type="number" value="1.8396211261742"/>
+					<ScaleY type="number" value="3.9149957183884"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-8.6140113178601"/>
+					<PosLocal type="vector" x="0.12946248054504" y="-0.7503445148468" z="0"/>
+					<ScaleX type="number" value="1.701433116098"/>
+					<ScaleY type="number" value="-1.701433116098"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.34517031908035" y="-1.3003245592117" z="0"/>
+					<ScaleX type="number" value="3.077125509812"/>
+					<ScaleY type="number" value="3.7310854892627"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.4386466283681"/>
+					<ScaleY type="number" value="1.4386466283681"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.34025716781616" y="-0.04056304693222" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+			</bones>
+		</Element>
+		<Element index="20">
+			<bones>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Grass01"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Side01"/>
+				</Element>
+				<Element index="3">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Side02"/>
+				</Element>
+				<Element index="4">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Square01"/>
+				</Element>
+				<Element index="5">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Schmuks01"/>
+				</Element>
+				<Element index="6">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco02"/>
+				</Element>
+				<Element index="7">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco05"/>
+				</Element>
+				<Element index="8">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco06"/>
+				</Element>
+				<Element index="9">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco07"/>
+				</Element>
+				<Element index="10">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco01"/>
+				</Element>
+				<Element index="11">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco03"/>
+				</Element>
+				<Element index="12">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco08"/>
+				</Element>
+				<Element index="13">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco09"/>
+				</Element>
+				<Element index="14">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco10"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="21">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="-9.7168804416541"/>
+					<PosLocal type="vector" x="0.45083668828011" y="0.19981527328491" z="0"/>
+					<ScaleX type="number" value="1.3822907179997"/>
+					<ScaleY type="number" value="1.3822907179997"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-66.671672944541"/>
+					<ScaleX type="number" value="2.05965123158"/>
+					<ScaleY type="number" value="2.05965123158"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-5.4021309864263"/>
+					<ScaleX type="number" value="1.7759505976831"/>
+					<ScaleY type="number" value="1.7759505976831"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-32.743505823195"/>
+					<PosLocal type="vector" x="-0.24861523509026" y="-0.1140273809433" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-56.634547151228"/>
+				</D110820154018>
+				<D110820154021>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.1084296703339" z="0"/>
+					<ScaleX type="number" value="1.1742329057822"/>
+					<ScaleY type="number" value="1.1742329057822"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.53009349107742" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="1.9253141991625"/>
+					<ScaleY type="number" value="1.9253141991625"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.13857203722" y="-0.4652179479599" z="0"/>
+					<ScaleX type="number" value="2.4549053427429"/>
+					<ScaleY type="number" value="2.7685202727713"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-50.85254492056"/>
+					<PosLocal type="vector" x="0.11047285795212" y="-0.085185080766678" z="0"/>
+					<ScaleX type="number" value="0.98714057383636"/>
+					<ScaleY type="number" value="0.51777552612799"/>
+				</D110820154046>
+				<D110820154051>
+					<AngleLocal type="number" value="15.204817406262"/>
+					<ScaleX type="number" value="0.89624579254073"/>
+					<ScaleY type="number" value="0.4510929174845"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="27.974308331463"/>
+					<PosLocal type="vector" x="-0.23942133784294" y="-0.10229513049126" z="0"/>
+					<ScaleX type="number" value="1.3551870437672"/>
+					<ScaleY type="number" value="1.3551870437672"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="26.827394874172"/>
+					<PosLocal type="vector" x="0.52073526382446" y="-0.027563467621803" z="0"/>
+					<ScaleX type="number" value="1.5386909114962"/>
+					<ScaleY type="number" value="1.5386909114962"/>
+				</D110820154061>
+				<D110820154066>
+					<ScaleX type="number" value="1.5163142312195"/>
+					<ScaleY type="number" value="1.5163142312195"/>
+				</D110820154066>
+				<D110820154069>
+					<ScaleX type="number" value="1.7949575976769"/>
+					<ScaleY type="number" value="1.7949575976769"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="65.063072631478"/>
+					<PosLocal type="vector" x="0.098946988582611" y="-0.05041478946805" z="0"/>
+					<ScaleX type="number" value="1.4066018362059"/>
+					<ScaleY type="number" value="1.4066018362059"/>
+				</D110820154074>
+				<D110820154079>
+					<ScaleX type="number" value="1.5656229726769"/>
+					<ScaleY type="number" value="1.5656229726769"/>
+				</D110820154079>
+				<D110820154082>
+					<ScaleX type="number" value="1.7186792595585"/>
+					<ScaleY type="number" value="1.7186792595585"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0056328568607569" y="0.0019856691360474" z="0"/>
+					<ScaleX type="number" value="1.090581864908"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="2.1319782201993"/>
+					<ScaleY type="number" value="1.2989796171548"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.020863017067313" y="-0.0020984709262848" z="0"/>
+					<ScaleX type="number" value="1.4083515908957"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.2513089334081"/>
+				</D110820154112>
+				<D110820154115>
+					<AngleLocal type="number" value="-10.065130109205"/>
+					<ScaleX type="number" value="1.0724584515821"/>
+				</D110820154115>
+				<D110820154120>
+					<AngleLocal type="number" value="0.0024246286300098"/>
+					<ScaleX type="number" value="1.2528254238426"/>
+					<ScaleY type="number" value="10.379609177498"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="6.9280550720218"/>
+					<PosLocal type="vector" x="-0.039685308933258" y="0.019412845373154" z="0"/>
+					<ScaleX type="number" value="0.60152319598959"/>
+					<ScaleY type="number" value="0.973038513756"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="110.78152760385"/>
+					<PosLocal type="vector" x="0.052143394947052" y="-0.055674314498901" z="0"/>
+					<ScaleX type="number" value="1.2140667603743"/>
+					<ScaleY type="number" value="1.2140667603743"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-2.3764253026555"/>
+					<PosLocal type="vector" x="0.015079021453857" y="-0.069233626127243" z="0"/>
+					<ScaleX type="number" value="1.5597474174494"/>
+					<ScaleY type="number" value="2.9433304789256"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-5.7426742119067"/>
+					<PosLocal type="vector" x="0.086308300495148" y="-0.50022965669632" z="0"/>
+					<ScaleX type="number" value="1.4676220773987"/>
+					<ScaleY type="number" value="-1.4676220773987"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.43798989057541" y="-1.3011245727539" z="0"/>
+					<ScaleX type="number" value="2.8696500514485"/>
+					<ScaleY type="number" value="3.3056233710822"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.2924310855787"/>
+					<ScaleY type="number" value="1.2924310855787"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.33668756484985" y="-0.058201909065247" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="22">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="-7.2876603312406"/>
+					<PosLocal type="vector" x="0.33812749385834" y="0.14986145496368" z="0"/>
+					<ScaleX type="number" value="1.2867180384998"/>
+					<ScaleY type="number" value="1.2867180384998"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-50.003754708406"/>
+					<ScaleX type="number" value="1.794738423685"/>
+					<ScaleY type="number" value="1.794738423685"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-4.0515982398197"/>
+					<ScaleX type="number" value="1.5819629482623"/>
+					<ScaleY type="number" value="1.5819629482623"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-24.557629367396"/>
+					<PosLocal type="vector" x="-0.18646141886711" y="-0.085520535707474" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-42.475910363421"/>
+				</D110820154018>
+				<D110820154021>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.1057916879654" z="0"/>
+					<ScaleX type="number" value="1.1306746793367"/>
+					<ScaleY type="number" value="1.1306746793367"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.52738642692566" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="1.6939856493719"/>
+					<ScaleY type="number" value="1.6939856493719"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.11612743139267" y="-0.46509855985641" z="0"/>
+					<ScaleX type="number" value="2.0911790070572"/>
+					<ScaleY type="number" value="2.3263902045785"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-51.953132104678"/>
+					<PosLocal type="vector" x="0.07246720790863" y="-0.06226372718811" z="0"/>
+					<ScaleX type="number" value="0.66254784076037"/>
+					<ScaleY type="number" value="0.66254784076037"/>
+				</D110820154046>
+				<D110820154051>
+					<AngleLocal type="number" value="22.807226109393"/>
+					<ScaleX type="number" value="1.1966187349176"/>
+					<ScaleY type="number" value="0.47547920718237"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="20.516900894596"/>
+					<PosLocal type="vector" x="-0.18353283405304" y="-0.10271674394608" z="0"/>
+					<ScaleX type="number" value="1.2663902828254"/>
+					<ScaleY type="number" value="1.2663902828254"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="25.816946619898"/>
+					<PosLocal type="vector" x="0.46912622451782" y="-0.022778902202845" z="0"/>
+					<ScaleX type="number" value="1.4040181836222"/>
+					<ScaleY type="number" value="1.4040181836222"/>
+				</D110820154061>
+				<D110820154066>
+					<ScaleX type="number" value="1.3872356734147"/>
+					<ScaleY type="number" value="1.3872356734147"/>
+				</D110820154066>
+				<D110820154069>
+					<ScaleX type="number" value="1.5962181982577"/>
+					<ScaleY type="number" value="1.5962181982577"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="52.127256949225"/>
+					<PosLocal type="vector" x="0.14842045307159" y="-0.040444329380989" z="0"/>
+					<ScaleX type="number" value="1.3049513771544"/>
+					<ScaleY type="number" value="1.3049513771544"/>
+				</D110820154074>
+				<D110820154079>
+					<ScaleX type="number" value="1.4242172295076"/>
+					<ScaleY type="number" value="1.4242172295076"/>
+				</D110820154079>
+				<D110820154082>
+					<ScaleX type="number" value="1.5390094446689"/>
+					<ScaleY type="number" value="1.5390094446689"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0042246431112289" y="0.0014892518520355" z="0"/>
+					<ScaleX type="number" value="1.0605172325261"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.9099221539775"/>
+					<ScaleY type="number" value="1.2242347128661"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.015647262334824" y="-0.0015738606452942" z="0"/>
+					<ScaleX type="number" value="1.3062636931718"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.1884817000561"/>
+				</D110820154112>
+				<D110820154115>
+					<AngleLocal type="number" value="-15.097695163808"/>
+					<ScaleX type="number" value="1.0543438386866"/>
+				</D110820154115>
+				<D110820154120>
+					<AngleLocal type="number" value="0.0036369429450218"/>
+					<ScaleX type="number" value="1.1651730736086"/>
+					<ScaleY type="number" value="9.6534129161483"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="8.6600688400273"/>
+					<PosLocal type="vector" x="0.012499332427979" y="0.020841062068939" z="0"/>
+					<ScaleX type="number" value="0.62495904362478"/>
+					<ScaleY type="number" value="1.0893531908328"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="83.086145702885"/>
+					<PosLocal type="vector" x="0.03910756111145" y="-0.041755735874176" z="0"/>
+					<ScaleX type="number" value="1.1605500702807"/>
+					<ScaleY type="number" value="1.1605500702807"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-1.7823189769916"/>
+					<PosLocal type="vector" x="0.011309266090393" y="-0.051925212144852" z="0"/>
+					<ScaleX type="number" value="1.4198105630871"/>
+					<ScaleY type="number" value="2.4574978591942"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-4.30700565893"/>
+					<PosLocal type="vector" x="0.064731240272522" y="-0.3751722574234" z="0"/>
+					<ScaleX type="number" value="1.350716558049"/>
+					<ScaleY type="number" value="-1.350716558049"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.60932809114456" y="-1.300687789917" z="0"/>
+					<ScaleX type="number" value="2.7659123222667"/>
+					<ScaleY type="number" value="3.092892311992"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.2193233141841"/>
+					<ScaleY type="number" value="1.2193233141841"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.34434574842453" y="-0.06005722284317" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="23">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+					<AngleLocal type="number" value="-4.858440220827"/>
+					<PosLocal type="vector" x="0.22541832923889" y="0.099907636642456" z="0"/>
+					<ScaleX type="number" value="1.1911453589999"/>
+					<ScaleY type="number" value="1.1911453589999"/>
+				</D110820154000>
+				<D110820154005>
+					<AngleLocal type="number" value="-33.335836472271"/>
+					<ScaleX type="number" value="1.52982561579"/>
+					<ScaleY type="number" value="1.52982561579"/>
+				</D110820154005>
+				<D110820154008>
+					<AngleLocal type="number" value="-2.7010654932131"/>
+					<ScaleX type="number" value="1.3879752988415"/>
+					<ScaleY type="number" value="1.3879752988415"/>
+				</D110820154008>
+				<D110820154013>
+					<AngleLocal type="number" value="-16.371752911597"/>
+					<PosLocal type="vector" x="-0.12430760264397" y="-0.057013690471649" z="0"/>
+				</D110820154013>
+				<D110820154018>
+					<AngleLocal type="number" value="-28.317273575614"/>
+				</D110820154018>
+				<D110820154021>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.1031537055969" z="0"/>
+					<ScaleX type="number" value="1.0871164528911"/>
+					<ScaleY type="number" value="1.0871164528911"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.52467930316925" y="-0.51776993274689" z="0"/>
+					<ScaleX type="number" value="1.4626570995813"/>
+					<ScaleY type="number" value="1.4626570995813"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.24637252092361" y="-0.4649803340435" z="0"/>
+					<ScaleX type="number" value="1.7274526713715"/>
+					<ScaleY type="number" value="1.8842601363857"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-45.955330639284"/>
+					<PosLocal type="vector" x="0.16971319913864" y="-0.11678948998451" z="0"/>
+					<ScaleX type="number" value="1.2246786939478"/>
+					<ScaleY type="number" value="0.64045073898911"/>
+				</D110820154046>
+				<D110820154051>
+					<AngleLocal type="number" value="6.23436864955"/>
+					<ScaleX type="number" value="1.1310791566117"/>
+					<ScaleY type="number" value="0.65031947145491"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="13.059493457729"/>
+					<PosLocal type="vector" x="-0.1276443451643" y="-0.10313835740089" z="0"/>
+					<ScaleX type="number" value="1.1775935218836"/>
+					<ScaleY type="number" value="1.1775935218836"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="24.806498365625"/>
+					<PosLocal type="vector" x="0.41751718521118" y="-0.017994333058596" z="0"/>
+					<ScaleX type="number" value="1.2693454557481"/>
+					<ScaleY type="number" value="1.2693454557481"/>
+				</D110820154061>
+				<D110820154066>
+					<ScaleX type="number" value="1.2581571156098"/>
+					<ScaleY type="number" value="1.2581571156098"/>
+				</D110820154066>
+				<D110820154069>
+					<ScaleX type="number" value="1.3974787988385"/>
+					<ScaleY type="number" value="1.3974787988385"/>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="39.191441266972"/>
+					<PosLocal type="vector" x="0.19789391756058" y="-0.030473873019218" z="0"/>
+					<ScaleX type="number" value="1.2033009181029"/>
+					<ScaleY type="number" value="1.2033009181029"/>
+				</D110820154074>
+				<D110820154079>
+					<ScaleX type="number" value="1.2828114863384"/>
+					<ScaleY type="number" value="1.2828114863384"/>
+				</D110820154079>
+				<D110820154082>
+					<ScaleX type="number" value="1.3593396297793"/>
+					<ScaleY type="number" value="1.3593396297793"/>
+				</D110820154082>
+				<D110820154087>
+					<PosLocal type="vector" x="-0.0028164284303784" y="0.00099283456802368" z="0"/>
+					<ScaleX type="number" value="1.0304526001442"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.6878660877556"/>
+					<ScaleY type="number" value="1.1494898085774"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+					<PosLocal type="vector" x="0.010431508533657" y="-0.0010492503643036" z="0"/>
+					<ScaleX type="number" value="1.2041757954479"/>
+				</D110820154107>
+				<D110820154112>
+					<ScaleX type="number" value="1.1256544667041"/>
+				</D110820154112>
+				<D110820154115>
+					<AngleLocal type="number" value="-20.13026021841"/>
+					<ScaleX type="number" value="1.0362292257911"/>
+				</D110820154115>
+				<D110820154120>
+					<AngleLocal type="number" value="0.0048492572600338"/>
+					<ScaleX type="number" value="1.0775207233746"/>
+					<ScaleY type="number" value="8.9272166547987"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="10.392082608033"/>
+					<PosLocal type="vector" x="0.06468403339386" y="0.022269308567047" z="0"/>
+					<ScaleX type="number" value="0.64839489125998"/>
+					<ScaleY type="number" value="1.2056678679096"/>
+				</D110820154450>
+				<D110820162712>
+					<AngleLocal type="number" value="55.390763801923"/>
+					<PosLocal type="vector" x="0.026071727275848" y="-0.027837157249451" z="0"/>
+					<ScaleX type="number" value="1.1070333801871"/>
+					<ScaleY type="number" value="1.1070333801871"/>
+				</D110820162712>
+				<D110820164142>
+					<AngleLocal type="number" value="-1.1882126513277"/>
+					<PosLocal type="vector" x="0.0075395107269287" y="-0.034616813063622" z="0"/>
+					<ScaleX type="number" value="1.2798737087247"/>
+					<ScaleY type="number" value="1.9716652394628"/>
+				</D110820164142>
+				<D110820164333>
+					<AngleLocal type="number" value="-2.8713371059534"/>
+					<PosLocal type="vector" x="0.043154180049896" y="-0.25011482834816" z="0"/>
+					<ScaleX type="number" value="1.2338110386993"/>
+					<ScaleY type="number" value="-1.2338110386993"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.53080946207047" y="-1.3019244670868" z="0"/>
+					<ScaleX type="number" value="2.6621745930849"/>
+					<ScaleY type="number" value="2.8801612529018"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="1.1462155427894"/>
+					<ScaleY type="number" value="1.1462155427894"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.39437615871429" y="-0.05740162730217" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+		</Element>
+		<Element index="24">
+			<bones>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.42026001214981" y="-0.075866162776947" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+			</bones>
+		</Element>
+		<Element index="25">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+				</D110820154000>
+				<D110820154005>
+				</D110820154005>
+				<D110820154008>
+				</D110820154008>
+				<D110820154013>
+				</D110820154013>
+				<D110820154018>
+				</D110820154018>
+				<D110820154021>
+				</D110820154021>
+				<D110820154026>
+					<AngleLocal type="number" value="35.554158020404"/>
+					<PosLocal type="vector" x="-0.7813338637352" y="-1.0978778600693" z="0"/>
+				</D110820154026>
+				<D110820154031>
+					<AngleLocal type="number" value="94.762141174224"/>
+					<PosLocal type="vector" x="-0.51926511526108" y="-0.51776993274689" z="0"/>
+				</D110820154031>
+				<D110820154036>
+					<AngleLocal type="number" value="-4.4710140727946"/>
+					<PosLocal type="vector" x="-0.2810126543045" y="-0.46474158763885" z="0"/>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+					<AngleLocal type="number" value="-51.953132104678"/>
+					<PosLocal type="vector" x="0.1879625916481" y="-0.042122155427933" z="0"/>
+					<ScaleX type="number" value="0.66254784076037"/>
+					<ScaleY type="number" value="0.66254784076037"/>
+				</D110820154046>
+				<D110820154051>
+					<AngleLocal type="number" value="-26.911346270137"/>
+					<ScaleX type="number" value="0.79926210618694"/>
+					<ScaleY type="number" value="0.79926210618694"/>
+				</D110820154051>
+				<D110820154056>
+					<AngleLocal type="number" value="-1.8553214160043"/>
+					<PosLocal type="vector" x="-0.015867352485657" y="-0.10398158431053" z="0"/>
+				</D110820154056>
+				<D110820154061>
+					<AngleLocal type="number" value="22.785601857079"/>
+					<PosLocal type="vector" x="0.3142991065979" y="-0.0084251966327429" z="0"/>
+				</D110820154061>
+				<D110820154066>
+				</D110820154066>
+				<D110820154069>
+				</D110820154069>
+				<D110820154074>
+					<AngleLocal type="number" value="13.319809902465"/>
+					<PosLocal type="vector" x="0.29684084653854" y="-0.010532960295677" z="0"/>
+				</D110820154074>
+				<D110820154079>
+				</D110820154079>
+				<D110820154082>
+				</D110820154082>
+				<D110820154087>
+					<ScaleX type="number" value="0.97032333538035"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="0.91924259891886"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+				</D110820154107>
+				<D110820154112>
+				</D110820154112>
+				<D110820154115>
+					<AngleLocal type="number" value="-30.195390327615"/>
+				</D110820154115>
+				<D110820154120>
+					<AngleLocal type="number" value="0.0072738858900436"/>
+					<ScaleX type="number" value="0.90221602290657"/>
+					<ScaleY type="number" value="7.4748241320996"/>
+				</D110820154120>
+				<D110820154450>
+					<AngleLocal type="number" value="13.856110144044"/>
+					<PosLocal type="vector" x="0.1229259967804" y="0.030611723661423" z="0"/>
+					<ScaleX type="number" value="0.69526658653037"/>
+					<ScaleY type="number" value="1.4382972220632"/>
+				</D110820154450>
+				<D110820162712>
+				</D110820162712>
+				<D110820164142>
+				</D110820164142>
+				<D110820164333>
+					<ScaleY type="number" value="-1"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.62362903356552" y="-1.3027243614197" z="0"/>
+					<ScaleX type="number" value="2.4546991347213"/>
+					<ScaleY type="number" value="2.4546991347213"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32952827215195" y="-0.036246448755264" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Grass01"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Side01"/>
+				</Element>
+				<Element index="3">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Side02"/>
+				</Element>
+				<Element index="4">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Square01"/>
+				</Element>
+				<Element index="5">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Schmuks01"/>
+				</Element>
+				<Element index="6">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco03"/>
+				</Element>
+				<Element index="7">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Deco08"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="26">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="27">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="28">
+			<bones>
+				<D110820154120>
+					<AngleLocal type="number" value="0.0052900988291213"/>
+					<ScaleX type="number" value="0.97729761910908"/>
+					<ScaleY type="number" value="8.0968721925664"/>
+				</D110820154120>
+			</bones>
+		</Element>
+		<Element index="29">
+			<bones>
+				<D110820154051>
+					<AngleLocal type="number" value="56.246441555733"/>
+					<ScaleX type="number" value="0.9270044022498"/>
+					<ScaleY type="number" value="0.9270044022498"/>
+				</D110820154051>
+			</bones>
+		</Element>
+		<Element index="30">
+			<bones>
+				<D110820154450>
+					<ScaleX type="number" value="0.72371102272218"/>
+					<ScaleY type="number" value="1.0524070662714"/>
+				</D110820154450>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+			</bones>
+		</Element>
+		<Element index="31">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="32">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="33">
+			<bones>
+				<D110820154450>
+					<ScaleX type="number" value="1.091202955678"/>
+					<ScaleY type="number" value="0.8105175725644"/>
+				</D110820154450>
+			</bones>
+		</Element>
+		<Element index="34">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="35">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="36">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<Bone_110820171536>
+				</Bone_110820171536>
+				<D110820154000>
+				</D110820154000>
+				<D110820154005>
+				</D110820154005>
+				<D110820154008>
+				</D110820154008>
+				<D110820154013>
+				</D110820154013>
+				<D110820154018>
+				</D110820154018>
+				<D110820154021>
+				</D110820154021>
+				<D110820154026>
+				</D110820154026>
+				<D110820154031>
+				</D110820154031>
+				<D110820154036>
+				</D110820154036>
+				<D110820154041>
+				</D110820154041>
+				<D110820154046>
+				</D110820154046>
+				<D110820154051>
+				</D110820154051>
+				<D110820154056>
+				</D110820154056>
+				<D110820154061>
+				</D110820154061>
+				<D110820154066>
+				</D110820154066>
+				<D110820154069>
+				</D110820154069>
+				<D110820154074>
+				</D110820154074>
+				<D110820154079>
+				</D110820154079>
+				<D110820154082>
+				</D110820154082>
+				<D110820154087>
+					<ScaleX type="number" value="0.97032333538035"/>
+				</D110820154087>
+				<D110820154092>
+					<ScaleX type="number" value="1.243753955312"/>
+				</D110820154092>
+				<D110820154095>
+					<ScaleX type="number" value="0.98003781094438"/>
+				</D110820154095>
+				<D110820154107>
+				</D110820154107>
+				<D110820154112>
+				</D110820154112>
+				<D110820154115>
+				</D110820154115>
+				<D110820154120>
+					<ScaleX type="number" value="1.000128370164"/>
+					<ScaleY type="number" value="8.2860240637441"/>
+				</D110820154120>
+				<D110820154450>
+				</D110820154450>
+				<D110820162712>
+				</D110820162712>
+				<D110820164142>
+				</D110820164142>
+				<D110820164333>
+					<ScaleY type="number" value="-1"/>
+				</D110820164333>
+				<D110820173508>
+					<AngleLocal type="number" value="90.398475484325"/>
+					<PosLocal type="vector" x="-0.57959723472595" y="-1.3039224147797" z="0"/>
+					<ScaleX type="number" value="1.9878661308769"/>
+					<ScaleY type="number" value="1.9878661308769"/>
+				</D110820173508>
+				<D110820173755>
+					<AngleLocal type="number" value="183.90783225911"/>
+					<PosLocal type="vector" x="0.68908405303955" y="-1.6575441360474" z="0"/>
+					<ScaleX type="number" value="0.78067668581595"/>
+					<ScaleY type="number" value="0.78067668581595"/>
+				</D110820173755>
+				<D110820174121>
+					<AngleLocal type="number" value="13.093840471026"/>
+					<PosLocal type="vector" x="0.32237565517426" y="-0.033368736505508" z="0"/>
+					<ScaleX type="number" value="2.6488893921465"/>
+					<ScaleY type="number" value="2.6488893921465"/>
+				</D110820174121>
+				<D110820182141>
+					<AngleLocal type="number" value="179.45831287532"/>
+					<PosLocal type="vector" x="0.037505924701691" y="-1.1741895675659" z="0"/>
+					<ScaleX type="number" value="1.9213205558816"/>
+					<ScaleY type="number" value="1.9213205558816"/>
+				</D110820182141>
+				<D110820182953>
+					<AngleLocal type="number" value="-178.22390419533"/>
+					<PosLocal type="vector" x="0.086919546127319" y="-1.2221329212189" z="0"/>
+					<ScaleX type="number" value="1.5496993962344"/>
+					<ScaleY type="number" value="-1.5496993962344"/>
+				</D110820182953>
+				<D110820183501>
+					<AngleLocal type="number" value="96.796601024454"/>
+					<PosLocal type="vector" x="-0.340213149786" y="-0.91830146312714" z="0"/>
+				</D110820183501>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Grass01"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Side01"/>
+				</Element>
+				<Element index="3">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Side02"/>
+				</Element>
+				<Element index="4">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Square01"/>
+				</Element>
+				<Element index="5">
+					<Element index="1" type="string" value="MenuBubble"/>
+					<Element index="2" type="string" value="P_Men_Schmuks01"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="37">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="38">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="39">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="40">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="41">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="42">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="43">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="44">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="45">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="46">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="47">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="48">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="49">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="50">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="51">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="52">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="53">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="54">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="55">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="56">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="57">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="58">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="59">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="60">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="61">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="62">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="63">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="64">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="65">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="66">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="67">
+			<bones>
+			</bones>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="World/Common/UI/BubbleMenu/Animation/BubbleMenu_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="13.524851799011"/>
+		<xMin type="number" value="-7.244601726532"/>
+		<yMax type="number" value="3.0758748054504"/>
+		<yMin type="number" value="-4.2034940719604"/>
+	</aabb>
+</root>

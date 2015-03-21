@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<Scene OBJECTID="0011c8619684c188" ENGINE_VERSION="22874" GRIDUNIT="0.500000" MUSIC_THEME="">
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c86196858205" POS2D="805.000122 359.259430" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="textconfirm@1313181204138" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/pause/actors/textconfirm.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-239.257813 -87.875000" MAX="239.257813 87.875000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.503125" RELATIVEPOSY="0.399177" friendly="You will lose all your current progression if you delete this profile. Do you want to continue?" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4043">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c861968b9206" POS2D="852.998779 431.000305" RELATIVEZ="-0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonconfirm@1313181297140" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/pause/actors/buttonconfirm.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-195.312500 -29.779846" MAX="195.312500 29.779846" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.616774" RELATIVEPOSY="0.613087" friendly="no" id="confirm_no" menuBaseName="menuconfirmationdelete" menuSonBaseName="" locFileName="" defaultSelectedByInstance="1" lineId="3709">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c861968d5208" POS2D="631.598389 552.447876" RELATIVEZ="0.000061" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonconfirm@1313181321141" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/pause/actors/buttonconfirm.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-195.312500 -29.779846" MAX="195.312500 29.779846" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.394749" RELATIVEPOSY="0.613831" friendly="yes" id="confirm_yes" menuBaseName="menuconfirmationdelete" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="3708">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c86196908209" POS2D="804.000427 459.000214" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.994629 1.000000" USERFRIENDLY="background@1314265179833" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/mainmenu/actors/background.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-970.089233 -1922.348633" MAX="734.123535 1253.507446" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" syncOffset="0.000000" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.502500" RELATIVEPOSY="0.510000" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0024d862cc56c224" POS2D="808.499878 464.000031" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="background_shadow@1314265159832" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/mainmenu/actors/background_shadow.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-970.089233 -1922.348633" MAX="734.123535 1253.507568" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="0.486275 0.486275 0.486275 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" syncOffset="0.000000" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.505312" RELATIVEPOSY="0.515556" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+	</Scene>
+</root>

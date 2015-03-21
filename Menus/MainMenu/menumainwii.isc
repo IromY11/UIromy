@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<Scene OBJECTID="0011c85fafdca2f9" ENGINE_VERSION="0" GRIDUNIT="0.500000" MUSIC_THEME="">
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c85fafdcf399" POS2D="-0.888527 2.918350" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonbase@1311947715356" LUA="scene/menus/mainmenu/actors/buttonbase.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-627.992065 -351.873932" MAX="68.268127 66.927063" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.500000" friendly="play game" id="playgame" menuBaseName="menumainwii" menuSonBaseName="menuplaywii" locFileName="">
+						<ENUM NAME="align" SEL="3" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+	</Scene>
+</root>

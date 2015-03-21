@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<root>
+	<List>
+		<twirl1>
+			<BonesListT>
+				<Element index="1">
+					<AngleLocal type="number" value="97.275004777698"/>
+					<Lenght type="number" value="0.09511748701334"/>
+					<Name type="string" value="B_1"/>
+					<PosLocal type="vector" x="0.48458418250084" y="0.44855472445488" z="0"/>
+					<Refs>
+					</Refs>
+					<RefsUID>
+						<Element index="1" type="string" value="PP_110826183047"/>
+						<Element index="2" type="string" value="PP_110826183048"/>
+						<Element index="3" type="string" value="PP_110826183049"/>
+						<Element index="4" type="string" value="PP_110826183050"/>
+					</RefsUID>
+					<UID type="string" value="Bone_110826183045"/>
+				</Element>
+			</BonesListT>
+			<Name type="string" value="twirl1"/>
+			<PatchPointList>
+				<Element index="1">
+					<BrotherUID type="string" value="PP_110826183048"/>
+					<Hiden type="number" value="0"/>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="Bone_110826183045"/>
+							<Influence type="number" value="1"/>
+							<Normale type="vector" x="0" y="1" z="0"/>
+							<Pos type="vector" x="-4.9353938102722" y="0.51491349935532" z="0"/>
+						</Element>
+					</LocalData>
+					<NormaleUV type="vector" x="-0.99194979667664" y="0.12663188576698" z="0"/>
+					<PosUV type="vector" x="0.033262208104134" y="0.97942233085632" z="0"/>
+					<UID type="string" value="PP_110826183047"/>
+				</Element>
+				<Element index="2">
+					<BrotherUID type="string" value="PP_110826183047"/>
+					<Hiden type="number" value="0"/>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="Bone_110826183045"/>
+							<Influence type="number" value="1"/>
+							<Normale type="vector" x="0" y="-1" z="0"/>
+							<Pos type="vector" x="-6.544825553894" y="-0.49996215105057" z="0"/>
+						</Element>
+					</LocalData>
+					<NormaleUV type="vector" x="0.99194979667664" y="-0.12663188576698" z="0"/>
+					<PosUV type="vector" x="1.059353351593" y="1.0027594566345" z="0"/>
+					<UID type="string" value="PP_110826183048"/>
+				</Element>
+				<Element index="3">
+					<BrotherUID type="string" value="PP_110826183050"/>
+					<Hiden type="number" value="0"/>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="Bone_110826183045"/>
+							<Influence type="number" value="1"/>
+							<Normale type="vector" x="0.20897461473942" y="0.97792106866837" z="0"/>
+							<Pos type="vector" x="4.6497731208801" y="0.36530712246895" z="0"/>
+						</Element>
+					</LocalData>
+					<NormaleUV type="vector" x="-0.99651145935059" y="-0.083456337451935" z="0"/>
+					<PosUV type="vector" x="0.06621178239584" y="0.056099936366081" z="0"/>
+					<UID type="string" value="PP_110826183049"/>
+				</Element>
+				<Element index="4">
+					<BrotherUID type="string" value="PP_110826183049"/>
+					<Hiden type="number" value="0"/>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="Bone_110826183045"/>
+							<Influence type="number" value="1"/>
+							<Normale type="vector" x="0.09983341395855" y="-0.99500417709351" z="0"/>
+							<Pos type="vector" x="4.0659518241882" y="-0.51908999681473" z="0"/>
+						</Element>
+					</LocalData>
+					<NormaleUV type="vector" x="0.97435212135315" y="-0.22502899169922" z="0"/>
+					<PosUV type="vector" x="0.95052134990692" y="-0.00080836471170187" z="0"/>
+					<UID type="string" value="PP_110826183050"/>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="twirl1"/>
+		</twirl1>
+	</List>
+	<MediaWidth type="number" value="1"/>
+	<Ratio type="number" value="1"/>
+</root>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<shadow type="string" value="Scene/Menus/ScreenFade/Animation/shadow.png"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110822190713>
+				</Bone_110822190713>
+				<D110822191046>
+					<Alpha type="number" value="-0.42"/>
+					<PosLocal type="vector" x="-0.0083367228507996" y="2.5593876838684" z="0"/>
+					<ScaleX type="number" value="8.96158708316"/>
+					<ScaleY type="number" value="8.4065098514382"/>
+					<Zorder type="number" value="1"/>
+				</D110822191046>
+				<D110822191139>
+					<Alpha type="number" value="-0.4"/>
+					<PosLocal type="vector" x="0.2751133441925" y="3.0763604640961" z="0"/>
+					<ScaleX type="number" value="5.0368402095222"/>
+					<ScaleY type="number" value="5.5813963720298"/>
+				</D110822191139>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="shadow"/>
+					<Element index="2" type="string" value="shadow1"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="paper"/>
+					<Element index="2" type="string" value="paper1"/>
+				</Element>
+			</fpl>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="0"/>
+	<SaveRootPos type="number" value="0"/>
+	<Squeleton type="string" value="Scene/Menus/ScreenFade/Animation/ScreenFade_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="4.2133822441101"/>
+		<xMin type="number" value="-4.1405711174011"/>
+		<yMax type="number" value="2.2002954483032"/>
+		<yMin type="number" value="-2.1561651229858"/>
+	</aabb>
+</root>

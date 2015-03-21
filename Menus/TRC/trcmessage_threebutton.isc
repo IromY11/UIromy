@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<Scene OBJECTID="0011c857105d911d" ENGINE_VERSION="0" GRIDUNIT="0.500000" MUSIC_THEME="">
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c857105f614e" POS2D="-1.196618 -0.284197" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="background@130624703422" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/background.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-514.465881 -481.035065" MAX="516.845581 492.320496" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" syncOffset="0.000000" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.500000" RELATIVEPOSY="0.500000" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="3" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c857106541d0" POS2D="800.000000 378.969208" RELATIVEZ="-0.000012" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="maintext@130624712060" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/maintext.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-300.000000 -90.000000" MAX="300.000000 90.000000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.500000" RELATIVEPOSY="0.421077" friendly="template_message" id="template_message" menuBaseName="trcmessage_threebutton" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="1" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c857106881fd" POS2D="537.337708 703.773682" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="0.659176 0.902961" USERFRIENDLY="buttontext@130624716874" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/buttontext.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-150.000000 -40.000000" MAX="150.000000 40.000000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.335836" RELATIVEPOSY="0.781971" friendly="template_button_left" id="template_button_left" menuBaseName="trcmessage_threebutton" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c857106a422c" POS2D="817.000000 707.774719" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="0.750000 0.890419" USERFRIENDLY="buttontext@130624719687" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/buttontext.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-150.000000 -40.000000" MAX="150.000000 40.000000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.500000" RELATIVEPOSY="0.786416" friendly="template_button_mid" id="template_button_mid" menuBaseName="trcmessage_threebutton" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="1" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c857106a522e" POS2D="1085.661987 708.755615" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttontext@130624719788" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/buttontext.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-150.000000 -40.000000" MAX="150.000000 40.000000" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.678539" RELATIVEPOSY="0.787506" friendly="template_button_right" id="template_button_right" menuBaseName="trcmessage_threebutton" menuSonBaseName="" locFileName="" defaultSelectedByInstance="1" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0024d862cc7f6083" POS2D="803.630371 454.155487" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="background_shadow@131400732188" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/trc/actors/background_shadow.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-514.465881 -481.035065" MAX="516.845642 492.320496" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="0.360784 0.360784 0.360784 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" syncOffset="0.000000" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.502269" RELATIVEPOSY="0.504617" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0024d862d56ea825" POS2D="872.784973 453.548950" RELATIVEZ="0.000001" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="fond_sombre@131402003388" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/pause/actors/fond_sombre.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-754.412292 -469.590668" MAX="1200.000000 441.794556" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" syncOffset="0.000000" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIMenuItemText">
+					<UIMenuItemText RELATIVEPOSX="0.545491" RELATIVEPOSY="0.503943" friendly="" id="" menuBaseName="" menuSonBaseName="" locFileName="" defaultSelectedByInstance="0" lineId="4294967295">
+						<ENUM NAME="align" SEL="0" />
+					</UIMenuItemText>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+	</Scene>
+</root>

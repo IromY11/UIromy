@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<root>
+	<List>
+		<basicbutton>
+			<BonesListT>
+				<Element index="1">
+					<AngleLocal type="number" value="90.437366024703"/>
+					<Lenght type="number" value="0.42206728458405"/>
+					<Name type="string" value="N110627162321"/>
+					<PosLocal type="vector" x="0.50039309263229" y="0.5067150592804" z="0"/>
+					<Refs>
+					</Refs>
+					<RefsUID>
+						<Element index="1" type="string" value="D110708093111"/>
+						<Element index="2" type="string" value="D110708093112"/>
+						<Element index="3" type="string" value="D110708093113"/>
+						<Element index="4" type="string" value="D110708093114"/>
+					</RefsUID>
+					<UID type="string" value="D110708093110"/>
+				</Element>
+			</BonesListT>
+			<Name type="string" value="basicbutton"/>
+			<PatchPointList>
+				<Element index="1">
+					<BrotherUID type="string" value="D110708093112"/>
+					<Hiden type="number" value="0"/>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="D110708093110"/>
+							<Influence type="number" value="1"/>
+							<Normale type="vector" x="-4.7019760529565e-008" y="1" z="0"/>
+							<Pos type="vector" x="-1.0870633125305" y="0.57958120107651" z="0"/>
+						</Element>
+					</LocalData>
+					<NormaleUV type="vector" x="-0.9999708533287" y="0.0076334504410625" z="0"/>
+					<PosUV type="vector" x="-0.075668886303902" y="0.96993970870972" z="0"/>
+					<UID type="string" value="D110708093111"/>
+				</Element>
+				<Element index="2">
+					<BrotherUID type="string" value="D110708093111"/>
+					<Hiden type="number" value="0"/>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="D110708093110"/>
+							<Influence type="number" value="1"/>
+							<Normale type="vector" x="4.7019760529565e-008" y="-1" z="0"/>
+							<Pos type="vector" x="-1.0921024084091" y="-0.43212938308716" z="0"/>
+						</Element>
+					</LocalData>
+					<NormaleUV type="vector" x="0.9999708533287" y="-0.0076334504410625" z="0"/>
+					<PosUV type="vector" x="0.93602842092514" y="0.96434366703033" z="0"/>
+					<UID type="string" value="D110708093112"/>
+				</Element>
+				<Element index="3">
+					<BrotherUID type="string" value="D110708093114"/>
+					<Hiden type="number" value="0"/>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="D110708093110"/>
+							<Influence type="number" value="1"/>
+							<Normale type="vector" x="-4.7019760529565e-008" y="1" z="0"/>
+							<Pos type="vector" x="1.0834875106812" y="0.574198782444" z="0"/>
+						</Element>
+					</LocalData>
+					<NormaleUV type="vector" x="-0.9999708533287" y="0.0076334504410625" z="0"/>
+					<PosUV type="vector" x="-0.077279731631279" y="0.053806856274605" z="0"/>
+					<UID type="string" value="D110708093113"/>
+				</Element>
+				<Element index="4">
+					<BrotherUID type="string" value="D110708093113"/>
+					<Hiden type="number" value="0"/>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="D110708093110"/>
+							<Influence type="number" value="1"/>
+							<Normale type="vector" x="4.7019760529565e-008" y="-1" z="0"/>
+							<Pos type="vector" x="1.066523194313" y="-0.46382880210876" z="0"/>
+						</Element>
+					</LocalData>
+					<NormaleUV type="vector" x="0.9999708533287" y="-0.0076334504410625" z="0"/>
+					<PosUV type="vector" x="0.96077221632004" y="0.053043071180582" z="0"/>
+					<UID type="string" value="D110708093114"/>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="basicbutton1"/>
+		</basicbutton>
+	</List>
+	<MediaWidth type="number" value="1"/>
+	<Ratio type="number" value="1"/>
+</root>

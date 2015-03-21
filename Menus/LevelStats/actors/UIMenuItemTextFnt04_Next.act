@@ -1,0 +1,27 @@
+params =
+{
+    
+NAME = "Actor_Template",
+Actor_Template =
+    {		
+        COMPONENTS =
+        {
+			{
+				NAME = "UIMenuItemText_Template",
+				UIMenuItemText_Template = 
+				{
+					rank = 2,
+					fontName="Misc/Fonts/font03.fnt",
+					fontHeight=24.0,
+					textColor="0xffffffff",
+					textColorHighlighted="0xffffffff",
+					textColorInactive="0x000000ff",
+					textMode=2,
+					defaultSelected=0,
+					is2dActor=1,
+					isActive=1,
+				}
+			},
+        }
+    }
+}

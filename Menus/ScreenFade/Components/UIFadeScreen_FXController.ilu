@@ -1,0 +1,34 @@
+
+
+component = 
+
+{
+    NAME="FXControllerComponent_Template",
+	
+    FXControllerComponent_Template = 
+	{
+		
+		fxControlList = 
+		{
+			{
+				FXControl=
+				{
+					name="MRK_FadeIn",
+					sound="MRK_FadeIn",
+				},
+			},
+			{
+				FXControl=
+				{
+					name="MRK_FadeOut",
+					sound="MRK_FadeOut",
+				},
+			},
+		},
+		
+		
+    }
+}
+
+ 
+appendTable(params.Actor_Template.COMPONENTS,{component})

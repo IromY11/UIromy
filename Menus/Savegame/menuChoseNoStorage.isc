@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<root>
+    <Scene OBJECTID="0026a422a9a3b56b">
+	    <LAYERSLIST NAME="Layer">
+            <Layer Z="0.000000" LayerIdentifier="Auto Z: 0.000000" />
+        </LAYERSLIST>
+        <ACTORS NAME="Actor">
+            <Actor INTERNAL="1" LUA="Actor/UI/Temp_UI/UIMenuItemText_Template.act" OBJECTID="0026a422a9a3b56d" POS="-152.366165 100.000015 0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" LAYERINDEX="Auto Z: 0.000000" USERFRIENDLY="chosenostorage_changedevice" TAGS="" RANK="-1.000000" IS2D="0" STARTPAUSED="0">
+                <AABB>
+                    <AABB MIN="-152.366165 100.000015" MAX="-152.366165 100.000015" />
+                </AABB>
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.500000" RELATIVEPOSY="0.180197" friendly="choseNoStorage_ChangeDevice" menuBaseName="menuChoseNoStorage" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+        <ACTORS NAME="Actor">
+            <Actor INTERNAL="1" LUA="Actor/UI/Temp_UI/UIMenuItemText_Template.act" OBJECTID="0026a422a9a3b56f" POS="-152.347122 149.996658 0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" LAYERINDEX="Auto Z: 0.000000" USERFRIENDLY="chosenostorage_nolongersave" TAGS="" RANK="-1.000000" IS2D="0" STARTPAUSED="0">
+                <AABB>
+                    <AABB MIN="-152.347122 149.996658" MAX="-152.347122 149.996658" />
+                </AABB>
+                <AABB_RELATIVE>
+                    <AABB MIN="0.000000 0.000000" MAX="0.000000 0.000000" />
+                </AABB_RELATIVE>
+                <COMPONENTS NAME="UIMenuItemText">
+                    <UIMenuItemText RELATIVEPOSX="0.500000" RELATIVEPOSY="0.277384" friendly="choseNoStorage_NoLongerSave" menuBaseName="menuChoseNoStorage" menuSonBaseName="" locFileName="" />
+                </COMPONENTS>
+            </Actor>
+        </ACTORS>
+    </Scene>
+</root>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<Scene OBJECTID="0011c85f8f902103" ENGINE_VERSION="0" GRIDUNIT="0.500000" MUSIC_THEME="">
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c85f8f9151a7" POS2D="625.000000 123.000099" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonbase@131186018190" LUA="scene/menus/mainmenu/actors/buttonbase.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-627.992065 -119.873848" MAX="68.268127 523.926331" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.174965" friendly="Gone With The Wind" id="MENU_1" menuBaseName="menupressconf" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="1" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c85f8f9d91a9" POS2D="631.000000 244.500198" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonbase@131186036591" LUA="scene/menus/mainmenu/actors/buttonbase.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-627.992065 -243.234650" MAX="68.268127 280.927307" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.347795" friendly="Frosty Delight" id="MENU_2" menuBaseName="menupressconf" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="1" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c85f8f9db1ab" POS2D="625.000000 364.999908" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonbase@131186036792" LUA="scene/menus/mainmenu/actors/buttonbase.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-627.992065 -365.580475" MAX="68.268127 39.927612" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.519203" friendly="Don't Burn Dinner" id="MENU_3" menuBaseName="menupressconf" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="1" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c85f8f9dd1ad" POS2D="624.000000 482.999908" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonbase@131186036993" LUA="scene/menus/mainmenu/actors/buttonbase.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-627.992065 -485.388123" MAX="68.268127 1.839111" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.687055" friendly="Poor Little Daisy" id="MENU_4" menuBaseName="menupressconf" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="1" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c85f8f9de1af" POS2D="625.000000 605.000000" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonbase@131186037094" LUA="scene/menus/mainmenu/actors/buttonbase.act" xFLIPPED="0">
+				<AABB_RELATIVE>
+					<AABB MIN="-627.992065 -609.257080" MAX="68.268127 1.839111" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.860597" friendly="Catch Me If You Can 2" id="MENU_5" menuBaseName="menupressconf" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="1" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+	</Scene>
+</root>

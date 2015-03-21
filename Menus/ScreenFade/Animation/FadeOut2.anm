@@ -1,0 +1,324 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<twirl type="string" value="Scene/Menus/ScreenFade/Animation/twirl.tga"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110822190713>
+				</Bone_110822190713>
+				<D110822191046>
+					<Alpha type="number" value="-1"/>
+					<AngleLocal type="number" value="-1217.0072346469"/>
+					<PosLocal type="vector" x="-0.10999608039856" y="0.31463819742203" z="0"/>
+					<ScaleX type="number" value="0.0064169328690693"/>
+					<ScaleY type="number" value="0.0064169328690693"/>
+				</D110822191046>
+			</bones>
+			<events>
+				<Element index="1">
+					<Name type="string" value="MRK_FadeOut"/>
+					<Params>
+						<Action type="number" value="1"/>
+					</Params>
+					<Pos type="vector" x="1.5682553052902" y="0.79692155122757" z="0"/>
+					<PosLocal type="vector" x="0.068255305290222" y="0.29692155122757" z="0"/>
+					<Type type="number" value="1"/>
+					<UID type="string" value="Event_110907125503"/>
+				</Element>
+			</events>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="twirl"/>
+					<Element index="2" type="string" value="twirl1"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="2">
+			<bones>
+				<D110822191046>
+					<Alpha type="number" value="-0.88333333333333"/>
+					<AngleLocal type="number" value="-1163.2848479142"/>
+					<PosLocal type="vector" x="-0.10999608039856" y="0.31463819742203" z="0"/>
+					<ScaleX type="number" value="0.049213791998451"/>
+					<ScaleY type="number" value="0.049213791998451"/>
+				</D110822191046>
+			</bones>
+		</Element>
+		<Element index="3">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="4">
+			<bones>
+				<D110822191046>
+					<Alpha type="number" value="-0.65"/>
+					<AngleLocal type="number" value="-1056.5707869628"/>
+					<PosLocal type="vector" x="-0.10999608039856" y="0.31463819742203" z="0"/>
+					<ScaleX type="number" value="0.15433666265798"/>
+					<ScaleY type="number" value="0.15433666265798"/>
+				</D110822191046>
+			</bones>
+		</Element>
+		<Element index="5">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="6">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="7">
+			<bones>
+				<D110822191046>
+					<Alpha type="number" value="-0.3"/>
+					<AngleLocal type="number" value="-896.49969553558"/>
+					<PosLocal type="vector" x="-0.10999608039856" y="0.31463819742203" z="0"/>
+					<ScaleX type="number" value="0.37114279118875"/>
+					<ScaleY type="number" value="0.37114279118875"/>
+				</D110822191046>
+			</bones>
+		</Element>
+		<Element index="8">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="9">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="10">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="11">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="12">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="13">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="14">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="15">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="16">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="17">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="18">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="19">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="20">
+			<bones>
+				<D110822191046>
+					<AngleLocal type="number" value="-263.53147978042"/>
+					<PosLocal type="vector" x="-0.10999608039856" y="0.31463819742203" z="0"/>
+					<ScaleX type="number" value="4.4829648539658"/>
+					<ScaleY type="number" value="4.4829648539658"/>
+				</D110822191046>
+			</bones>
+		</Element>
+		<Element index="21">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="22">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="23">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="24">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="25">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="26">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="27">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="28">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="29">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="30">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="31">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="32">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="33">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="34">
+			<bones>
+				<D110822191046>
+					<AngleLocal type="number" value="-57.766513955024"/>
+					<PosLocal type="vector" x="-0.10999608039856" y="0.31463819742203" z="0"/>
+					<ScaleX type="number" value="14.964804397901"/>
+					<ScaleY type="number" value="14.964804397901"/>
+				</D110822191046>
+			</bones>
+		</Element>
+		<Element index="35">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="36">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="37">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="38">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="39">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="40">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="41">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="42">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="43">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="44">
+			<bones>
+				<Bone_110822190713>
+				</Bone_110822190713>
+				<D110822191046>
+					<AngleLocal type="number" value="11.25"/>
+					<PosLocal type="vector" x="-0.0008426308631897" y="1.5529656410217" z="0"/>
+					<ScaleX type="number" value="8.7054576553096"/>
+					<ScaleY type="number" value="8.7054576553096"/>
+				</D110822191046>
+			</bones>
+		</Element>
+		<Element index="45">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="46">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="47">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="48">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="49">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="50">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="51">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="52">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="53">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="54">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="55">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="56">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="57">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="58">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="59">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="60">
+			<bones>
+			</bones>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="Scene/Menus/ScreenFade/Animation/ScreenFade_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="42.313732147217"/>
+		<xMin type="number" value="-31.581239700317"/>
+		<yMax type="number" value="37.581897735596"/>
+		<yMin type="number" value="-34.884208679199"/>
+	</aabb>
+</root>

@@ -1,0 +1,62 @@
+
+node =
+{
+    NAME="BlendTreeNodeChooseBranch_Template",
+    BlendTreeNodeChooseBranch_Template =
+    {
+        nodeName = "Normal",
+        leafs =
+        {
+            {
+                NAME="AnimTreeNodePlayAnim_Template",
+                AnimTreeNodePlayAnim_Template =
+                {
+                    animationName = "Normal_Out",
+                    proceduralInput = 
+                    {
+                        ProceduralInputData =
+                        {
+                            input = "AnimPos",
+                        }
+                    }
+                }
+            },
+            {
+                NAME="AnimTreeNodePlayAnim_Template",
+                AnimTreeNodePlayAnim_Template =
+                {
+                    animationName = "Normal_In",
+                    proceduralInput = 
+                    {
+                        ProceduralInputData =
+                        {
+                            input = "AnimPos",
+                        }
+                    }
+                }
+            },
+        },
+        leafsCriterias =
+        {
+            {
+                BlendLeaf =
+                {
+                    -- Fade out
+                    criterias =
+                    {
+                        {CriteriaDesc={name="FadeOut",eval="==",value=1}},
+                    },
+                }
+            },
+            {
+                BlendLeaf =
+                {
+                    -- Fade In
+                }
+            },
+        },
+    }
+}
+
+appendTable(component.AnimatedComponent_Template.tree.AnimTree_Template.nodes,{node})
+

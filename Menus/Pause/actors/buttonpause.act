@@ -1,0 +1,58 @@
+
+local baseRootAnim = "Scene/Menus/MainMenu/actors/"
+params =
+{
+    
+NAME = "Actor_Template",
+Actor_Template =
+    {
+        COMPONENTS =
+        {
+            -- {
+                -- NAME="AnimLightComponent_Template",
+                -- AnimLightComponent_Template =
+                -- {
+					-- draw2D = 1,
+                    -- animSet=
+                    -- {
+						-- SubAnimSet_Template =
+                        -- {
+							-- animations=
+							-- {								
+								-- {SubAnim_Template={friendlyName="IDLE",name=baseRootAnim .. "BasicButton_Idle.anm"}},
+								-- {SubAnim_Template={friendlyName="ROLLOVER",name=baseRootAnim .. "BasicButton_Over.anm"}},	
+								-- {SubAnim_Template={friendlyName="ROLLOUT",name=baseRootAnim .. "BasicButton_Out.anm"}},
+								-- {SubAnim_Template={friendlyName="RELEASE",name=baseRootAnim .. "BasicButton_release.anm"}},
+								-- {SubAnim_Template={friendlyName="PRESS",name=baseRootAnim .. "BasicButton_press.anm"}},
+							-- },
+						-- },
+					-- },				
+                -- }
+            -- },
+			
+			{
+				NAME="UIButtonComponent_Template",
+				UIButtonComponent_Template =
+				{
+					path = "Scene/Menus/MainMenu/actors/menuPauseText.act",
+					is2dActor = 1,
+					animSize = vector2dNew( 1, 1 ),			
+					idleSelectedScale  =0.05,
+					idleSelectedPulseFrequency = 1.0,
+					fontName = "Misc/Fonts/font02.fnt",
+					fontHeight = 45.000000,
+					fontHeightSelected = 54.000000,
+					textColor = "0xfffb9226",
+					textColorHighlighted = "0xffffffff",
+					textColorInactive = "0xfffb9226",
+					textShadowOffset = vector2dNew( 3.5, 3.5 ),
+					textShadowColor = "0xaa000000",
+					textMode = 1,
+					textModeY = 1,
+					rank = 5,
+					isActive = 1,			
+				}			
+			},
+        }
+    }
+}

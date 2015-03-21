@@ -1,0 +1,77 @@
+params =
+{
+    
+NAME = "Actor_Template",
+Actor_Template =
+    {
+    },
+    ActorEditorParams =
+    {
+        componentFiles =
+        {            
+        },
+    },
+}
+
+params.Actor_Template.COMPONENTS = {}
+component =
+{
+	NAME = "TextureGraphicComponent2D_Template",
+	TextureGraphicComponent2D_Template =
+	{
+		posOffset = vector2dNew(0.000000,0.000000),
+		angleOffset = 0.000000,
+		patchLevel = 0,
+		patchHLevel = 2,
+		patchVLevel = 2,
+		visualAABB =
+		{
+			AABB =
+			{
+				MIN = vector2dNew(0.000000,0.000000),
+				MAX = vector2dNew(0.000000,0.000000),
+			},
+		},
+		
+		RANK = 10,
+	},
+}
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+			
+component =
+{
+    Name="UIMenuItemText_Template",
+    UIMenuItemText_Template =
+    {
+        fontName = "Misc/Fonts/font02.fnt",
+        fontHeight = 60.000000,
+        textColor = "0xfffb9226",
+        textColorHighlighted = "0xfffb9226",
+        textColorInactive = "0xfffb9226",
+		textShadowOffset = vector2dNew( 3.5, 3.5 ),
+		textShadowColor = "0xaa000000",
+        textMode = 3,
+		textModeY = 1,
+        rank = 10,
+		isActive = 0,
+    },
+}
+
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+
+component =
+{
+    Name="UITextBox_Template",
+    UITextBox_Template =
+    {
+		boxWidth = 100.000000,
+        boxHeight = 80.000000,
+		is2DText = 1
+    },
+}
+
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+

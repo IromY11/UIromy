@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<Scene OBJECTID="0011c8616ae99705" ENGINE_VERSION="23521" GRIDUNIT="0.500000" MUSIC_THEME="">
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c8616aeca89e" POS2D="-0.134620 2.228697" RELATIVEZ="0.000000" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonpause@1313053150332" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/pause/actors/buttonpause.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-642.991516 -209.145355" MAX="218.703796 144.003555" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.293056" friendly="resume" id="resume" menuBaseName="menupauseconfmap" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="1" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c8616aef58a0" POS2D="631.000000 320.999908" RELATIVEZ="0.923169" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonpause@1313053193333" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/pause/actors/buttonpause.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-642.779114 -320.805389" MAX="218.703796 144.003571" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.445833" friendly="restart" id="restart" menuBaseName="menupauseconfmap" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="1" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor OBJECTID="0011c8616aef78a2" POS2D="635.000000 431.999908" RELATIVEZ="0.923169" ANGLE="0.000000" SCALE="1.000000 1.000000" USERFRIENDLY="buttonpause@1313053195334" OFFSCREEN_UPDATE_OVERRIDE="0" LUA="scene/menus/pause/actors/buttonpause.act" xFLIPPED="0">
+				<ENUM NAME="UPDATE_TYPE" SEL="0" />
+				<AABB_RELATIVE>
+					<AABB MIN="-642.779114 -433.347748" MAX="218.703796 144.003540" />
+				</AABB_RELATIVE>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent ColorFactor="1.000000 1.000000 1.000000 1.000000" ColorFog="1.000000 1.000000 1.000000 0.000000" colorComputerTagId="0" renderInTarget="0" disableLight="0" animInstance="" />
+				</COMPONENTS>
+				<COMPONENTS NAME="UIButtonComponent">
+					<UIButtonComponent RELATIVEPOSX="0.500000" RELATIVEPOSY="0.600000" friendly="back to main menu" id="exit" menuBaseName="menupauseconfmap" menuSonBaseName="" locFileName="">
+						<ENUM NAME="align" SEL="1" />
+					</UIButtonComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+	</Scene>
+</root>

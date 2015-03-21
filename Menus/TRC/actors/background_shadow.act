@@ -1,0 +1,58 @@
+params =
+{
+    Name="Actor_Template",
+    Actor_Template =
+    {
+        RANK = 1.000000,
+    },
+    ActorEditorParams =
+    {
+        
+    },
+}
+
+params.Actor_Template.COMPONENTS = {}
+component =
+{
+	NAME="AnimLightComponent_Template",
+	AnimLightComponent_Template =
+	{
+		draw2D = 1,
+		defaultAnimation = "Idle",
+		animSet=
+		{
+			SubAnimSet_Template =
+			{
+				animations =
+				{
+					{
+						SubAnim_Template =
+						{
+							friendlyName = "Idle",
+							name = "World/Common/UI/BubbleMenu/Animation/Stand_Big_TRC.anm",
+							loop = 1,
+						},
+					},								
+				},
+			},
+		},
+	}
+}
+
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+component =
+{
+    Name="UIMenuItemText_Template",
+    UIMenuItemText_Template =
+    {
+        rank = 8,
+		is2dActor = 1,
+		animSize = vector2dNew( 70, 70 ),	
+		isActive = 0,
+
+    },
+}
+
+
+appendTable(params.Actor_Template.COMPONENTS, {component})

@@ -1,0 +1,22 @@
+params =
+{
+    Name="Actor_Template",
+    Actor_Template =
+    {
+        RANK = -1.000000,
+    },
+}
+
+params.Actor_Template.COMPONENTS = {}
+component =
+{
+    NAME = "Ray_ScoreBoardComponent_Template",
+	Ray_ScoreBoardComponent_Template =
+	{
+		baseName="ScoreRecap",
+	},
+}
+
+appendTable(params.Actor_Template.COMPONENTS, {component})
+
+

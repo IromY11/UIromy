@@ -1,0 +1,23 @@
+params =
+{
+    NAME = "Actor_Template",
+    Actor_Template =
+    {		
+        COMPONENTS =
+        {
+			{
+				NAME = "UITextBox_Template",
+				UITextBox_Template = 
+				{
+					boxWidth = 800.000000,
+					boxHeight = 61.000000,
+					boxPosition=2, --center
+					is2DText = 1,
+					useActorPosition = 1,
+					useActorRotation = 1,
+					useActorScale =1,
+				}
+			},
+        }
+    }
+}

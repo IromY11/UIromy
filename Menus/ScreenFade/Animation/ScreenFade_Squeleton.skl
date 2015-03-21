@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<root>
+	<BonesListT>
+		<Element index="1">
+			<AngleLocal type="number" value="-0"/>
+			<Lenght type="number" value="1"/>
+			<Name type="string" value="Root"/>
+			<PosLocal type="vector" x="0.5" y="0.5" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<UID type="string" value="Bone_110822190713"/>
+		</Element>
+		<Element index="2">
+			<AngleLocal type="number" value="90"/>
+			<Lenght type="number" value="0.49950206279755"/>
+			<Name type="string" value="B_1"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="Bone_110822190713"/>
+			<PosLocal type="vector" x="-0.89000391960144" y="-0.31463819742203" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<UID type="string" value="D110822191046"/>
+		</Element>
+	</BonesListT>
+	<MediaWidth type="number" value="1"/>
+	<Name type="string" value="paperscreen_Squeleton"/>
+	<PatchPointList>
+	</PatchPointList>
+	<Ratio type="number" value="1"/>
+	<UID type="string" value="paperscreen_Squeleton"/>
+	<ZoomOrigin type="vector" x="0" y="0" z="0"/>
+	<ZoomSize type="vector" x="1024" y="1024" z="1"/>
+</root>

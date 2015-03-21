@@ -1,0 +1,47 @@
+
+local baseRootAnim = "Scene/Menus/MainMenu/actors/"
+params =
+{
+    
+NAME = "Actor_Template",
+Actor_Template =
+    {
+        COMPONENTS =
+        {
+           
+			{
+				NAME="UIMenuItemText_Template",
+				UIMenuItemText_Template =
+				{
+					is2dActor = 1,		
+
+					idleSelectedScale  =0.1,
+					idleSelectedPulseFrequency = 1,
+					fontName = "Misc/Fonts/font02.fnt",
+					fontHeight = 60.000000,
+					fontHeightSelected = 78.000000,
+					textColor = "0xfffb9226",
+					textColorHighlighted = "0xffffffff",
+					textColorInactive = "0xfffb9226",
+					textShadowOffset = vector2dNew( 3.5, 3.5 ),
+					textShadowColor = "0xaa000000",
+					textMode = 1,
+					textModeY = 1,
+					rank = 5,
+					isActive = 1,					
+				}			
+			},
+			
+			{
+				NAME="UITextBox_Template",
+				UITextBox_Template=
+				{
+					boxWidth = 400.000000,
+					boxHeight = 61.000000,
+					is2DText = 1,
+					useActorScale = 1,
+				}
+			},
+        }
+    }
+}
