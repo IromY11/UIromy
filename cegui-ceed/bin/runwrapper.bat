@@ -19,4 +19,3 @@ start cmd.exe
 
 python ceed-gui
 
-pause

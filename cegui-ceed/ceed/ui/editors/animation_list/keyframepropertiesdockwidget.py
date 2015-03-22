@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\Iromys\Documents\GitHub\UIs\cegui-ceed\ceed\ui\editors\animation_list\KeyFramePropertiesDockWidget.ui'
+# Form implementation generated from reading ui file 'C:\Users\Iromys\Documents\GitHub\UIromy\cegui-ceed\ceed\ui\editors\animation_list\KeyFramePropertiesDockWidget.ui'
 #
-# Created: Sat Mar 21 22:39:05 2015
+# Created: Sat Mar 21 23:56:15 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
