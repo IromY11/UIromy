@@ -1,0 +1,7 @@
+<Imageset autoScaled="false" imagefile="menu.png" name="menu" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="80" name="NewGame" width="439" xPos="280" yPos="280" />
+    <Image height="80" name="LoadGame" width="439" xPos="281" yPos="398" />
+    <Image height="80" name="Editor" width="439" xPos="281" yPos="520" />
+    <Image height="80" name="Exit" width="439" xPos="280" yPos="640" />
+    <Image height="760" name="all" width="1000" xPos="0" yPos="0" />
+</Imageset>

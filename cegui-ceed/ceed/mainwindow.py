@@ -161,7 +161,7 @@ class MainWindow(QtGui.QMainWindow):
         
         #print os.path.dirname(__file__)
         #qfile = open("../ceed/qss.qss","r")
-        self.setStyleSheet(qdarkstyle.load_stylesheet())
+        #self.setStyleSheet(qdarkstyle.load_stylesheet())
 
         # stores all active tab editors
         self.tabEditors = []
@@ -179,8 +179,8 @@ class MainWindow(QtGui.QMainWindow):
         self.undoViewer = commands.UndoViewer()
         self.undoViewer.setVisible(False)
         self.addDockWidget(QtCore.Qt.RightDockWidgetArea, self.undoViewer)
-        self.setWindowTitle("UIromy Editor");
-        self.setWindowIcon(QtGui.QIcon("../data/icons/ubicon.png"))
+        #self.setWindowTitle("UIromy Editor");
+        self.setWindowIcon(QtGui.QIcon("../data/icons/ubicone.png"))
 
 
         #import propertytree

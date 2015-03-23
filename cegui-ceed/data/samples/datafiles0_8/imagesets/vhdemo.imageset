@@ -1,0 +1,11 @@
+<Imageset autoScaled="" imagefile="setb.png" name="menu" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="42" name="released" width="400" xPos="27" yPos="17" />
+    <Image height="42" name="hover" width="400" xPos="18" yPos="83" />
+    <Image height="42" name="pressed" width="400" xPos="502" yPos="17" />
+    <Image height="600" name="backgound" width="1024" xPos="31" yPos="152" />
+    <Image height="43" name="y" width="45" xPos="1108" yPos="613" />
+    <Image height="43" name="x" width="45" xPos="1071" yPos="649" />
+    <Image height="43" name="a" width="45" xPos="1108" yPos="686" />
+    <Image height="43" name="b" width="42" xPos="1146" yPos="649" />
+    <Image height="12" name="Rect" width="11" xPos="438" yPos="105" />
+</Imageset>

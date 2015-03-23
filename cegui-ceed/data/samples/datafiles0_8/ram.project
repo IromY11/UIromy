@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project CEGUIDefaultResolution="1280x720" CEGUIVersion="0.8" baseDirectory="." fontsPath="fonts" imagesetsPath="imagesets" layoutsPath="layouts" looknfeelsPath="looknfeel" schemesPath="schemes" version="CEED Project 1" xmlSchemasPath="xml_schemas">
+    <Items>
+        <Item name="animations" type="folder" />
+        <Item name="fonts" type="folder">
+            <Item path="fonts/Batang-18.font" type="file" />
+            <Item path="fonts/DejaVuSans-10-NoScale.font" type="file" />
+            <Item path="fonts/DejaVuSans-10.font" type="file" />
+            <Item path="fonts/DejaVuSans-12-NoScale.font" type="file" />
+            <Item path="fonts/DejaVuSans-12.font" type="file" />
+            <Item path="fonts/DejaVuSans-14-NoScale.font" type="file" />
+            <Item path="fonts/DejaVuSans-14.font" type="file" />
+            <Item path="fonts/DejaVuSans.ttf" type="file" />
+            <Item path="fonts/DejaVuSerif.ttf" type="file" />
+            <Item path="fonts/FairChar-30.font" type="file" />
+            <Item path="fonts/FetteClassicUNZFraktur.ttf" type="file" />
+            <Item path="fonts/Futhark Adapted.ttf" type="file" />
+            <Item path="fonts/GreatVibes-16.font" type="file" />
+            <Item path="fonts/GreatVibes-22.font" type="file" />
+            <Item path="fonts/GreatVibes-Regular.ttf" type="file" />
+            <Item path="fonts/IMFePIrm29P.ttf" type="file" />
+            <Item path="fonts/Junicode-13.font" type="file" />
+            <Item path="fonts/Junicode.ttf" type="file" />
+            <Item path="fonts/Jura-10.font" type="file" />
+            <Item path="fonts/Jura-13.font" type="file" />
+            <Item path="fonts/Jura-18.font" type="file" />
+            <Item path="fonts/Jura-DemiBold.ttf" type="file" />
+            <Item path="fonts/Jura-Light.ttf" type="file" />
+            <Item path="fonts/Jura-Medium.ttf" type="file" />
+            <Item path="fonts/Jura-Regular.ttf" type="file" />
+            <Item path="fonts/Klingon-pIqaD-HaSta.ttf" type="file" />
+            <Item path="fonts/Legal.txt" type="file" />
+            <Item path="fonts/LicenseApache.txt" type="file" />
+            <Item path="fonts/LicenseDejaVu.txt" type="file" />
+            <Item path="fonts/LicenseGPL.txt" type="file" />
+            <Item path="fonts/LicenseMIT.txt" type="file" />
+            <Item path="fonts/LicenseSIL.txt" type="file" />
+            <Item path="fonts/LicenseUbuntuFont.txt" type="file" />
+            <Item path="fonts/RichStyle.ttf" type="file" />
+            <Item path="fonts/Tnua-Libre.ttf" type="file" />
+            <Item path="fonts/batang.ttf" type="file" />
+            <Item path="fonts/mizufalp.ttf" type="file" />
+            <Item path="fonts/vhdemo.font" type="file" />
+            <Item path="fonts/vhdemo.ttf" type="file" />
+        </Item>
+        <Item name="imagesets" type="folder">
+            <Item path="imagesets/AlfiskoSkin.imageset" type="file" />
+            <Item path="imagesets/AlfiskoSkin.png" type="file" />
+            <Item path="imagesets/Aliasing.jpg" type="file" />
+            <Item path="imagesets/BackgroundSampleBrowser.jpg" type="file" />
+            <Item path="imagesets/DriveIcons.imageset" type="file" />
+            <Item path="imagesets/DriveIcons.png" type="file" />
+            <Item path="imagesets/FairChar.imageset" type="file" />
+            <Item path="imagesets/FairChar.png" type="file" />
+            <Item path="imagesets/GameMenu.imageset" type="file" />
+            <Item path="imagesets/GameMenu.png" type="file" />
+            <Item path="imagesets/HUDDemo.imageset" type="file" />
+            <Item path="imagesets/HUDDemo.png" type="file" />
+            <Item path="imagesets/HUDDemoGameOver.png" type="file" />
+            <Item path="imagesets/OgreTray.imageset" type="file" />
+            <Item path="imagesets/OgreTrayImages.png" type="file" />
+            <Item path="imagesets/ReadMe.txt" type="file" />
+            <Item path="imagesets/SampleBrowser.imageset" type="file" />
+            <Item path="imagesets/SampleBrowser.png" type="file" />
+            <Item path="imagesets/SpaceBackground.jpg" type="file" />
+            <Item path="imagesets/TaharezLook.imageset" type="file" />
+            <Item path="imagesets/TaharezLook.png" type="file" />
+            <Item path="imagesets/Vanilla.imageset" type="file" />
+            <Item path="imagesets/WindowsLook.imageset" type="file" />
+            <Item path="imagesets/WindowsLook.png" type="file" />
+            <Item path="imagesets/bg_menu.jpg" type="file" />
+            <Item path="imagesets/demoVH.imageset" type="file" />
+            <Item path="imagesets/logo.png" type="file" />
+            <Item path="imagesets/mainmenu_buttons.imageset" type="file" />
+            <Item path="imagesets/menu.imageset" type="file" />
+            <Item path="imagesets/menu.png" type="file" />
+            <Item path="imagesets/set.jpg" type="file" />
+            <Item path="imagesets/set.png" type="file" />
+            <Item path="imagesets/setb.png" type="file" />
+            <Item path="imagesets/vanilla.png" type="file" />
+            <Item path="imagesets/vhdemo.imageset" type="file" />
+        </Item>
+        <Item name="layouts" type="folder">
+            <Item path="layouts/Demo8.layout" type="file" />
+            <Item path="layouts/DragDropDemo.layout" type="file" />
+            <Item path="layouts/EffectsDemo.layout" type="file" />
+            <Item path="layouts/FontDemo.layout" type="file" />
+            <Item path="layouts/GameMenu.layout" type="file" />
+            <Item path="layouts/HUDDemoGameOver.layout" type="file" />
+            <Item path="layouts/HUDDemoIngame.layout" type="file" />
+            <Item path="layouts/SampleBrowser.layout" type="file" />
+            <Item path="layouts/SampleBrowserLoadScreen.layout" type="file" />
+            <Item path="layouts/TabControlDemo.layout" type="file" />
+            <Item path="layouts/TabPage.layout" type="file" />
+            <Item path="layouts/TabPage1.layout" type="file" />
+            <Item path="layouts/TabPage2.layout" type="file" />
+            <Item path="layouts/TextDemo.layout" type="file" />
+            <Item path="layouts/TreeDemoTaharez.layout" type="file" />
+            <Item path="layouts/VanillaConsole.layout" type="file" />
+            <Item path="layouts/VanillaWindows.layout" type="file" />
+            <Item path="layouts/vhdemo.layout" type="file" />
+        </Item>
+    </Items>
+</Project>

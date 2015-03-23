@@ -26,11 +26,11 @@
    <bool>false</bool>
   </property>
   <property name="windowTitle">
-   <string>CEGUI Unified Editor</string>
+   <string>UIromy Editor</string>
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>icons/ceed.png</normaloff>icons/ceed.png</iconset>
+    <normaloff>../../data/icons/ceed.png</normaloff>../../data/icons/ceed.png</iconset>
   </property>
   <property name="windowOpacity">
    <double>1.000000000000000</double>
@@ -91,7 +91,7 @@
      <x>0</x>
      <y>0</y>
      <width>813</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

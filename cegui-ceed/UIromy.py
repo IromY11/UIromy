@@ -29,13 +29,9 @@ import sys
 print sys.path
 
 s = """set DIR_PARENT_OF_FILE=%~dp0
-
 set CEED_PACKAGE_PATH=%DIR_PARENT_OF_FILE%/../
-
 set CEGUI_BUILD_PATH=%CEED_PACKAGE_PATH%/../cegui-0.8.4
-
 set PATH=%CEGUI_BUILD_PATH%/build/bin;%PATH%
-
 set PYTHONPATH=%CEGUI_BUILD_PATH%/build/bin;%CEED_PACKAGE_PATH%;%PYTHONPATH%"""
 
 #os.system(s)
