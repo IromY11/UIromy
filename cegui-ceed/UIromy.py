@@ -23,6 +23,7 @@
 """This file is usually started when people expect the GUI of the editor
 to come up. It is probably the most important of all 3 executable scripts.
 """
+
 import os
 import sys
 
@@ -35,6 +36,8 @@ set PATH=%CEGUI_BUILD_PATH%/build/bin;%PATH%
 set PYTHONPATH=%CEGUI_BUILD_PATH%/build/bin;%CEED_PACKAGE_PATH%;%PYTHONPATH%"""
 
 #os.system(s)
+
+output = open("out.txt","w+")
 
 
 def main():

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project CEGUIDefaultResolution="1280x720" CEGUIVersion="0.8" baseDirectory="." fontsPath="fonts" imagesetsPath="imagesets" layoutsPath="layouts" looknfeelsPath="looknfeel" schemesPath="schemes" version="CEED Project 1" xmlSchemasPath="xml_schemas">
     <Items>
-        <Item name="animations" type="folder" />
+        <Item name="animations" type="folder">
+            <Item path="animations/GameMenu.anims" type="file" />
+            <Item path="animations/example.anims" type="file" />
+        </Item>
         <Item name="fonts" type="folder">
             <Item path="fonts/Batang-18.font" type="file" />
             <Item path="fonts/DejaVuSans-10-NoScale.font" type="file" />

@@ -196,31 +196,30 @@ int main(int argc, char *argv[])
 	Window* myRoot = wmgr.createWindow( "DefaultWindow", "root" );
 	System::getSingleton().getDefaultGUIContext().setRootWindow( myRoot );
 	
-	//Window *newWindow = WindowManager::getSingleton().loadLayoutFromFile("./datafiles/layouts/ChatWindow.layout","second_");
 	Window *nw = WindowManager::getSingleton().loadLayoutFromFile("vhdemo.layout","layouts");
-	//Window *nz = WindowManager::getSingleton().loadLayoutFromFile("ChatWindow.layout","layouts");
+	
 	
 	myRoot->addChild(nw);
-	//myRoot->addChild(nz);
-	
-	/*GameConsoleWindow gc("stoon"),dd("non");
-	gc.setVisible(true);
-	dd.setVisible(true);
 
-	//CEGUI::ButtonBase b(,"jj");b.setSize(
+	Animation *anim = AnimationManager::getSingleton().createAnimation("walo");
+	anim->setDuration(1.8f);
+	anim->setReplayMode(Animation::RM_Loop);
+	Affector* af1 = anim->createAffector("Position","UVector2");
+	af1->createKeyFrame(0,"{{0,0},{0,290}");
+	af1->createKeyFrame(0.9,"{{0,500},{0,290}",KeyFrame::P_Linear);
+	af1->createKeyFrame(1.8,"{{0,0},{0,290}",KeyFrame::P_Linear);
+
+	/*Affector* af2 = anim->createAffector("Alpha","float");
+	af2->createKeyFrame(0,"0.0");
+	af2->createKeyFrame(0.8,"0.1",KeyFrame::P_Linear);*/
 	
-	FrameWindow* fWnd = static_cast<FrameWindow*>(
-						      wmgr.createWindow( "TaharezLook/FrameWindow", "testWindow" ));
-	myRoot->addChild( fWnd );
 	
-	// position a quarter of the way in from the top-left of parent.
-	fWnd->setPosition( UVector2( UDim( 0.25f, 0.0f ), UDim( 0.25f, 0.0f ) ) );
-	fWnd->setVisible(true);
-	Quaternion qs = Quaternion::eulerAnglesDegrees(0,0,15);
-	//fWnd->setRotation(qs);
-	// set size to be half the size of the parent
-	fWnd->setSize( USize( UDim( 0.5f, 0.0f ), UDim( 0.5f, 0.0f ) ) );
-	fWnd->setText( "Hello Iromy!!" );*/
+	Window *bg = myRoot->getChild("Image")->getChild("newgame");
+
+	AnimationInstance* instance = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim);
+	instance->setTargetWindow(bg);
+	instance->start();
+	//bg->setAlpha(0.4f);
 
 	
  

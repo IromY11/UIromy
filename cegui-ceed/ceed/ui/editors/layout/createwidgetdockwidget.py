@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'C:\Users\mybahaoui\Documents\GitHub\UIromy\cegui-ceed\ceed\ui\editors\layout\CreateWidgetDockWidget.ui'
 #
-# Created: Mon Mar 23 15:36:26 2015
+# Created: Tue Mar 24 18:13:07 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
