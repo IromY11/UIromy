@@ -96,7 +96,7 @@ class MainWindow(QtGui.QMainWindow):
 
         if not QtOpenGL.QGLFramebufferObject.hasOpenGLFramebufferObjects():
             messages.warning(self.app, self, "No FBO support!",
-                "CEED uses OpenGL frame buffer objects for various tasks, "
+                "UIED uses OpenGL frame buffer objects for various tasks, "
                 "most notably to support panning and zooming in the layout editor.\n\n"
                 "FBO support was not detected on your system!\n\n"
                 "The editor will run but you may experience rendering artifacts.",
@@ -128,6 +128,7 @@ class MainWindow(QtGui.QMainWindow):
             #"Property Mapping files (%s)" % ("*." + " *.".join(self.editorFactories[4].getFileExtensions())),
             "Text files (%s)" % ("*." + " *.".join(self.editorFactories[4].getFileExtensions()))
         ]
+        #print self.editorFactoryFileFilters
         allExt = []
         for factory in self.editorFactories:
             allExt.extend(factory.getFileExtensions())

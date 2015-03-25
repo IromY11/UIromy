@@ -32,8 +32,8 @@ class Settings(declaration.Settings):
 
     def __init__(self, qsettings):
         super(Settings, self).__init__(name = "settings",
-                                       label = "CEGUI Unified Editor settings",
-                                       help_ = "Provides all persistent settings of CEGUI Unified Editor (CEED), everything is divided into categories (see the tab buttons).")
+                                       label = "UIromy Editor settings",
+                                       help_ = "Provides all persistent settings of UIromy Editor, everything is divided into categories (see the tab buttons).")
 
         self.setPersistenceProvider(persistence.QSettingsPersistenceProvider(qsettings))
 

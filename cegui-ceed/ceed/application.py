@@ -31,7 +31,7 @@ class SplashScreen(QSplashScreen):
 
         self.setWindowModality(Qt.ApplicationModal)
         self.setWindowFlags(Qt.SplashScreen | Qt.WindowStaysOnTopHint)
-        self.showMessage("version: %s" % (version.CEED), Qt.AlignTop | Qt.AlignRight, Qt.GlobalColor.green)
+        self.showMessage("version: %s" % (version.CEED), Qt.AlignBottom | Qt.AlignRight, Qt.GlobalColor.white)
 
 class Application(QApplication):
     """The central application class
@@ -60,7 +60,7 @@ class Application(QApplication):
             logging.debug("All .ui files recompiled!")
 
         from ceed import settings
-        self.qsettings = QSettings("CEGUI", "CEED")
+        self.qsettings = QSettings("Iromy", "UIromy Editor")
         self.settings = settings.Settings(self.qsettings)
         # download all values from the persistence store
         self.settings.download()
@@ -73,8 +73,8 @@ class Application(QApplication):
             # this ensures that the splash screen is shown on all platforms
             self.processEvents()
 
-        self.setOrganizationName("Ubisoft")
-        self.setOrganizationDomain("Ubisoft.com")
+        self.setOrganizationName("Iromy")
+        self.setOrganizationDomain("Iromy.com")
         self.setApplicationName("UIromY Editor")
         self.setApplicationVersion(version.CEED)
 

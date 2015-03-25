@@ -30,7 +30,7 @@ from PySide.QtGui import QAction, QKeySequence, QIcon
 
 class Action(QAction):
     """The only thing different in this from QAction is the ability to change the shortcut of it
-    using CEED's settings API/interface.
+    using UIED's settings API/interface.
 
     While it isn't needed/required to use this everywhere where QAction is used, it is recommended.
     """

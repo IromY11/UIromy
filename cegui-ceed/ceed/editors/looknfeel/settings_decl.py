@@ -21,7 +21,7 @@
 from PySide import QtGui
 
 def declare(settings):
-    category = settings.createCategory(name = "looknfeel", label = "Look n' Feel editing")
+    '''category = settings.createCategory(name = "looknfeel", label = "Look n' Feel editing")
 
     visual = category.createSection(name = "visual", label = "Visual editing")
 
@@ -92,4 +92,5 @@ def declare(settings):
     visual.createEntry(name = "auto_widgets_show_outline", type_ = bool, label = "Show outline of auto widgets",
                        help_ = "Auto widgets are usually handled by LookNFeel and except in very special circumstances, you don't want to deal with them at all. Only use if you know what you are doing! This might clutter the interface a lot.",
                        defaultValue = False, widgetHint = "checkbox",
-                       sortingWeight = 10)
+                       sortingWeight = 10)'''
+    pass                   

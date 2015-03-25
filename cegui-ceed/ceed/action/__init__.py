@@ -114,7 +114,7 @@ class ConnectionGroup(object):
             connection.disconnect()
 
 class ActionManager(declaration.ActionManager):
-    """This is the CEED's action manager, all the "global" actions are declared in it.
+    """This is the UIED's action manager, all the "global" actions are declared in it.
 
     Includes general actions (like Quit, Undo & Redo, File Open, etc...) and also editor specific
     actions (layout align left, ...) - you should use ConnectionGroup for these to connect them when
@@ -175,23 +175,29 @@ class ActionManager(declaration.ActionManager):
         projectManagement = self.createCategory(name = "project_management", label = "Project Management")
         projectManagement.createAction(name = "new_project", label = "Pro&ject...", settingsLabel = "New Project",
                                        help_ = "Creates a new project from scratch. Only one project can be opened at a time so you will be asked to close your current project if any.",
-                                       icon = QIcon("icons/actions/new_project.png"))
+                                       icon = QIcon("icons/actions/new_project.png"),
+                                       defaultShortcut = QKeySequence("Ctrl+Shift+N"))
         projectManagement.createAction(name = "open_project", label = "Open Pro&ject...",
                                        help_ = "Opens a pre-existing project file. Only one project can be opened at a time so you will be asked to close your current project if any.",
-                                       icon = QIcon("icons/actions/open_project.png"))
+                                       icon = QIcon("icons/actions/open_project.png"),
+                                       defaultShortcut = QKeySequence("Ctrl+Shift+O"))
         projectManagement.createAction(name = "save_project", label = "Save Pro&ject",
                                        help_ = "Saves currently opened project file to the same location from where it was opened.",
-                                       icon = QIcon("icons/actions/save_project.png"))
+                                       icon = QIcon("icons/actions/save_project.png"),
+                                       defaultShortcut = QKeySequence("Ctrl+Shift+S"))
         projectManagement.createAction(name = "close_project", label = "Close Project",
                                        help_ = "Closes currently opened project file.",
-                                       icon = QIcon("icons/actions/close_project.png"))
+                                       icon = QIcon("icons/actions/close_project.png"),
+                                       defaultShortcut = QKeySequence("Ctrl+Shift+W"))
         projectManagement.createAction(name = "project_settings", label = "&Settings",
                                        help_ = "Displays and allows changes of the project settings (of the currently opened project).",
                                        icon = QIcon("icons/actions/project_settings.png"),
-                                       menuRole = QAction.NoRole)
+                                       menuRole = QAction.NoRole ,
+                                       defaultShortcut = QKeySequence("Ctrl+Shift+P"))
         projectManagement.createAction(name = "reload_resources", label = "&Reload Resources",
                                        help_ = "Reloads all CEGUI resources associated with currently opened project.",
-                                       icon = QIcon("icons/project_management/reload_resources.png"))
+                                       icon = QIcon("icons/project_management/reload_resources.png"),
+                                       defaultShortcut = QKeySequence("Ctrl+Shift+R"))
 
         files = self.createCategory(name = "files", label = "Tabs and Files")
         files.createAction(name = "new_file", label = "&Other...", settingsLabel = "New File",

@@ -33,7 +33,7 @@ class Manipulator(cegui_widgethelpers.Manipulator):
     def getSnapGridBrush(cls):
         """Retrieves a (cached) snap grid brush
         """
-
+        
         snapGridX = settings.getEntry("layout/visual/snap_grid_x").value
         snapGridY = settings.getEntry("layout/visual/snap_grid_y").value
         snapGridPointColour = settings.getEntry("layout/visual/snap_grid_point_colour").value
