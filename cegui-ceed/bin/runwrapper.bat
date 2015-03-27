@@ -19,3 +19,5 @@ set PYTHONPATH=%CEGUI_BUILD_PATH%/build/bin;%CEED_PACKAGE_PATH%;%PYTHONPATH%
 python ceed-gui
 
 
+
+

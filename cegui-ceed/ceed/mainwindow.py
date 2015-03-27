@@ -135,6 +135,7 @@ class MainWindow(QtGui.QMainWindow):
         self.editorFactoryFileFilters.insert(0, "All known files (*." + " *.".join(allExt) + ")")
         self.editorFactoryFileFilters.insert(1, "All files (*)")
 
+        
         self._activeEditor = None
         self._project = None
 
@@ -193,6 +194,8 @@ class MainWindow(QtGui.QMainWindow):
         self.setupToolbars()
 
         self.restoreSettings()
+        self.openProject("C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
+        
 
     def setupActions(self):
         # usage of a connection group in mainwindow may be unnecessary,
@@ -211,6 +214,9 @@ class MainWindow(QtGui.QMainWindow):
 
         self.newImagesetAction = self.actionManager.getAction("files/new_imageset")
         self.connectionGroup.add(self.newImagesetAction, receiver = self.slot_newImagesetDialog)
+
+        self.newAnimationAction = self.actionManager.getAction("files/new_animation")
+        self.connectionGroup.add(self.newAnimationAction, receiver = self.slot_newAnimationDialog)
 
         self.openFileAction = self.actionManager.getAction("files/open_file")
         self.connectionGroup.add(self.openFileAction, receiver = self.slot_openFileDialog)
@@ -354,7 +360,7 @@ class MainWindow(QtGui.QMainWindow):
         self.menuBar().addMenu(self.fileMenu)
         menu = QtGui.QMenu("&New")
         # sorted, generic "file" last
-        menu.addActions([self.newImagesetAction, self.newLayoutAction, self.newFileAction])
+        menu.addActions([self.newImagesetAction, self.newLayoutAction, self.newAnimationAction, self.newFileAction])
         menu.addSeparator()
         menu.addAction(self.newProjectAction)
         self.fileMenu.addMenu(menu)
@@ -581,7 +587,7 @@ class MainWindow(QtGui.QMainWindow):
                 QtGui.QMessageBox.warning(self, "Failed to synchronise embedded CEGUI to your project",
 """An attempt was made to load resources related to the project being opened, for some reason the loading didn't succeed so all resources were destroyed! The most likely reason is that the resource directories are wrong, this can be very easily remedied in the project settings.
 
-This means that editing capabilities of CEED will be limited to editing of files that don't require a project opened (for example: imagesets).
+This means that editing capabilities of UIED will be limited to editing of files that don't require a project opened (for example: imagesets).
 
 Details of this error: %s""" % (e))
 
@@ -733,17 +739,17 @@ Details of this error: %s""" % (e))
                     # trying to open a project file as if it were a file
                     ret = editors.MessageTabbedEditor(absolutePath,
                         "You are trying to open '%s' (project relative path: '%s') which "
-                        "seems to be a CEED project file. "
+                        "seems to be a UIED project file. "
                         "This simply is not how things are supposed to work, please use "
                         "File -> Open Project to open your project file instead. "
-                        "(CEED enforces proper extensions)" % (absolutePath, projectRelativePath))
+                        "(UIED enforces proper extensions)" % (absolutePath, projectRelativePath))
 
                 else:
                     ret = editors.MessageTabbedEditor(absolutePath,
                         "No included tabbed editor was able to accept '%s' "
-                        "(project relative path: '%s'), please check that it's a file CEED "
+                        "(project relative path: '%s'), please check that it's a file UIED "
                         "supports and that it has the correct extension "
-                        "(CEED enforces proper extensions)" % (absolutePath, projectRelativePath))
+                        "(UIED enforces proper extensions)" % (absolutePath, projectRelativePath))
 
             else:
                 # one or more factories wants to accept the file
@@ -987,6 +993,7 @@ Details of this error: %s""" % (e))
 
         if file_ != "":
             # user actually selected something ;-)
+            
 
             self.openProject(file_)
 
@@ -1081,7 +1088,7 @@ Details of this error: %s""" % (e))
                     f.close()
                 except IOError as e:
                     QtGui.QMessageBox.critical(self, "Error creating file!",
-                                                     "CEED encountered an error trying to create a new file.\n\n(exception details: %s)" % (e))
+                                                     "UIED encountered an error trying to create a new file.\n\n(exception details: %s)" % (e))
                     return
 
                 self.openEditorTab(fileName)
@@ -1132,7 +1139,7 @@ Details of this error: %s""" % (e))
                     f.close()
                 except IOError as e:
                     QtGui.QMessageBox.critical(self, "Error creating file!",
-                                                     "CEED encountered an error trying to create a new file.\n\n(exception details: %s)" % (e))
+                                                     "UIED encountered an error trying to create a new file.\n\n(exception details: %s)" % (e))
                     return
 
                 self.openEditorTab(fileName)
@@ -1146,6 +1153,10 @@ Details of this error: %s""" % (e))
     def slot_newImagesetDialog(self):
         self.slot_newFileDialog(title = "New Imageset",
                                 filtersList = ["Imageset files (*.imageset)"],
+                                autoSuffix = True)
+    def slot_newAnimationDialog(self):
+        self.slot_newFileDialog(title = "New Animation",
+                                filtersList = ["Animation files (*.anims)"],
                                 autoSuffix = True)
 
     def slot_openFile(self, absolutePath):

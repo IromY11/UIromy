@@ -41,7 +41,7 @@ class AnimationListTabbedEditor(editors.multi.MultiModeTabbedEditor):
         super(AnimationListTabbedEditor, self).__init__(animation_list_compatibility.manager, filePath)
 
         messages.warning(None, self, "Animation List Editor is experimental!",
-                         "This part of CEED is not considered to be ready for "
+                         "This part of UIED is not considered to be ready for "
                          "production. You have been warned. If everything "
                          "breaks you get to keep the pieces!",
                          "animation_list_editor_experimental")
@@ -83,6 +83,7 @@ class AnimationListTabbedEditor(editors.multi.MultiModeTabbedEditor):
 
             # the file should exist at this point, so we are not checking and letting exceptions
             # fly out of this method
+            
             if os.path.getsize(self.filePath) > 2:
                 # the file contains more than just CR LF
                 QtGui.QMessageBox.question(self,
@@ -92,7 +93,7 @@ class AnimationListTabbedEditor(editors.multi.MultiModeTabbedEditor):
                                            "Exception details follow:\n%s" % (self.filePath, sys.exc_info()[1]),
                                            QtGui.QMessageBox.Ok)
 
-            # we construct the minimal empty imageset
+            # we construct the minimal empty animation
             root = ElementTree.Element("Animations")
 
         self.visual.loadFromElement(root)

@@ -6,10 +6,9 @@
         <Property name="Image" value="menu/backgound" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Window type="vhdemo/ImageButton" name="newgame" >
-            <Property name="Area" value="{{0,0},{0,290},{0,363},{0,328}}" />
+            <Property name="Area" value="{{0,15},{0,280},{0,378},{0,318}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="New Game" />
-            <Property name="Alpha" value="0.7" />
             <Property name="HoverImage" value="menu/hover" />
             <Property name="NormalImage" value="menu/released" />
             <Property name="PushedImage" value="menu/pressed" />
@@ -17,10 +16,9 @@
             <Property name="PushedTextColour" value="FFFFFFFF" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame2" >
-            <Property name="Area" value="{{0,0},{0,425},{0,363},{0,463}}" />
+            <Property name="Area" value="{{0,15},{0,415},{0,378},{0,453}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Exit" />
-            <Property name="Alpha" value="0.7" />
             <Property name="HoverImage" value="menu/hover" />
             <Property name="NormalImage" value="menu/released" />
             <Property name="PushedImage" value="menu/pressed" />
@@ -28,10 +26,9 @@
             <Property name="PushedTextColour" value="FFFFFFFF" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame3" >
-            <Property name="Area" value="{{0,0},{0,380},{0,363},{0,418}}" />
+            <Property name="Area" value="{{0,15},{0,370},{0,378},{0,408}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Settings" />
-            <Property name="Alpha" value="0.7" />
             <Property name="HoverImage" value="menu/hover" />
             <Property name="NormalImage" value="menu/released" />
             <Property name="PushedImage" value="menu/pressed" />
@@ -39,10 +36,9 @@
             <Property name="PushedTextColour" value="FFFFFFFF" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame4" >
-            <Property name="Area" value="{{0,0},{0,335},{0,363},{0,373}}" />
+            <Property name="Area" value="{{0,15},{0,325},{0,378},{0,363}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Load Game" />
-            <Property name="Alpha" value="0.7" />
             <Property name="HoverImage" value="menu/hover" />
             <Property name="NormalImage" value="menu/released" />
             <Property name="PushedImage" value="menu/pressed" />

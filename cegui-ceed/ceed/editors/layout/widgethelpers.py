@@ -94,6 +94,8 @@ class Manipulator(cegui_widgethelpers.Manipulator):
         self.ignoreSnapGrid = False
 
         self.snapGridAction = action.getAction("layout/snap_grid")
+        self.xDragAction = action.getAction("layout/x_drag")
+        self.yDragAction = action.getAction("layout/y_drag")
 
         self.absoluteModeAction = action.getAction("layout/absolute_mode")
         self.absoluteModeAction.toggled.connect(self.slot_absoluteModeToggled)
@@ -180,7 +182,6 @@ class Manipulator(cegui_widgethelpers.Manipulator):
         """Takes care of creating new widgets when user drops the right mime type here
         (dragging from the CreateWidgetDockWidget)
         """
-
         data = event.mimeData().data("application/x-ceed-widget-type")
 
         if data:
@@ -257,9 +258,11 @@ class Manipulator(cegui_widgethelpers.Manipulator):
 
         if self.drawSnapGrid and self.snapGridAction.isChecked():
             childRect = self.widget.getChildContentArea(self.snapGridNonClientArea).get()
+            
             qChildRect = QtCore.QRectF(childRect.d_min.d_x, childRect.d_min.d_y, childRect.getWidth(), childRect.getHeight())
             qChildRect.translate(-self.scenePos())
-
+           
+            
             painter.save()
             painter.setBrushOrigin(qChildRect.topLeft())
             painter.fillRect(qChildRect, Manipulator.getSnapGridBrush())
@@ -308,6 +311,7 @@ class Manipulator(cegui_widgethelpers.Manipulator):
     def snapXCoordToGrid(self, x):
         # we have to take the child rect into account
         childRect = self.widget.getChildContentArea(self.snapGridNonClientArea).get()
+       
         xOffset = childRect.d_min.d_x - self.scenePos().x()
 
         # point is in local space
@@ -318,7 +322,6 @@ class Manipulator(cegui_widgethelpers.Manipulator):
         # we have to take the child rect into account
         childRect = self.widget.getChildContentArea(self.snapGridNonClientArea).get()
         yOffset = childRect.d_min.d_y - self.scenePos().y()
-
         # point is in local space
         snapGridY = settings.getEntry("layout/visual/snap_grid_y").value
         return yOffset + round((y - yOffset) / snapGridY) * snapGridY
@@ -329,9 +332,27 @@ class Manipulator(cegui_widgethelpers.Manipulator):
             if parent is None:
                 # ad hoc snapping for root widget, it snaps to itself
                 parent = self
-
+            #print point.x(), point.y(), "self:" ,self.moveOldPos
             if isinstance(parent, Manipulator):
                 point = QtCore.QPointF(parent.snapXCoordToGrid(point.x()), parent.snapYCoordToGrid(point.y()))
+        if hasattr(self, "xDragAction") and self.xDragAction.isChecked():
+            parent = self.parentItem()
+            if parent is None:
+                # ad hoc snapping for root widget, it snaps to itself
+                parent = self
+
+            if isinstance(parent, Manipulator):
+                point = QtCore.QPointF(point.x(), self.moveOldPos.y() if self.moveOldPos is not None else point.y())
+
+        if hasattr(self, "yDragAction") and self.yDragAction.isChecked():
+            parent = self.parentItem()
+            if parent is None:
+                # ad hoc snapping for root widget, it snaps to itself
+                parent = self
+
+            if isinstance(parent, Manipulator):
+                point = QtCore.QPointF(self.moveOldPos.x() if self.moveOldPos is not None else point.x(),point.y())
+                
 
         point = super(Manipulator, self).constrainMovePoint(point)
 
@@ -401,11 +422,12 @@ class SerialisationData(cegui_widgethelpers.SerialisationData):
             child.setVisual(visual)
 
     def reconstruct(self, rootManipulator):
+        
         ret = super(SerialisationData, self).reconstruct(rootManipulator)
-
+        
         if ret.parentItem() is None:
             # this is a root widget being reconstructed, handle this accordingly
-            self.visual.setWidgetLookManipulator(ret)
+            self.visual.setRootWidgetManipulator(ret)
 
         return ret
 

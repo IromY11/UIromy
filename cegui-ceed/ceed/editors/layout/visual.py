@@ -712,7 +712,7 @@ class WidgetTypeTreeWidget(QtGui.QTreeWidget):
 
     def startDrag(self, dropActions):
         # shamelessly stolen from CELE2 by Paul D Turner (GPLv3)
-
+        
         item = self.currentItem()
         widgetType = item.text(0)
 
@@ -835,10 +835,12 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
         self.clear()
 
         self.rootManipulator = manipulator
+        
         # root manipulator changed, perform a full update
-        self.rootManipulator.updateFromWidget(True)
+        
 
         if self.rootManipulator is not None:
+            self.rootManipulator.updateFromWidget(True)
             self.addItem(self.rootManipulator)
 
     def getManipulatorByPath(self, widgetPath):
@@ -1250,6 +1252,8 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
         self.toolBar.addAction(self.alignVCentreAction)
         self.toolBar.addAction(self.alignVBottomAction)
         self.toolBar.addSeparator() # ---------------------------
+        self.toolBar.addAction(action.getAction("layout/x_drag"))
+        self.toolBar.addAction(action.getAction("layout/y_drag"))
         self.toolBar.addAction(action.getAction("layout/snap_grid"))
         self.toolBar.addAction(action.getAction("layout/absolute_mode"))
         self.toolBar.addAction(action.getAction("layout/abs_integers_mode"))
@@ -1273,6 +1277,8 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
         editorMenu.addAction(self.alignVCentreAction)
         editorMenu.addAction(self.alignVBottomAction)
         editorMenu.addSeparator() # ---------------------------
+        editorMenu.addAction(action.getAction("layout/x_drag"))
+        editorMenu.addAction(action.getAction("layout/y_drag"))
         editorMenu.addAction(action.getAction("layout/snap_grid"))
         editorMenu.addAction(action.getAction("layout/absolute_mode"))
         editorMenu.addAction(action.getAction("layout/abs_integers_mode"))

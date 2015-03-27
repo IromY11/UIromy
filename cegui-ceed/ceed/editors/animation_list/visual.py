@@ -340,7 +340,7 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
     def generateFakeAnimationDefinitionName(self):
         VisualEditing.fakeAnimationDefinitionNameSuffix += 1
 
-        return "CEED_InternalAnimationDefinition_%i" % (VisualEditing.fakeAnimationDefinitionNameSuffix)
+        return "UIED_InternalAnimationDefinition_%i" % (VisualEditing.fakeAnimationDefinitionNameSuffix)
 
     def showEvent(self, event):
         mainwindow.MainWindow.instance.ceguiContainerWidget.activate(self.ceguiPreview, self.scene)

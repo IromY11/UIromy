@@ -210,6 +210,9 @@ class ActionManager(declaration.ActionManager):
         files.createAction(name = "new_imageset", label = "&Imageset...", settingsLabel = "New Imageset",
                            help_ = "Creates a new imageset file.",
                            icon = QIcon("icons/project_items/imageset.png"))
+        files.createAction(name = "new_animation", label = "&Animation...", settingsLabel = "New Animation",
+                           help_ = "Creates a new animation file.",
+                           icon = QIcon("icons/project_items/animation.png"))
         files.createAction(name = "revert_file", label = "Re&vert", settingsLabel = "Revert File",
                            help_ = "Reverts the active file to version on disk.")
         files.createAction(name = "clear_recent_files", label = "&Clear", settingsLabel = "Clear Recent Files",

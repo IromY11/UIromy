@@ -49,6 +49,16 @@ def declare(actionManager):
                      icon = QtGui.QIcon("icons/layout_editing/snap_grid.png"),
                      defaultShortcut = QtGui.QKeySequence(QtCore.Qt.Key_Space)).setCheckable(True)
 
+    cat.createAction(name = "x_drag", label = "Horizontal Drag Only",
+                     help_ = "When moving widgets, if checked this makes sure they can move only along x-axis, also shows the x_drag if checked.",
+                     icon = QtGui.QIcon("icons/layout_editing/x_drag.png"),
+                     defaultShortcut = QtGui.QKeySequence(QtCore.Qt.Key_X)).setCheckable(True)
+
+    cat.createAction(name = "y_drag", label = "Vertical Drag Only",
+                     help_ = "When moving widgets, if checked this makes sure they can move only along y-axis, also shows the y_drag if checked.",
+                     icon = QtGui.QIcon("icons/layout_editing/y_drag.png"),
+                     defaultShortcut = QtGui.QKeySequence(QtCore.Qt.Key_Y)).setCheckable(True)
+
     absolute_mode = cat.createAction(
                      name = "absolute_mode", label = "&Absolute Resizing && Moving Deltas",
                      help_ = "When resizing and moving widgets, if checked this makes the delta absolute, it is relative if unchecked.",
