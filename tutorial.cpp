@@ -205,9 +205,19 @@ int main(int argc, char *argv[])
 	anim->setDuration(1.8f);
 	anim->setReplayMode(Animation::RM_Loop);
 	Affector* af1 = anim->createAffector("Position","UVector2");
-	af1->createKeyFrame(0,"{{0,0},{0,290}");
-	af1->createKeyFrame(0.9,"{{0,500},{0,290}",KeyFrame::P_Linear);
-	af1->createKeyFrame(1.8,"{{0,0},{0,290}",KeyFrame::P_Linear);
+	af1->setApplicationMethod(af1->AM_Relative);
+	af1->createKeyFrame(0,"{{0,200},{0,0}}");
+	af1->createKeyFrame(0.9,"{{0,470},{0,0}}",KeyFrame::P_Linear);
+	af1->createKeyFrame(1.8,"{{0,200},{0,0}}",KeyFrame::P_Linear);
+	
+	Animation *anim2 = AnimationManager::getSingleton().createAnimation("walo2");
+	anim2->setDuration(1.8f);
+	anim2->setReplayMode(Animation::RM_Loop);
+	Affector* af2 = anim2->createAffector("Position","UVector2");
+	af2->setApplicationMethod(af1->AM_Relative);
+	af2->createKeyFrame(0,"{{0,200},{0,0}}");
+	af2->createKeyFrame(0.6,"{{0,470},{0,0}}",KeyFrame::P_Linear);
+	af2->createKeyFrame(1.8,"{{0,200},{0,0}}",KeyFrame::P_Linear);
 
 	/*Affector* af2 = anim->createAffector("Alpha","float");
 	af2->createKeyFrame(0,"0.0");
@@ -215,10 +225,19 @@ int main(int argc, char *argv[])
 	
 	
 	Window *bg = myRoot->getChild("Image")->getChild("newgame");
+	Window *bg2 = myRoot->getChild("Image")->getChild("newgame2");
+	Window *bg3 = myRoot->getChild("Image")->getChild("newgame3");
+	Window *bg4 = myRoot->getChild("Image")->getChild("newgame4");
 
-	AnimationInstance* instance = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim);
-	instance->setTargetWindow(bg);
-	instance->start();
+	AnimationInstance* inst = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim);
+	AnimationInstance* inst2 = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim2);
+	AnimationInstance* inst3 = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim);
+	AnimationInstance* inst4 = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim2);
+	inst->setTargetWindow(bg); inst->start();
+	inst2->setTargetWindow(bg2); inst2->start();
+	inst3->setTargetWindow(bg3); inst3->start();
+	inst4->setTargetWindow(bg4); inst4->start();
+	
 	//bg->setAlpha(0.4f);
 
 	
