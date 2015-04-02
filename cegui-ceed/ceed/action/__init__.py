@@ -1,5 +1,5 @@
 ##############################################################################
-#   CEED - Unified CEGUI asset editor
+#   UIED - Unified CEGUI asset editor
 #
 #   Copyright (C) 2011-2012   Martin Preisler <martin@preisler.me>
 #                             and contributing authors (see AUTHORS file)

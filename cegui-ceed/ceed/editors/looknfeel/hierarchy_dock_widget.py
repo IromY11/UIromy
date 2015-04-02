@@ -88,16 +88,21 @@ class LookNFeelHierarchyDockWidget(QtGui.QDockWidget):
         if not self.tabbedEditor.targetWidgetLook:
             return
         else:
-            widgetLookMap = PyCEGUI.WidgetLookManager.getSingleton().getWidgetLookPointerMap()
-            widgetLookObject = PyCEGUI.Workarounds.WidgetLookFeelMapGet(widgetLookMap, self.tabbedEditor.targetWidgetLook)
-
+            '''widgetLookMap = PyCEGUI.WidgetLookManager.getSingleton().getWidgetLookPointerMap()
+            widgetLookObject = PyCEGUI.Workarounds.WidgetLookFeelMapGet(widgetLookMap, self.tabbedEditor.targetWidgetLook)'''
+            widgetLookObject = PyCEGUI.WidgetLookManager.getSingleton().getWidgetLook(self.tabbedEditor.targetWidgetLook)
         # Add the default entry: The show-all option
         listOfComboboxEntries = [["Show all", None]]
+        
 
-        stateImageryMap = widgetLookObject.getStateImageryMap()
-        for stateImageryMapEntry in stateImageryMap:
-            currentStateImageryName = stateImageryMapEntry.key
+        stateImageryMap = widgetLookObject.getStateIterator()
+        while not stateImageryMap.isAtEnd():
+            currentStateImageryName = stateImageryMap.getCurrentKey()
             listOfComboboxEntries.append([currentStateImageryName, currentStateImageryName])
+            stateImageryMap.next()
+        '''for stateImageryMapEntry in stateImageryMap:
+            currentStateImageryName = stateImageryMapEntry.key
+            listOfComboboxEntries.append([currentStateImageryName, currentStateImageryName])'''
 
         # Sort the entries but keep "Show all" on top
         def getSortKey(listEntry):
@@ -130,8 +135,9 @@ class LookNFeelHierarchyDockWidget(QtGui.QDockWidget):
 
         widgetLookName = self.tabbedEditor.targetWidgetLook
         if widgetLookName:
-            widgetLookMap = PyCEGUI.WidgetLookManager.getSingleton().getWidgetLookPointerMap()
-            widgetLookObject = PyCEGUI.Workarounds.WidgetLookFeelMapGet(widgetLookMap, widgetLookName)
+            '''widgetLookMap = PyCEGUI.WidgetLookManager.getSingleton().getWidgetLookPointerMap()
+            widgetLookObject = PyCEGUI.Workarounds.WidgetLookFeelMapGet(widgetLookMap, widgetLookName)'''
+            widgetLookObject = PyCEGUI.WidgetLookManager.getSingleton().getWidgetLook(widgetLookName)
             self.model.updateTree(widgetLookObject, limitDisplayTo)
         else:
             self.model.updateTree(None, limitDisplayTo)

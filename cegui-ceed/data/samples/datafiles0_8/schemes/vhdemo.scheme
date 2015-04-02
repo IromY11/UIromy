@@ -6,7 +6,6 @@
     
 	<WindowRendererSet filename="CEGUICoreWindowRendererSet" />
 	<FalagardMapping windowType="vhdemo/Label" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="vhdemo/Label" />
-	<FalagardMapping windowType="vhdemo/Rect" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="vhdemo/Rect" />
     <FalagardMapping windowType="vhdemo/Image" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="vhdemo/Image" />
     <FalagardMapping windowType="vhdemo/ImageButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="vhdemo/ImageButton" />
     

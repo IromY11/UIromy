@@ -53,11 +53,11 @@ class Manipulator(cegui_widgethelpers.Manipulator):
 
             painter = QtGui.QPainter(texture)
             painter.setPen(QtGui.QPen(snapGridPointColour))
-            #painter.drawPoint(0, 0)
-            #painter.setPen(QtGui.QPen(snapGridPointShadowColour))
-            #painter.drawPoint(1, 0)
-            #painter.drawPoint(1, 1)
-            #painter.drawPoint(0, 1)
+            '''painter.drawPoint(0, 0)
+            painter.setPen(QtGui.QPen(snapGridPointShadowColour))
+            painter.drawPoint(1, 0)
+            painter.drawPoint(1, 1)
+            painter.drawPoint(0, 1)'''
             painter.drawLine(0,0,snapGridX,0)
             painter.drawLine(snapGridX,0,snapGridX,snapGridY)
             painter.drawLine(snapGridX,snapGridY,0,snapGridY)
@@ -164,7 +164,7 @@ class Manipulator(cegui_widgethelpers.Manipulator):
 
         if parentWidgetWasNone:
             # if this was root we have to inform the scene accordingly!
-            self.visual.setWidgetLookManipulator(None)
+            self.visual.setRootWidgetManipulator(None)
 
     def dragEnterEvent(self, event):
         if event.mimeData().hasFormat("application/x-ceed-widget-type"):

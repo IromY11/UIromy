@@ -597,7 +597,7 @@ class FalagardElementInterface(object):
         :param valueAsString: str
         :return:
         """
-
+        print valueAsString
         from ceed.cegui import ceguitypes as ceguiTypes
         if issubclass(pythonDataType, ceguiTypes.Base):
             # if the type is a subtype of the python cegui type, then use the conversion function

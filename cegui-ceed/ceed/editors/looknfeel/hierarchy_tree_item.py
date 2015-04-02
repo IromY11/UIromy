@@ -158,26 +158,31 @@ class LookNFeelHierarchyItem(QtGui.QStandardItem):
         Creates and appends children items based on an ImagerySection.
         :return:
         """
-        frameComponentList = self.falagardElement.getFrameComponentPointers()
-        for frameComponent in frameComponentList:
-            self.createAndAddItem(frameComponent)
+        frameComponentList = self.falagardElement.getFrameComponentIterator()
+        while not frameComponentList.isAtEnd():
+            self.createAndAddItem(frameComponentList.getCurrentValue())
+            frameComponentList.next()
 
-        textComponentList = self.falagardElement.getTextComponentPointers()
-        for textComponent in textComponentList:
-            self.createAndAddItem(textComponent)
+        textComponentList = self.falagardElement.getTextComponentIterator()
+        while not textComponentList.isAtEnd():
+            self.createAndAddItem(textComponentList.getCurrentValue())
+            textComponentList.next()
 
-        imageryComponentList = self.falagardElement.getImageryComponentPointers()
-        for imageryComponent in imageryComponentList:
-            self.createAndAddItem(imageryComponent)
+        imageryComponentList = self.falagardElement.getImageryComponentIterator()
+        while not imageryComponentList.isAtEnd():
+            self.createAndAddItem(imageryComponentList.getCurrentValue())
+            imageryComponentList.next()
+
 
     def createStateImageryChildren(self):
         """
         Creates and appends children items based on an ImagerySection.
         :return:
         """
-        layerSpecList = self.falagardElement.getLayerSpecificationPointers()
-        for layerSpec in layerSpecList:
-            self.createAndAddItem(layerSpec)
+        layerSpecList = self.falagardElement.getLayerIterator()
+        while not layerSpecList.isAtEnd():
+            self.createAndAddItem(layerSpecList.getCurrentValue())
+            layerSpecList.next()
 
     def createWidgetComponentChildren(self):
         """
@@ -216,6 +221,7 @@ class LookNFeelHierarchyItem(QtGui.QStandardItem):
         Creates and appends children items based on a LayerSpecification.
         :return:
         """
-        sectionSpecList = self.falagardElement.getSectionSpecificationPointers()
-        for sectionSpec in sectionSpecList:
-            self.createAndAddItem(sectionSpec)
+        sectionSpecList = self.falagardElement.getSectionIterator()
+        while not sectionSpecList.isAtEnd():
+            self.createAndAddItem(sectionSpecList.getCurrentValue())
+            sectionSpecList.next()
