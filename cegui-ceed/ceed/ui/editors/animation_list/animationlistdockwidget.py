@@ -2,11 +2,6 @@
 
 # Form implementation generated from reading ui file 'C:\Users\Iromys\Documents\GitHub\UIromy\cegui-ceed\ceed\ui\editors\animation_list\AnimationListDockWidget.ui'
 #
-<<<<<<< HEAD
-# Created: Fri Apr 03 20:18:18 2015
-=======
-# Created: Fri Apr 03 17:53:35 2015
->>>>>>> c571f43318051bacc0fbf7da05af203cfa97782a
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
