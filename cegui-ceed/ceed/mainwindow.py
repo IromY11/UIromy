@@ -194,7 +194,8 @@ class MainWindow(QtGui.QMainWindow):
         self.setupToolbars()
 
         self.restoreSettings()
-        self.openProject("C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
+        #self.openProject("C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
+        self.openProject("C:/Users/Iromys/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
         
 
     def setupActions(self):

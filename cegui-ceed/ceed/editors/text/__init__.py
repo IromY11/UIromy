@@ -54,7 +54,7 @@ class TextTabbedEditor(editors.TabbedEditor):
         self.textDocument.redoAvailable.connect(self.slot_redoAvailable)
 
         self.textDocument.contentsChanged.connect(self.slot_contentsChanged)
-        highlighter = XMLHighlighter(self.textDocument)
+        highlighter = editors.multi.XMLHighlighter(self.textDocument)
     def finalise(self):
         super(TextTabbedEditor, self).finalise()
 
