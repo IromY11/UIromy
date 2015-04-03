@@ -44,6 +44,15 @@ def declare(actionManager):
                      help_ = "Sets vertical alignment of all selected widgets to bottom.",
                      icon = QtGui.QIcon("icons/layout_editing/align_vbottom.png"))
 
+
+    cat.createAction(name = "distribute_hor", label = "Distribute horizontally",
+                     help_ = "Distribute selected items horizontally.",
+                     icon = QtGui.QIcon("icons/layout_editing/distribute_hor.png"))
+    cat.createAction(name = "distribute_ver", label = "Distribute vertically",
+                     help_ = "Distribute selected items vertically.",
+                     icon = QtGui.QIcon("icons/layout_editing/distribute_ver.png"))
+
+
     cat.createAction(name = "snap_grid", label = "Snap to &Grid",
                      help_ = "When resizing and moving widgets, if checked this makes sure they snap to a snap grid (see settings for snap grid related entries), also shows the snap grid if checked.",
                      icon = QtGui.QIcon("icons/layout_editing/snap_grid.png"),
@@ -58,6 +67,18 @@ def declare(actionManager):
                      help_ = "When moving widgets, if checked this makes sure they can move only along y-axis, also shows the y_drag if checked.",
                      icon = QtGui.QIcon("icons/layout_editing/y_drag.png"),
                      defaultShortcut = QtGui.QKeySequence(QtCore.Qt.Key_Y)).setCheckable(True)
+
+    align_inside_parent = cat.createAction(name = "align_inside_parent", label = "Align inside parent widget",
+                     help_ = "Align actions are done only inside the parent widget.",
+                     icon = QtGui.QIcon("icons/layout_editing/align_inside_parent.png"),
+                     defaultShortcut = QtGui.QKeySequence(QtCore.Qt.Key_P))
+    align_inside_parent.setCheckable(True)
+    align_inside_parent.setChecked(True)
+
+    cat.createAction(name = "align_selected_items", label = "align selected items",
+                     help_ = "Align actions are done according to the first item selected.",
+                     icon = QtGui.QIcon("icons/layout_editing/align_selected_items.png"),
+                     defaultShortcut = QtGui.QKeySequence(QtCore.Qt.Key_I)).setCheckable(True)
 
     absolute_mode = cat.createAction(
                      name = "absolute_mode", label = "&Absolute Resizing && Moving Deltas",

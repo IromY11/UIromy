@@ -657,10 +657,15 @@ class Manipulator(resizable.ResizableRectItem):
     def impl_paint(self, painter, option, widget):
         super(Manipulator, self).paint(painter, option, widget)
 
+
+
         if self.isSelected() or self.resizeInProgress or self.isAnyHandleSelected():
             baseSize = self.getBaseSize()
-            self.paintHorizontalGuides(baseSize, painter, option, widget)
-            self.paintVerticalGuides(baseSize, painter, option, widget)
+            widgetPosition = self.widget.getPosition()
+            widgetSize = self.widget.getSize()
+
+            ##self.paintHorizontalGuides(baseSize, painter, option, widget)
+            ##self.paintVerticalGuides(baseSize, painter, option, widget)
 
     def triggerPropertyManagerCallback(self, propertyNames):
         """Notify the property manager that the values of the given
