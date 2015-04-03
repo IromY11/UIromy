@@ -12,7 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>UIromy</Name>
     <RootNamespace>UIromy</RootNamespace>
-    <InterpreterId>{897fc960-b2d3-4156-8a97-c4a1bdb16189}</InterpreterId>
+    <InterpreterId>{dd24ba1f-8e3e-4dd2-897e-35dc8abf68dd}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -172,7 +172,7 @@
     <Compile Include="UIromy.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="{897fc960-b2d3-4156-8a97-c4a1bdb16189}\2.7" />
+    <InterpreterReference Include="{dd24ba1f-8e3e-4dd2-897e-35dc8abf68dd}\2.7" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
