@@ -880,16 +880,41 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
     def alignSelectionHorizontally(self, alignment):
         widgetPaths = []
         oldAlignments = {}
+        selection = self.selectedItems()
+        for item in selection:
+            if isinstance(item, widgethelpers.Manipulator):
+                widgetPath = item.widget.getNamePath()
+                print item.widget.getParentPixelSize().d_width, item.widget.getPixelSize().d_width
+                widgetPaths.append(widgetPath)
+                oldAlignments[widgetPath] = item.widget.getHorizontalAlignment()
+        if len(widgetPaths) > 0:
+            cmd = undo.HorizontalAlignCommand(self.visual, widgetPaths, oldAlignments, alignment)
+            self.visual.tabbedEditor.undoStack.push(cmd)
 
+
+    def myAlignSelectionHorizontally(self, alignment):
+        widgetPaths = []
+        oldPositions = {}
+        newPositions = {}
         selection = self.selectedItems()
         for item in selection:
             if isinstance(item, widgethelpers.Manipulator):
                 widgetPath = item.widget.getNamePath()
                 widgetPaths.append(widgetPath)
-                oldAlignments[widgetPath] = item.widget.getHorizontalAlignment()
-
+                newPositions[widgetPath] = oldPositions[widgetPath] = item.widget.getPosition()
+                if alignement == PyCEGUI.HA_LEFT:
+                    myTemp = 0
+                elif alignement == PyCEGUI.HA_CENTRE:
+                    myTemp = (item.widget.getParentPixelSize().d_width - item.widget.getPixelSize().d_width) / 2
+                elif alignement == PyCEGUI.HA_RIGHT:
+                    myTemp = (item.widget.getParentPixelSize().d_width - item.widget.getPixelSize().d_width)
+                if oldPositions[widgetPath].d_x.d_offset != 0:
+                    newPositions[widgetPath].d_x = PyCEGUI.UDim(0,myTemp)
+                else :
+                    newPositions[widgetPath].d_x = PyCEGUI.UDim(0,myTemp / item.widget.getParentPixelSize().d_width)
         if len(widgetPaths) > 0:
-            cmd = undo.HorizontalAlignCommand(self.visual, widgetPaths, oldAlignments, alignment)
+            cmd = undo.MoveCommand(self.visual, widgetPaths, oldPositions, newPositions)
+            #cmd = undo.HorizontalAlignCommand(self.visual, widgetPaths, oldAlignments, alignment)
             self.visual.tabbedEditor.undoStack.push(cmd)
 
     def alignSelectionVertically(self, alignment):
@@ -1239,11 +1264,43 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
         self.connectionGroup.add("layout/move_backward_in_parent_list", receiver = lambda: self.scene.moveSelectedWidgetsInParentWidgetLists(-1))
         self.connectionGroup.add("layout/move_forward_in_parent_list", receiver = lambda: self.scene.moveSelectedWidgetsInParentWidgetLists(1))
 
+        # toggling between x/y_drag
+        self.connectionGroup.add("layout/x_drag", receiver = lambda: self.changeXYDrag("y_drag"))
+        self.connectionGroup.add("layout/y_drag", receiver = lambda: self.changeXYDrag("x_drag"))
+
+        # toggling between align options
+        self.connectionGroup.add("layout/align_inside_parent", receiver = lambda: self.changeAlignOption("align_selected_items"))
+        self.connectionGroup.add("layout/align_selected_items", receiver = lambda: self.changeAlignOption("align_inside_parent"))
+
+    def changeXYDrag(self, mode):
+        if mode == "y_drag":
+            if action.getAction("layout/y_drag").isChecked():
+                action.getAction("layout/y_drag").setChecked(False)
+        else:
+            if action.getAction("layout/x_drag").isChecked():
+                action.getAction("layout/x_drag").setChecked(False)
+
+    def changeAlignOption(self, mode):
+        if mode == "align_inside_parent":
+            if action.getAction("layout/align_inside_parent").isChecked():
+                action.getAction("layout/align_inside_parent").setChecked(False)
+            else :
+                action.getAction("layout/align_selected_items").setChecked(True)
+        else:
+            if action.getAction("layout/align_selected_items").isChecked():
+                action.getAction("layout/align_selected_items").setChecked(False)
+            else :
+                action.getAction("layout/align_inside_parent").setChecked(True)
+
+
     def setupToolBar(self):
         self.toolBar = QtGui.QToolBar("Layout")
         self.toolBar.setObjectName("LayoutToolbar")
         self.toolBar.setIconSize(QtCore.QSize(32, 32))
 
+        self.toolBar.addAction(action.getAction("layout/align_inside_parent"))
+        self.toolBar.addAction(action.getAction("layout/align_selected_items"))
+        self.toolBar.addSeparator() # ---------------------------
         self.toolBar.addAction(self.alignHLeftAction)
         self.toolBar.addAction(self.alignHCentreAction)
         self.toolBar.addAction(self.alignHRightAction)
@@ -1252,6 +1309,9 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
         self.toolBar.addAction(self.alignVCentreAction)
         self.toolBar.addAction(self.alignVBottomAction)
         self.toolBar.addSeparator() # ---------------------------
+        self.toolBar.addAction(action.getAction("layout/distribute_hor"))
+        self.toolBar.addAction(action.getAction("layout/distribute_ver"))
+        self.toolBar.addSeparator() # ---------------------------
         self.toolBar.addAction(action.getAction("layout/x_drag"))
         self.toolBar.addAction(action.getAction("layout/y_drag"))
         self.toolBar.addAction(action.getAction("layout/snap_grid"))
@@ -1259,8 +1319,6 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
         self.toolBar.addAction(action.getAction("layout/abs_integers_mode"))
         self.toolBar.addAction(action.getAction("layout/normalise_position"))
         self.toolBar.addAction(action.getAction("layout/normalise_size"))
-        self.toolBar.addAction(action.getAction("layout/round_position"))
-        self.toolBar.addAction(action.getAction("layout/round_size"))
         self.toolBar.addSeparator() # ---------------------------
         self.toolBar.addAction(action.getAction("layout/move_backward_in_parent_list"))
         self.toolBar.addAction(action.getAction("layout/move_forward_in_parent_list"))
@@ -1269,6 +1327,9 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
     def rebuildEditorMenu(self, editorMenu):
         """Adds actions to the editor menu"""
         # similar to the toolbar, includes the focus filter box action
+        editorMenu.addAction(action.getAction("layout/align_inside_parent"))
+        editorMenu.addAction(action.getAction("layout/align_selected_items"))
+        editorMenu.addSeparator() # ---------------------------
         editorMenu.addAction(self.alignHLeftAction)
         editorMenu.addAction(self.alignHCentreAction)
         editorMenu.addAction(self.alignHRightAction)
@@ -1276,6 +1337,9 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
         editorMenu.addAction(self.alignVTopAction)
         editorMenu.addAction(self.alignVCentreAction)
         editorMenu.addAction(self.alignVBottomAction)
+        editorMenu.addSeparator() # ---------------------------*
+        editorMenu.addAction(action.getAction("layout/distribute_hor"))
+        editorMenu.addAction(action.getAction("layout/distribute_ver"))
         editorMenu.addSeparator() # ---------------------------
         editorMenu.addAction(action.getAction("layout/x_drag"))
         editorMenu.addAction(action.getAction("layout/y_drag"))
@@ -1284,8 +1348,6 @@ class VisualEditing(QtGui.QWidget, multi.EditMode):
         editorMenu.addAction(action.getAction("layout/abs_integers_mode"))
         editorMenu.addAction(action.getAction("layout/normalise_position"))
         editorMenu.addAction(action.getAction("layout/normalise_size"))
-        editorMenu.addAction(action.getAction("layout/round_position"))
-        editorMenu.addAction(action.getAction("layout/round_size"))
         editorMenu.addSeparator() # ---------------------------
         editorMenu.addAction(action.getAction("layout/move_backward_in_parent_list"))
         editorMenu.addAction(action.getAction("layout/move_forward_in_parent_list"))
