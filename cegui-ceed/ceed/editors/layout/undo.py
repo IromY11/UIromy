@@ -384,17 +384,16 @@ class HorizontalAlignCommand(commands.UndoCommand):
     """This command aligns selected widgets accordingly
     """
 
-    def __init__(self, visual, widgetPaths, oldAlignments, newAlignment):
+    def __init__(self, visual, widgetPaths, oldPositions, newPositions, alignment):
         super(HorizontalAlignCommand, self).__init__()
 
         self.visual = visual
-
+        
         self.widgetPaths = widgetPaths
-        self.oldAlignments = oldAlignments
-        self.newAlignment = newAlignment
-
+        self.newAlignment = alignment
+        self.newPositions = newPositions
+        self.oldPositions = oldPositions
         self.refreshText()
-
     def refreshText(self):
         alignStr = ""
         if self.newAlignment == PyCEGUI.HA_LEFT:
@@ -417,6 +416,7 @@ class HorizontalAlignCommand(commands.UndoCommand):
     def mergeWith(self, cmd):
         if self.widgetPaths == cmd.widgetPaths:
             self.newAlignment = cmd.newAlignment
+            self.newPositions = cmd.newPositions
             self.refreshText()
 
             return True
@@ -428,18 +428,22 @@ class HorizontalAlignCommand(commands.UndoCommand):
 
         for widgetPath in self.widgetPaths:
             widgetManipulator = self.visual.scene.getManipulatorByPath(widgetPath)
-            widgetManipulator.widget.setHorizontalAlignment(self.oldAlignments[widgetPath])
-            widgetManipulator.updateFromWidget()
-
-            widgetManipulator.triggerPropertyManagerCallback(set(["HorizontalAlignment"]))
+            #widgetManipulator.widget.setHorizontalAlignment(self.oldAlignments[widgetPath])
+            widgetManipulator.widget.setPosition(self.oldPositions[widgetPath])
+            widgetManipulator.update()
+            widgetManipulator.updateFromWidget(False,True)
+            widgetManipulator.triggerPropertyManagerCallback({"Position", "Area"})
+            #widgetManipulator.triggerPropertyManagerCallback(set(["HorizontalAlignment"]))
 
     def redo(self):
         for widgetPath in self.widgetPaths:
             widgetManipulator = self.visual.scene.getManipulatorByPath(widgetPath)
-            widgetManipulator.widget.setHorizontalAlignment(self.newAlignment)
-            widgetManipulator.updateFromWidget()
-
-            widgetManipulator.triggerPropertyManagerCallback(set(["HorizontalAlignment"]))
+            #widgetManipulator.widget.setHorizontalAlignment(self.newAlignment)
+            widgetManipulator.widget.setPosition(self.newPositions[widgetPath])
+            widgetManipulator.update()
+            widgetManipulator.updateFromWidget(False,True)
+            widgetManipulator.triggerPropertyManagerCallback({"Position", "Area"})
+            #widgetManipulator.triggerPropertyManagerCallback(set(["HorizontalAlignment"]))
 
         super(HorizontalAlignCommand, self).redo()
 
@@ -447,15 +451,15 @@ class VerticalAlignCommand(commands.UndoCommand):
     """This command aligns selected widgets accordingly
     """
 
-    def __init__(self, visual, widgetPaths, oldAlignments, newAlignment):
+    def __init__(self, visual, widgetPaths, oldPositions, newPositions, alignment):
         super(VerticalAlignCommand, self).__init__()
 
         self.visual = visual
-
+        
         self.widgetPaths = widgetPaths
-        self.oldAlignments = oldAlignments
-        self.newAlignment = newAlignment
-
+        self.newAlignment = alignment
+        self.newPositions = newPositions
+        self.oldPositions = oldPositions
         self.refreshText()
 
     def refreshText(self):
@@ -480,6 +484,7 @@ class VerticalAlignCommand(commands.UndoCommand):
     def mergeWith(self, cmd):
         if self.widgetPaths == cmd.widgetPaths:
             self.newAlignment = cmd.newAlignment
+            self.newPositions = cmd.newPositions
             self.refreshText()
 
             return True
@@ -491,21 +496,126 @@ class VerticalAlignCommand(commands.UndoCommand):
 
         for widgetPath in self.widgetPaths:
             widgetManipulator = self.visual.scene.getManipulatorByPath(widgetPath)
-            widgetManipulator.widget.setVerticalAlignment(self.oldAlignments[widgetPath])
-            widgetManipulator.updateFromWidget()
-
-            widgetManipulator.triggerPropertyManagerCallback(set(["VerticalAlignment"]))
+            widgetManipulator.widget.setPosition(self.oldPositions[widgetPath])
+            widgetManipulator.update()
+            widgetManipulator.updateFromWidget(False,True)
+            widgetManipulator.triggerPropertyManagerCallback({"Position", "Area"})
 
     def redo(self):
         for widgetPath in self.widgetPaths:
             widgetManipulator = self.visual.scene.getManipulatorByPath(widgetPath)
-            widgetManipulator.widget.setVerticalAlignment(self.newAlignment)
-            widgetManipulator.updateFromWidget()
-
-            widgetManipulator.triggerPropertyManagerCallback(set(["VerticalAlignment"]))
+            widgetManipulator.widget.setPosition(self.newPositions[widgetPath])
+            widgetManipulator.update()
+            widgetManipulator.updateFromWidget(False,True)
+            widgetManipulator.triggerPropertyManagerCallback({"Position", "Area"})
 
         super(VerticalAlignCommand, self).redo()
 
+class VerticalDistributeCommand(commands.UndoCommand):
+    """This command aligns selected widgets accordingly
+    """
+
+    def __init__(self, visual, widgetPaths, oldPositions, newPositions):
+        super(VerticalDistributeCommand, self).__init__()
+
+        self.visual = visual
+        
+        self.widgetPaths = widgetPaths
+        self.newPositions = newPositions
+        self.oldPositions = oldPositions
+        self.refreshText()
+
+    def refreshText(self):
+
+        if len(self.widgetPaths) == 1:
+            self.setText("Vertically distribute '%s'" % (self.widgetPaths[0]))
+        else:
+            self.setText("Vertically distribute %i widgets" % (len(self.widgetPaths)))
+
+    def id(self):
+        return idbase + 19
+
+    def mergeWith(self, cmd):
+        if self.widgetPaths == cmd.widgetPaths:
+            self.newPositions = cmd.newPositions
+            self.refreshText()
+
+            return True
+
+        return False
+
+    def undo(self):
+        super(VerticalDistributeCommand, self).undo()
+
+        for widgetPath in self.widgetPaths:
+            widgetManipulator = self.visual.scene.getManipulatorByPath(widgetPath)
+            widgetManipulator.widget.setPosition(self.oldPositions[widgetPath])
+            widgetManipulator.update()
+            widgetManipulator.updateFromWidget(False,True)
+            widgetManipulator.triggerPropertyManagerCallback({"Position", "Area"})
+
+    def redo(self):
+        for widgetPath in self.widgetPaths:
+            widgetManipulator = self.visual.scene.getManipulatorByPath(widgetPath)
+            widgetManipulator.widget.setPosition(self.newPositions[widgetPath])
+            widgetManipulator.update()
+            widgetManipulator.updateFromWidget(False,True)
+            widgetManipulator.triggerPropertyManagerCallback({"Position", "Area"})
+
+        super(VerticalDistributeCommand, self).redo()
+
+class HorizontalDistributeCommand(commands.UndoCommand):
+    """This command aligns selected widgets accordingly
+    """
+
+    def __init__(self, visual, widgetPaths, oldPositions, newPositions):
+        super(HorizontalDistributeCommand, self).__init__()
+
+        self.visual = visual
+        
+        self.widgetPaths = widgetPaths
+        self.newPositions = newPositions
+        self.oldPositions = oldPositions
+        self.refreshText()
+
+    def refreshText(self):
+
+        if len(self.widgetPaths) == 1:
+            self.setText("Horizontally distribute '%s'" % (self.widgetPaths[0]))
+        else:
+            self.setText("Horizontally distribute %i widgets" % (len(self.widgetPaths)))
+
+    def id(self):
+        return idbase + 19
+
+    def mergeWith(self, cmd):
+        if self.widgetPaths == cmd.widgetPaths:
+            self.newPositions = cmd.newPositions
+            self.refreshText()
+
+            return True
+
+        return False
+
+    def undo(self):
+        super(HorizontalDistributeCommand, self).undo()
+
+        for widgetPath in self.widgetPaths:
+            widgetManipulator = self.visual.scene.getManipulatorByPath(widgetPath)
+            widgetManipulator.widget.setPosition(self.oldPositions[widgetPath])
+            widgetManipulator.update()
+            widgetManipulator.updateFromWidget(False,True)
+            widgetManipulator.triggerPropertyManagerCallback({"Position", "Area"})
+
+    def redo(self):
+        for widgetPath in self.widgetPaths:
+            widgetManipulator = self.visual.scene.getManipulatorByPath(widgetPath)
+            widgetManipulator.widget.setPosition(self.newPositions[widgetPath])
+            widgetManipulator.update()
+            widgetManipulator.updateFromWidget(False,True)
+            widgetManipulator.triggerPropertyManagerCallback({"Position", "Area"})
+
+        super(HorizontalDistributeCommand, self).redo()
 
 class ReparentCommand(commands.UndoCommand):
     """This command changes parent of given windows

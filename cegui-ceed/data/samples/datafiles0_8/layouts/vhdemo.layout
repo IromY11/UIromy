@@ -2,11 +2,11 @@
 
 <GUILayout version="4" >
     <Window type="vhdemo/Image" name="Image" >
-        <Property name="Area" value="{{0.00078125,0},{0,0},{0.00078125,1024},{0,600}}" />
+        <Property name="Area" value="{{0,0},{0,0},{0,1024},{0,600}}" />
         <Property name="Image" value="menu/backgound" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Window type="vhdemo/ImageButton" name="newgame" >
-            <Property name="Area" value="{{0.0146484,0},{0.466667,0},{0.369141,0},{0.53,0}}" />
+            <Property name="Area" value="{{0,15},{0,280},{0,378},{0,318}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="New Game" />
             <Property name="HoverImage" value="menu/hover" />
@@ -16,7 +16,7 @@
             <Property name="PushedTextColour" value="FFFFFFFF" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame4" >
-            <Property name="Area" value="{{0.0146484,0},{0.691667,0},{0.369141,0},{0.755,0}}" />
+            <Property name="Area" value="{{0,15},{0,415},{0,378},{0,453}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Exit" />
             <Property name="HoverImage" value="menu/hover" />
@@ -26,7 +26,7 @@
             <Property name="PushedTextColour" value="FFFFFFFF" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame3" >
-            <Property name="Area" value="{{0.0146484,0},{0.616667,0},{0.369141,0},{0.68,0}}" />
+            <Property name="Area" value="{{0,15},{0,370},{0,378},{0,408}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Settings" />
             <Property name="HoverImage" value="menu/hover" />
@@ -36,7 +36,7 @@
             <Property name="PushedTextColour" value="FFFFFFFF" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame2" >
-            <Property name="Area" value="{{0.0146484,0},{0.541667,0},{0.369141,0},{0.605,0}}" />
+            <Property name="Area" value="{{0,15},{0,325},{0,378},{0,363}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Load Game" />
             <Property name="HoverImage" value="menu/hover" />

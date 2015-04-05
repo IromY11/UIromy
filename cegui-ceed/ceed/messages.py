@@ -65,3 +65,22 @@ def warning(app, parentWidget, title, message, token = None):
 
     if response == QtGui.QMessageBox.ButtonRole.RejectRole:
         app.qsettings.setValue(qsettingsKey, True)
+
+def info(app, parentWidget, title, message, token = None):
+    
+
+    if app is None:
+        app = QtGui.QApplication.instance()
+
+    if token is None:
+        token = hashlib.sha1(title + message).hexdigest()
+
+    dialog = QtGui.QMessageBox(parentWidget)
+
+    dialog.setIcon(QtGui.QMessageBox.Icon.Information)
+    dialog.setWindowTitle(title)
+    dialog.setText(message)
+
+    dialog.addButton("Ok", QtGui.QMessageBox.ButtonRole.AcceptRole)
+
+    response = dialog.exec_()

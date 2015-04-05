@@ -44,7 +44,9 @@ def declare(actionManager):
                      help_ = "Sets vertical alignment of all selected widgets to bottom.",
                      icon = QtGui.QIcon("icons/layout_editing/align_vbottom.png"))
 
-
+    cat.createAction(name = "show_guidelines", label = "Show Guide Lines",
+                     help_ = "show guide lines.",
+                     icon = QtGui.QIcon("icons/layout_editing/show_guidelines.png")).setCheckable(True)
     cat.createAction(name = "distribute_hor", label = "Distribute horizontally",
                      help_ = "Distribute selected items horizontally.",
                      icon = QtGui.QIcon("icons/layout_editing/distribute_hor.png"))

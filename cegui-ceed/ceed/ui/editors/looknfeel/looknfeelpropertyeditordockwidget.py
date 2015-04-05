@@ -2,6 +2,7 @@
 
 # Form implementation generated from reading ui file 'C:\Users\Iromys\Documents\GitHub\UIromy\cegui-ceed\ceed\ui\editors\looknfeel\LookNFeelPropertyEditorDockWidget.ui'
 #
+# Created: Mon Apr 06 00:41:55 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!

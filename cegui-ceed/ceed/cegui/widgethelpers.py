@@ -22,6 +22,7 @@ from PySide import QtCore
 from PySide import QtGui
 
 from ceed import resizable
+from ceed import action
 from ceed.cegui import qtgraphics
 import PyCEGUI
 
@@ -661,11 +662,9 @@ class Manipulator(resizable.ResizableRectItem):
 
         if self.isSelected() or self.resizeInProgress or self.isAnyHandleSelected():
             baseSize = self.getBaseSize()
-            widgetPosition = self.widget.getPosition()
-            widgetSize = self.widget.getSize()
-
-            ##self.paintHorizontalGuides(baseSize, painter, option, widget)
-            ##self.paintVerticalGuides(baseSize, painter, option, widget)
+            if action.getAction("layout/show_guidelines").isChecked():
+                self.paintHorizontalGuides(baseSize, painter, option, widget)
+                self.paintVerticalGuides(baseSize, painter, option, widget)
 
     def triggerPropertyManagerCallback(self, propertyNames):
         """Notify the property manager that the values of the given
