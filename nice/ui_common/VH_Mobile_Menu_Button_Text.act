@@ -1,0 +1,25 @@
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        --RELATIVEZ = 2.000000,
+        LUA = "world/_WW1/common/hud/UI_Common/VH_Mobile_Menu_Button_Text.tpl",
+        COMPONENTS =
+        {
+            {
+                NAME = "UIItemBasic",
+                UIItemBasic =
+                {
+                },
+            },
+			{                     
+                NAME = "UITextBox",
+                UITextBox =
+                {
+                },
+            },
+            
+        },
+    }
+}

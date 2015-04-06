@@ -1,0 +1,426 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<Screens_Chapter1 type="string" value="world/_WW1/common/hud/UI_MainMenu/Screen/Animation/Screens_Chapter1.png"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140602150459>
+				</D140602150459>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Screens_Chapter1"/>
+					<Element index="2" type="string" value="T_Ep1_Sq05_02"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="2">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="3">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="4">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="5">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="6">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="7">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="8">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="9">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="10">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="11">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="12">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="13">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="14">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="15">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="16">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="17">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="18">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="19">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="20">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="21">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="22">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="23">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="24">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="25">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="26">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="27">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="28">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="29">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="30">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="31">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="32">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="33">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="34">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="35">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="36">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="37">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="38">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="39">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="40">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="41">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="42">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="43">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="44">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="45">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="46">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="47">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="48">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="49">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="50">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="51">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="52">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="53">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="54">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="55">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="56">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="57">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="58">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="59">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="60">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="61">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="62">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="63">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="64">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="65">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="66">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="67">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="68">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="69">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="70">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="71">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="72">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="73">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="74">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="75">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="76">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="77">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="78">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="79">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="80">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="81">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="82">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="83">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="84">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="85">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="86">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="87">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="88">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="89">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="90">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="91">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="92">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="93">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="94">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="95">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="96">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="97">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="98">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="99">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="100">
+			<bones>
+			</bones>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="world/_ww1/common/hud/ui_mainmenu/screen/Animation/Screen_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="1.1050395965576"/>
+		<xMin type="number" value="-1.0775853395462"/>
+		<yMax type="number" value="0.56519198417664"/>
+		<yMin type="number" value="-0.54411208629608"/>
+	</aabb>
+</root>

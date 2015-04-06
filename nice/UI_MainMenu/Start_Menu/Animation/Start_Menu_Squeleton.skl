@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<root>
+	<BonesListT>
+		<Element index="1">
+			<AngleLocal type="number" value="0"/>
+			<Name type="string" value="Root"/>
+			<PosLocal type="vector" x="0" y="1" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<UID type="string" value="Bone_110316134524"/>
+		</Element>
+		<Element index="2">
+			<AngleLocal type="number" value="0"/>
+			<Name type="string" value="B_BG"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="Bone_110316134524"/>
+			<PosLocal type="vector" x="0" y="-0.62014800310135" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="4.8461109995842"/>
+			<UID type="string" value="D140522164421"/>
+		</Element>
+		<Element index="3">
+			<AngleLocal type="number" value="0"/>
+			<ForPatch type="boolean" value="false"/>
+			<Name type="string" value="B_Icon"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="D140522164421"/>
+			<PosLocal type="vector" x="-0.030213613063097" y="-0.0075071812607348" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="0.64662946611642"/>
+			<UID type="string" value="D140522164450"/>
+			<Zorder type="number" value="2"/>
+		</Element>
+		<Element index="4">
+			<AngleLocal type="number" value="0"/>
+			<Name type="string" value="B_Border"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="D140527090725"/>
+			<PosLocal type="vector" x="-0.0098414272069931" y="0.01514045894146" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="1.7947342061526"/>
+			<UID type="string" value="D140527085804"/>
+			<Zorder type="number" value="10"/>
+		</Element>
+		<Element index="5">
+			<AngleLocal type="number" value="0"/>
+			<ForPatch type="boolean" value="false"/>
+			<Name type="string" value="B_FX_01"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="D140527090725"/>
+			<PosLocal type="vector" x="0.1008548438549" y="-0.78080862760544" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="0.68632671013721"/>
+			<UID type="string" value="D140527085903"/>
+			<Zorder type="number" value="8"/>
+		</Element>
+		<Element index="6">
+			<AngleLocal type="number" value="90"/>
+			<ForPatch type="boolean" value="false"/>
+			<Name type="string" value="B_P1_01"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="D140527090725"/>
+			<PosLocal type="vector" x="-0.63535511493683" y="1.3471541404724" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="0.59105352694316"/>
+			<UID type="string" value="D140527085942"/>
+			<Zorder type="number" value="4"/>
+		</Element>
+		<Element index="7">
+			<AngleLocal type="number" value="-1.4210854715202e-014"/>
+			<ForPatch type="boolean" value="false"/>
+			<Name type="string" value="B_P1_02"/>
+			<ParentUID type="string" value="D140527085942"/>
+			<PosLocal type="vector" x="1" y="-3.6190395878836e-017" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="1.849302636355"/>
+			<UID type="string" value="D140527085947"/>
+			<Zorder type="number" value="4"/>
+		</Element>
+		<Element index="8">
+			<AngleLocal type="number" value="90"/>
+			<ForPatch type="boolean" value="false"/>
+			<Name type="string" value="B_P2_01"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="D140527090725"/>
+			<PosLocal type="vector" x="0.56972306966782" y="1.4375506639481" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="1.1145027139828"/>
+			<UID type="string" value="D140527090006"/>
+			<Zorder type="number" value="2"/>
+		</Element>
+		<Element index="9">
+			<AngleLocal type="number" value="16.593353837302"/>
+			<ForPatch type="boolean" value="false"/>
+			<Name type="string" value="B_P2_02"/>
+			<ParentUID type="string" value="D140527090006"/>
+			<PosLocal type="vector" x="1" y="-3.6190395878836e-017" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="1.8122811067277"/>
+			<UID type="string" value="D140527090011"/>
+			<Zorder type="number" value="2"/>
+		</Element>
+		<Element index="10">
+			<AngleLocal type="number" value="90"/>
+			<ForPatch type="boolean" value="false"/>
+			<Name type="string" value="B_Smok_01"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="D140527090725"/>
+			<PosLocal type="vector" x="-0.020813077688217" y="1.4969691038132" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="0.81331252376291"/>
+			<UID type="string" value="D140527090054"/>
+			<Zorder type="number" value="6"/>
+		</Element>
+		<Element index="11">
+			<AngleLocal type="number" value="0"/>
+			<Name type="string" value="B_Postcard_BG"/>
+			<ParentCut type="boolean" value="true"/>
+			<ParentUID type="string" value="D140522164421"/>
+			<PosLocal type="vector" x="0" y="0.62014806270599" z="0"/>
+			<Refs>
+			</Refs>
+			<RefsUID>
+			</RefsUID>
+			<ScaleX type="number" value="1.7375257730484"/>
+			<UID type="string" value="D140527090725"/>
+		</Element>
+	</BonesListT>
+	<MediaWidth type="number" value="1"/>
+	<Name type="string" value="Graphic_EmptyAnimation_Squeleton"/>
+	<PatchPointList>
+	</PatchPointList>
+	<PolylineDate type="number" value="140131143633"/>
+	<Ratio type="number" value="1"/>
+	<SubSqueleton>
+		<Element index="1">
+			<Name type="string" value="Full"/>
+			<SelectList>
+				<Bone_110316134524 type="boolean" value="true"/>
+				<D140522164421 type="boolean" value="true"/>
+				<D140522164450 type="boolean" value="true"/>
+				<D140527085804 type="boolean" value="true"/>
+				<D140527085903 type="boolean" value="true"/>
+				<D140527085942 type="boolean" value="true"/>
+				<D140527085947 type="boolean" value="true"/>
+				<D140527090006 type="boolean" value="true"/>
+				<D140527090011 type="boolean" value="true"/>
+				<D140527090054 type="boolean" value="true"/>
+				<D140527090725 type="boolean" value="true"/>
+			</SelectList>
+		</Element>
+	</SubSqueleton>
+	<UID type="string" value="Graphic_EmptyAnimation_Squeleton"/>
+	<ZoomOrigin type="vector" x="0" y="0" z="0"/>
+	<ZoomSize type="vector" x="1024" y="1024" z="1"/>
+</root>

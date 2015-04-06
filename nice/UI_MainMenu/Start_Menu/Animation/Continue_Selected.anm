@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<Mainmenu_buttons type="string" value="world/_WW1/common/hud/UI_MainMenu/Start_Menu/Animation/Mainmenu_buttons.tga"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140522164421>
+					<PosLocal type="vector" x="0.62901556491852" y="0.61660075187683" z="0"/>
+				</D140522164421>
+				<D140522164450>
+					<PosLocal type="vector" x="0.054701551795006" y="0.0056361914612353" z="0"/>
+				</D140522164450>
+				<D140527085804>
+					<PosLocal type="vector" x="0.22719849646091" y="-5.8612546920776" z="0"/>
+					<ScaleX type="number" value="0.15737471567377"/>
+					<ScaleY type="number" value="0.15737471567377"/>
+				</D140527085804>
+				<D140527085903>
+					<PosLocal type="vector" x="0.39663648605347" y="-5.0583429336548" z="0"/>
+					<ScaleX type="number" value="0.15737471567377"/>
+					<ScaleY type="number" value="0.15737471567377"/>
+				</D140527085903>
+				<D140527085942>
+					<PosLocal type="vector" x="0.22334912419319" y="-7.9889702796936" z="0"/>
+					<ScaleX type="number" value="0.15737471567377"/>
+					<ScaleY type="number" value="0.15737471567377"/>
+				</D140527085942>
+				<D140527085947>
+					<ScaleX type="number" value="0.15737471567377"/>
+					<ScaleY type="number" value="0.15737471567377"/>
+				</D140527085947>
+				<D140527090006>
+					<PosLocal type="vector" x="0.27726018428802" y="-7.5875163078308" z="0"/>
+					<ScaleX type="number" value="0.15737471567377"/>
+					<ScaleY type="number" value="0.15737471567377"/>
+					<Zorder type="number" value="4"/>
+				</D140527090006>
+				<D140527090011>
+					<ScaleX type="number" value="0.15737471567377"/>
+					<ScaleY type="number" value="0.15737471567377"/>
+					<Zorder type="number" value="4"/>
+				</D140527090011>
+				<D140527090054>
+					<PosLocal type="vector" x="0.34272468090057" y="-6.8849663734436" z="0"/>
+					<ScaleX type="number" value="0.15737471567377"/>
+					<ScaleY type="number" value="0.15737471567377"/>
+					<Zorder type="number" value="-4"/>
+				</D140527090054>
+				<D140527090725>
+					<AngleLocal type="number" value="86.668886079257"/>
+					<PosLocal type="vector" x="0.54418939352036" y="-0.43596881628036" z="0"/>
+					<ScaleX type="number" value="0.15737471567377"/>
+					<ScaleY type="number" value="0.15737471567377"/>
+				</D140527090725>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Mainmenu_buttons"/>
+					<Element index="2" type="string" value="T_BG_Selected"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="Mainmenu_buttons"/>
+					<Element index="2" type="string" value="T_Continue"/>
+				</Element>
+			</fpl>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="world/_ww1/common/hud/ui_mainmenu/start_menu/Animation/Start_Menu_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="5.6228427886963"/>
+		<xMin type="number" value="-0.41786998510361"/>
+		<yMax type="number" value="0.73194062709808"/>
+		<yMin type="number" value="-1"/>
+	</aabb>
+</root>

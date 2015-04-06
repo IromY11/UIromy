@@ -1,0 +1,19 @@
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        --RELATIVEZ = 2.000000,
+        LUA = "world/_WW1/common/hud/UI_Common/W1W_Mobile_Button_ChapterBack.tpl",
+        COMPONENTS =
+        {    
+            {
+                NAME = "UIItemBasic",
+                UIItemBasic =
+                {
+                    cursorAngle = 1.570, --90
+                },
+            },		
+        },
+    }
+}

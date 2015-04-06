@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<Screens_Chapter1 type="string" value="world/_WW1/common/hud/UI_MainMenu/Screen/Animation/Screens_Chapter1.png"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140602150459>
+				</D140602150459>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Screens_Chapter1"/>
+					<Element index="2" type="string" value="T_Ep1_Sq01_02"/>
+				</Element>
+			</fpl>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="world/_ww1/common/hud/ui_mainmenu/screen/Animation/Screen_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="1.1050395965576"/>
+		<xMin type="number" value="-1.0775853395462"/>
+		<yMax type="number" value="0.56519198417664"/>
+		<yMin type="number" value="-0.54411208629608"/>
+	</aabb>
+</root>

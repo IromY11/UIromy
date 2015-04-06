@@ -1,0 +1,8 @@
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        LUA = "world/_ww1/common/hud/ui_mainmenu/start_menu/chapter_03.tpl",
+	}
+}

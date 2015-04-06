@@ -1,0 +1,464 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<Shop_Buttons type="string" value="world/_WW1/common/hud/UI_MainMenu/Start_Menu/Animation/Shop_Buttons.tga"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140522164421>
+					<PosLocal type="vector" x="0.098155967891216" y="0.22435647249222" z="0"/>
+					<ScaleX type="number" value="0.29476318526076"/>
+					<ScaleY type="number" value="0.29476318526076"/>
+				</D140522164421>
+				<D140522164450>
+					<PosLocal type="vector" x="-0.038501162081957" y="1.3502513170242" z="0"/>
+					<ScaleX type="number" value="1.7206101568162"/>
+					<ScaleY type="number" value="1.7206101568162"/>
+				</D140522164450>
+				<D140527085804>
+					<PosLocal type="vector" x="0.0042268224060535" y="0.24970312416553" z="0"/>
+				</D140527085804>
+				<D140527085903>
+					<PosLocal type="vector" x="-7.4505805969238e-009" y="0.67868381738663" z="0"/>
+				</D140527085903>
+				<D140527085942>
+					<AngleLocal type="number" value="-77.172688956806"/>
+					<PosLocal type="vector" x="-0.52712512016296" y="-0.83023428916931" z="0"/>
+				</D140527085942>
+				<D140527085947>
+				</D140527085947>
+				<D140527090006>
+					<AngleLocal type="number" value="59.553510637281"/>
+					<PosLocal type="vector" x="0.11756026744843" y="-1.0674443244934" z="0"/>
+					<ScaleX type="number" value="0.39927583575854"/>
+					<ScaleY type="number" value="0.39927583575854"/>
+				</D140527090006>
+				<D140527090011>
+					<ScaleX type="number" value="0.39927583575854"/>
+					<ScaleY type="number" value="0.39927583575854"/>
+				</D140527090011>
+				<D140527090054>
+					<AngleLocal type="number" value="54.563305804732"/>
+					<PosLocal type="vector" x="0.36405768990517" y="-0.85000193119049" z="0"/>
+				</D140527090054>
+				<D140527090725>
+					<ScaleX type="number" value="0.53202062902794"/>
+					<ScaleY type="number" value="0.53202062902794"/>
+				</D140527090725>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Coll_encart_Stand"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="2">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="3">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="4">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="5">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="6">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="7">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="8">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="9">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="10">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="11">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="12">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="13">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="14">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="15">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="16">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="17">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="18">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="19">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="20">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="21">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="22">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="23">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="24">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="25">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="26">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="27">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="28">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="29">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="30">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="31">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="32">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="33">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="34">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="35">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="36">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="37">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="38">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="39">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="40">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="41">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="42">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="43">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="44">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="45">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="46">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="47">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="48">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="49">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="50">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="51">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="52">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="53">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="54">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="55">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="56">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="57">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="58">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="59">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="60">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="61">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="62">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="63">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="64">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="65">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="66">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="67">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="68">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="69">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="70">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="71">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="72">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="73">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="74">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="75">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="76">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="77">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="78">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="79">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="80">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="81">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="82">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="83">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="84">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="85">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="86">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="87">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="88">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="89">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="90">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="91">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="92">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="93">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="94">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="95">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="96">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="97">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="98">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="99">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="100">
+			<bones>
+			</bones>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="world/_ww1/common/hud/ui_mainmenu/start_menu/Animation/Start_Menu_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="2.32066655159"/>
+		<xMin type="number" value="-2.3348996639252"/>
+		<yMax type="number" value="0.78570735454559"/>
+		<yMin type="number" value="-0.90245819091797"/>
+	</aabb>
+</root>

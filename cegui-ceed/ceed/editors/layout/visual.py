@@ -822,12 +822,13 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
 
     It renders CEGUI on it's background and outlines (via Manipulators) in front of it.
     """
-
+    
     def __init__(self, visual):
         super(EditingScene, self).__init__(mainwindow.MainWindow.instance.ceguiInstance)
 
         self.visual = visual
         self.rootManipulator = None
+        firstSelected = None
 
         self.ignoreSelectionChanges = False
         self.selectionChanged.connect(self.slot_selectionChanged)
@@ -891,43 +892,67 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
             cmd = undo.HorizontalAlignCommand(self.visual, widgetPaths, oldAlignments, alignment)
             self.visual.tabbedEditor.undoStack.push(cmd)
     def alignSelectionVertically(self, alignment):
-        widgetPaths = []
-        oldAlignments = {}
-
-        selection = self.selectedItems()
-        for item in selection:
-            if isinstance(item, widgethelpers.Manipulator):
-                widgetPath = item.widget.getNamePath()
-                widgetPaths.append(widgetPath)
-                oldAlignments[widgetPath] = item.widget.getVerticalAlignment()
-
-        if len(widgetPaths) > 0:
-            cmd = undo.VerticalAlignCommand(self.visual, widgetPaths, oldAlignments, alignment)
-            self.visual.tabbedEditor.undoStack.push(cmd)
-
-
-    def myAlignSelectionHorizontally(self, alignment):
+        def getSortKey(t):
+            return round((t.widget.getPosition().d_y.d_scale*t.widget.getParentPixelSize().d_height)+t.widget.getPosition().d_y.d_offset)
+        normalMode = action.getAction("layout/align_inside_parent").isChecked()
+        
         widgetPaths = []
         oldPositions = {}
         newPositions = {}
         selection = self.selectedItems()
+        if not normalMode and len(selection) < 2:
+            return 
         for item in selection:
             if isinstance(item, widgethelpers.Manipulator):
                 widgetPath = item.widget.getNamePath()
                 widgetPaths.append(widgetPath)
                 oldPositions[widgetPath] = item.widget.getPosition()
                 newPositions[widgetPath] = item.widget.getPosition()
-                myTemp = 0
-                if alignment == PyCEGUI.HA_CENTRE:
-                        myTemp = (item.widget.getParentPixelSize().d_width - item.widget.getPixelSize().d_width) / 2
-                elif alignment == PyCEGUI.HA_RIGHT:
-                        myTemp = (item.widget.getParentPixelSize().d_width - item.widget.getPixelSize().d_width)
-                if oldPositions[widgetPath].d_x.d_offset != 0 or oldPositions[widgetPath].d_y.d_offset != 0:
-                        newPositions[widgetPath].d_x = PyCEGUI.UDim(0,myTemp)
-                else :
-                        newPositions[widgetPath].d_x = PyCEGUI.UDim(0,myTemp / item.widget.getParentPixelSize().d_width)
+                myTemp = 0 if normalMode else getSortKey(self.firstSeleceted)
                 
+                myVar = item.widget.getParentPixelSize().d_height if normalMode else self.firstSeleceted.widget.getPixelSize().d_height
+                if alignment == PyCEGUI.HA_CENTRE:
+                        myTemp += (myVar - item.widget.getPixelSize().d_height) / 2
+                elif alignment == PyCEGUI.HA_RIGHT:
+                        myTemp += (myVar - item.widget.getPixelSize().d_height)
+                
+                newPositions[widgetPath].d_y = PyCEGUI.UDim(0,myTemp)
                 newPositions[widgetPath] = undo.RoundPositionCommand.roundAbsolutePosition(newPositions[widgetPath])
+        
+                
+        if len(widgetPaths) > 0:
+            cmd = undo.VerticalAlignCommand(self.visual, widgetPaths, oldPositions, newPositions, alignment)
+            self.visual.tabbedEditor.undoStack.push(cmd)
+
+
+    def myAlignSelectionHorizontally(self, alignment):
+        def getSortKey(t):
+            return round((t.widget.getPosition().d_x.d_scale*t.widget.getParentPixelSize().d_width)+t.widget.getPosition().d_x.d_offset)
+        normalMode = action.getAction("layout/align_inside_parent").isChecked()
+        
+        widgetPaths = []
+        oldPositions = {}
+        newPositions = {}
+        selection = self.selectedItems()
+        if not normalMode and len(selection) < 2:
+            return 
+        for item in selection:
+            if isinstance(item, widgethelpers.Manipulator):
+                widgetPath = item.widget.getNamePath()
+                widgetPaths.append(widgetPath)
+                oldPositions[widgetPath] = item.widget.getPosition()
+                newPositions[widgetPath] = item.widget.getPosition()
+                myTemp = 0 if normalMode else getSortKey(self.firstSeleceted)
+                
+                myVar = item.widget.getParentPixelSize().d_width if normalMode else self.firstSeleceted.widget.getPixelSize().d_width
+                if alignment == PyCEGUI.HA_CENTRE:
+                        myTemp += (myVar - item.widget.getPixelSize().d_width) / 2
+                elif alignment == PyCEGUI.HA_RIGHT:
+                        myTemp += (myVar - item.widget.getPixelSize().d_width)
+                
+                newPositions[widgetPath].d_x = PyCEGUI.UDim(0,myTemp)
+                newPositions[widgetPath] = undo.RoundPositionCommand.roundAbsolutePosition(newPositions[widgetPath])
+        
                 
         if len(widgetPaths) > 0:
             cmd = undo.HorizontalAlignCommand(self.visual, widgetPaths, oldPositions, newPositions, alignment)
@@ -948,11 +973,7 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
                         myTemp = (item.widget.getParentPixelSize().d_height - item.widget.getPixelSize().d_height) / 2
                 elif alignment == PyCEGUI.VA_BOTTOM:
                         myTemp = (item.widget.getParentPixelSize().d_height - item.widget.getPixelSize().d_height)
-                if oldPositions[widgetPath].d_x.d_offset != 0 or oldPositions[widgetPath].d_y.d_offset != 0:
-                        newPositions[widgetPath].d_y = PyCEGUI.UDim(0,myTemp)
-                else :
-                        newPositions[widgetPath].d_y = PyCEGUI.UDim(0,myTemp / item.widget.getParentPixelSize().d_height)
-                
+                newPositions[widgetPath].d_y = PyCEGUI.UDim(0,myTemp)
                 newPositions[widgetPath] = undo.RoundPositionCommand.roundAbsolutePosition(newPositions[widgetPath])
                 
         if len(widgetPaths) > 0:
@@ -964,6 +985,7 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
     def distributeHorizontally(self):
         def getSortKey(t):
             return round((t.widget.getPosition().d_x.d_scale*t.widget.getParentPixelSize().d_width)+t.widget.getPosition().d_x.d_offset)
+        normalMode = action.getAction("layout/align_inside_parent").isChecked()
         widgetPaths = []
         oldPositions = {}
         newPositions = {}
@@ -972,43 +994,47 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
         selection = sorted(selection, key=getSortKey)
         sum = 0
         blank = 0
-        n = 1+len(selection)
+        i = 0
+        n = len(selection)
         parentSize = None
         parentSet = set([])
         for item in selection:
             if isinstance(item, widgethelpers.Manipulator):
-                #print round((item.widget.getPosition().d_x.d_scale*item.widget.getParentPixelSize().d_width)+item.widget.getPosition().d_x.d_offset)
                 widgetPath = item.widget.getNamePath()
                 widgetPaths.append(widgetPath)
                 oldPositions[widgetPath] = item.widget.getPosition()
                 newPositions[widgetPath] = item.widget.getPosition()
-                sum += item.widget.getPixelSize().d_width
+                if normalMode or (i>0 and i<n-1) :
+                    sum += item.widget.getPixelSize().d_width
                 parentSet.add(item.widget.getParent().getNamePath() if item.widget.getParent() is not None else None)
                 parentSize = item.widget.getParentPixelSize()
-        if len(parentSet)>1 :
+                i += 1
+        if normalMode and len(parentSet)>1 :
             messages.info(None, self.visual, "Selected items don't have the same parent widget",
                          "You can not perform this action because the seleted items"
                          "belong to different parent widgets !")
             return 
-        if parentSize is not None:
-            blank = math.floor((parentSize.d_width-sum)/n)
-        #print n,parentSize.d_width,sum
+        if n > 2:
+            blank = math.floor((getSortKey(selection[n-1])-getSortKey(selection[0])-selection[0].widget.getPixelSize().d_width-sum)/(n-1))
+        if normalMode and parentSize is not None:
+            blank = math.floor((parentSize.d_width-sum)/(n+1))
         mOffset = blank
+        if not normalMode:
+            mOffset += getSortKey(selection[0])+selection[0].widget.getPixelSize().d_width
+        i = 0
         for widgetPath in widgetPaths:
-            print mOffset
-            item = self.getManipulatorByPath(widgetPath)
-            newPositions[widgetPath].d_x = PyCEGUI.UDim(0,mOffset)
-            mOffset += item.widget.getPixelSize().d_width+blank
+            if normalMode or (i>0 and i<n-1) :
+                item = self.getManipulatorByPath(widgetPath)
+                newPositions[widgetPath].d_x = PyCEGUI.UDim(0,mOffset)
+                mOffset += item.widget.getPixelSize().d_width+blank
+            i += 1
 
         if len(widgetPaths) > 0:
             cmd = undo.HorizontalDistributeCommand(self.visual, widgetPaths, oldPositions, newPositions)
             self.visual.tabbedEditor.undoStack.push(cmd)
 
     def distributeVertically(self):
-        normalMode = action.getAction("layout/align_inside_parent").isChecked
-        print normalMode
-        if not action.getAction("layout/align_inside_parent").isChecked:
-            print "loooooooooooooooool"
+        normalMode = action.getAction("layout/align_inside_parent").isChecked()
         def getSortKey(t):
             return round((t.widget.getPosition().d_y.d_scale*t.widget.getParentPixelSize().d_height)+t.widget.getPosition().d_y.d_offset)
         widgetPaths = []
@@ -1041,7 +1067,7 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
                          "belong to different parent widgets !")
             return 
         if n > 2:
-            blank = math.floor((getSortKey(selection[n-1])-getSortKey(selection[0])-selection[0].widget.getPixelSize().d_height-sum)/(n-2))
+            blank = math.floor((getSortKey(selection[n-1])-getSortKey(selection[0])-selection[0].widget.getPixelSize().d_height-sum)/(n-1))
         if normalMode and parentSize is not None:
             blank = math.floor((parentSize.d_height-sum)/(n+1))
         mOffset = blank
@@ -1050,7 +1076,6 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
         i = 0
         for widgetPath in widgetPaths:
             if normalMode or (i>0 and i<n-1) :
-                print mOffset
                 item = self.getManipulatorByPath(widgetPath)
                 newPositions[widgetPath].d_y = PyCEGUI.UDim(0,mOffset)
                 mOffset += item.widget.getPixelSize().d_height+blank
@@ -1178,6 +1203,8 @@ class EditingScene(cegui_widgethelpers.GraphicsScene):
 
     def slot_selectionChanged(self):
         selection = self.selectedItems()
+        if len(selection) == 1:
+            self.firstSeleceted = selection[0]
 
         sets = []
         for item in selection:

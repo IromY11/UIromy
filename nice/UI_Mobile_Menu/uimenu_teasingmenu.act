@@ -1,0 +1,18 @@
+params =
+{
+    NAME = "Actor",
+    Actor =
+    {
+        LUA = "world/_ww1/common/hud/ui_mobile_menu/uimenu_teasingmenu.tpl",
+		COMPONENTS =
+        {
+			{
+                NAME = "W1W_TeasingMenu",
+                W1W_TeasingMenu =
+                {
+                    afxDuration = 0,
+                },
+            },
+        },
+    },
+}

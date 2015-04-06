@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<Shop_Buttons type="string" value="world/_WW1/common/hud/UI_MainMenu/Start_Menu/Animation/Shop_Buttons.tga"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140522164421>
+					<PosLocal type="vector" x="0.052018240094185" y="0.62014800310135" z="0"/>
+				</D140522164421>
+				<D140522164450>
+				</D140522164450>
+				<D140527085804>
+					<PosLocal type="vector" x="0.80956852436066" y="-0.41117352247238" z="0"/>
+				</D140527085804>
+				<D140527085903>
+					<PosLocal type="vector" x="-0.0041516423225403" y="0.2957563996315" z="0"/>
+				</D140527085903>
+				<D140527085942>
+					<AngleLocal type="number" value="-78.967199622959"/>
+					<PosLocal type="vector" x="0.65595799684525" y="-1.1685982942581" z="0"/>
+				</D140527085942>
+				<D140527085947>
+				</D140527085947>
+				<D140527090006>
+					<AngleLocal type="number" value="-99.367423832974"/>
+					<PosLocal type="vector" x="-0.75559723377228" y="-1.5653446912766" z="0"/>
+				</D140527090006>
+				<D140527090011>
+				</D140527090011>
+				<D140527090054>
+					<AngleLocal type="number" value="-101.23687632621"/>
+					<PosLocal type="vector" x="0.1619136929512" y="-1.5437039136887" z="0"/>
+				</D140527090054>
+				<D140527090725>
+					<PosLocal type="vector" x="0.28579726815224" y="-0.56987202167511" z="0"/>
+				</D140527090725>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Chapter_02"/>
+				</Element>
+			</fpl>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="world/_ww1/common/hud/ui_mainmenu/start_menu/Animation/Start_Menu_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="4.8981289863586"/>
+		<xMin type="number" value="-0.067957557737827"/>
+		<yMax type="number" value="0.54317378997803"/>
+		<yMin type="number" value="-1.2905924320221"/>
+	</aabb>
+</root>

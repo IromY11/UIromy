@@ -1,0 +1,1293 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<Chapters_Buttons type="string" value="world/_WW1/common/hud/UI_MainMenu/Start_Menu/Animation/Chapters_Buttons.tga"/>
+		<Shop_Buttons type="string" value="world/_WW1/common/hud/UI_MainMenu/Start_Menu/Animation/Shop_Buttons.tga"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140522164421>
+					<ScaleX type="number" value="0.29456105560827"/>
+					<ScaleY type="number" value="0.29456105560827"/>
+				</D140522164421>
+				<D140522164450>
+				</D140522164450>
+				<D140527085804>
+				</D140527085804>
+				<D140527085903>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+				<D140527085942>
+				</D140527085942>
+				<D140527085947>
+				</D140527085947>
+				<D140527090006>
+				</D140527090006>
+				<D140527090011>
+				</D140527090011>
+				<D140527090054>
+					<Alpha type="number" value="-1"/>
+				</D140527090054>
+				<D140527090725>
+					<ScaleX type="number" value="1.0116970467807"/>
+					<ScaleY type="number" value="1.0116970467807"/>
+				</D140527090725>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_Border"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_P1"/>
+				</Element>
+				<Element index="3">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_P2"/>
+				</Element>
+				<Element index="4">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_Smok"/>
+				</Element>
+				<Element index="5">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_01"/>
+				</Element>
+				<Element index="6">
+					<Element index="1" type="string" value="Chapters_Buttons"/>
+					<Element index="2" type="string" value="T_BG_Black"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="2">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="3">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="4">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="5">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="6">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="7">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="8">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="9">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="10">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="11">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="12">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="13">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="14">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="15">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="16">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="17">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="18">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="19">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="20">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="21">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="22">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="23">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="24">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="25">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="26">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="27">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="28">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="29">
+			<bones>
+				<D140527085903>
+					<Alpha type="number" value="-1"/>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+				<D140527085942>
+					<AngleLocal type="number" value="-2.177239621497"/>
+				</D140527085942>
+				<D140527085947>
+					<AngleLocal type="number" value="-5.0822556578291"/>
+				</D140527085947>
+				<D140527090006>
+					<AngleLocal type="number" value="1.3150964949947"/>
+				</D140527090006>
+				<D140527090011>
+					<AngleLocal type="number" value="4.5477808450798"/>
+				</D140527090011>
+			</bones>
+		</Element>
+		<Element index="30">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="31">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="32">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="33">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="34">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="35">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="36">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="37">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="38">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="39">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="40">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="41">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="42">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="43">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="44">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="45">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="46">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="47">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="48">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="49">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="50">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="51">
+			<bones>
+				<D140527085942>
+					<AngleLocal type="number" value="-2.8647889756541"/>
+				</D140527085942>
+				<D140527085947>
+					<AngleLocal type="number" value="-6.6871784971434"/>
+				</D140527085947>
+				<D140527090006>
+					<AngleLocal type="number" value="1.7303901249931"/>
+				</D140527090006>
+				<D140527090011>
+					<AngleLocal type="number" value="5.9839221645787"/>
+				</D140527090011>
+			</bones>
+		</Element>
+		<Element index="52">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="53">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="54">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="55">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="56">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="57">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="58">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="59">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="60">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="61">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="62">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="63">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="64">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="65">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="66">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="67">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="68">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="69">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="70">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="71">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="72">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="73">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="74">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="75">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="76">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="77">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="78">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="79">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="80">
+			<bones>
+				<D140527085903>
+					<Alpha type="number" value="-1"/>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+			</bones>
+		</Element>
+		<Element index="81">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="82">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="83">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="84">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="85">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="86">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="87">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="88">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="89">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="90">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="91">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="92">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="93">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="94">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="95">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="96">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="97">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="98">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="99">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="100">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="101">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="102">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="103">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="104">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="105">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="106">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="107">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="108">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="109">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="110">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="111">
+			<bones>
+				<D140527085903>
+					<Alpha type="number" value="-0.40666666666667"/>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+			</bones>
+		</Element>
+		<Element index="112">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="113">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="114">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="115">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="116">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="117">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="118">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="119">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140522164421>
+					<ScaleX type="number" value="0.29456105560827"/>
+					<ScaleY type="number" value="0.29456105560827"/>
+				</D140522164421>
+				<D140522164450>
+				</D140522164450>
+				<D140527085804>
+				</D140527085804>
+				<D140527085903>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+				<D140527085942>
+					<AngleLocal type="number" value="-4.5836623610465"/>
+				</D140527085942>
+				<D140527085947>
+					<AngleLocal type="number" value="-8.4060518825359"/>
+				</D140527085947>
+				<D140527090006>
+					<AngleLocal type="number" value="4.0337380451169"/>
+				</D140527090006>
+				<D140527090011>
+					<AngleLocal type="number" value="8.2872700847026"/>
+				</D140527090011>
+				<D140527090054>
+					<Alpha type="number" value="-1"/>
+				</D140527090054>
+				<D140527090725>
+					<ScaleX type="number" value="1.0116970467807"/>
+					<ScaleY type="number" value="1.0116970467807"/>
+				</D140527090725>
+			</bones>
+		</Element>
+		<Element index="120">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140522164421>
+					<ScaleX type="number" value="0.29456105560827"/>
+					<ScaleY type="number" value="0.29456105560827"/>
+				</D140522164421>
+				<D140522164450>
+					<AngleLocal type="number" value="90"/>
+					<PosLocal type="vector" x="1.0258530378342" y="0.5619540810585" z="0"/>
+					<ScaleX type="number" value="0.90151226274771"/>
+					<ScaleY type="number" value="0.90151226274771"/>
+				</D140522164450>
+				<D140527085804>
+				</D140527085804>
+				<D140527085942>
+					<PosLocal type="vector" x="-0.084930896759033" y="-0.79144066572189" z="0"/>
+					<ScaleX type="number" value="0.67860695800387"/>
+					<ScaleY type="number" value="0.67860695800387"/>
+				</D140527085942>
+				<D140527085947>
+					<AngleLocal type="number" value="-6.2819141986352"/>
+					<ScaleX type="number" value="0.80690159770107"/>
+					<ScaleY type="number" value="0.80690159770106"/>
+				</D140527085947>
+				<D140527090006>
+					<AngleLocal type="number" value="4.3496184892507"/>
+					<PosLocal type="vector" x="-0.38369402289391" y="-0.010399341583252" z="0"/>
+					<ScaleX type="number" value="0.57085328421363"/>
+					<ScaleY type="number" value="0.57085328421363"/>
+					<Zorder type="number" value="4"/>
+				</D140527090006>
+				<D140527090011>
+					<AngleLocal type="number" value="-24.866151983921"/>
+					<ScaleX type="number" value="0.60069240604957"/>
+					<ScaleY type="number" value="0.60069240604957"/>
+					<Zorder type="number" value="4"/>
+				</D140527090011>
+				<D140527090054>
+					<Alpha type="number" value="-0.33333333333333"/>
+					<AngleLocal type="number" value="-0.94478095366169"/>
+					<ScaleX type="number" value="0.78691119614976"/>
+					<ScaleY type="number" value="0.92395725685881"/>
+					<Zorder type="number" value="1"/>
+				</D140527090054>
+				<D140527090725>
+					<ScaleX type="number" value="0.9667583154673"/>
+					<ScaleY type="number" value="0.9667583154673"/>
+				</D140527090725>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_Border"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="Shop_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_Smok"/>
+				</Element>
+				<Element index="3">
+					<Element index="1" type="string" value="Chapters_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_P3"/>
+				</Element>
+				<Element index="4">
+					<Element index="1" type="string" value="Chapters_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_02"/>
+				</Element>
+				<Element index="5">
+					<Element index="1" type="string" value="Chapters_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_P5"/>
+				</Element>
+				<Element index="6">
+					<Element index="1" type="string" value="Chapters_Buttons"/>
+					<Element index="2" type="string" value="T_Postcard_P4"/>
+				</Element>
+				<Element index="7">
+					<Element index="1" type="string" value="Chapters_Buttons"/>
+					<Element index="2" type="string" value="T_BG_Black"/>
+				</Element>
+			</fpl>
+		</Element>
+		<Element index="121">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="122">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="123">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="124">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="125">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="126">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="127">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="128">
+			<bones>
+				<D140527085903>
+					<Alpha type="number" value="-0.19333333333333"/>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+			</bones>
+		</Element>
+		<Element index="129">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="130">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="131">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="132">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="133">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="134">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="135">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="136">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="137">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="138">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="139">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="140">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="141">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="142">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="143">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="144">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="145">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="146">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="147">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="148">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="149">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="150">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="151">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="152">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="153">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="154">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="155">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="156">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="157">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="158">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="159">
+			<bones>
+				<D140527085903>
+					<Alpha type="number" value="-1"/>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+			</bones>
+		</Element>
+		<Element index="160">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="161">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="162">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="163">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="164">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="165">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="166">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="167">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="168">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="169">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="170">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="171">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="172">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="173">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="174">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="175">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="176">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="177">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="178">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="179">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="180">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="181">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="182">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="183">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="184">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="185">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="186">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="187">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="188">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="189">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="190">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="191">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="192">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="193">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="194">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="195">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="196">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="197">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="198">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="199">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="200">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="201">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="202">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="203">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="204">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="205">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="206">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="207">
+			<bones>
+				<D140522164450>
+					<AngleLocal type="number" value="90"/>
+					<PosLocal type="vector" x="1.0258530378342" y="-0.72604554891586" z="0"/>
+					<ScaleX type="number" value="1.0286362817168"/>
+					<ScaleY type="number" value="1.0286362817168"/>
+				</D140522164450>
+				<D140527085942>
+					<PosLocal type="vector" x="-0.084930896759033" y="-1.3146938085556" z="0"/>
+					<ScaleX type="number" value="0.80690159770106"/>
+					<ScaleY type="number" value="0.80690159770106"/>
+				</D140527085942>
+				<D140527090006>
+					<AngleLocal type="number" value="-0.24556061139647"/>
+					<PosLocal type="vector" x="-0.38369402289391" y="-0.010399341583252" z="0"/>
+					<ScaleX type="number" value="0.66156384531846"/>
+					<ScaleY type="number" value="0.66156384531846"/>
+					<Zorder type="number" value="4"/>
+				</D140527090006>
+				<D140527090011>
+					<AngleLocal type="number" value="-29.461331084568"/>
+					<ScaleX type="number" value="0.69614450680998"/>
+					<ScaleY type="number" value="0.69614450680998"/>
+					<Zorder type="number" value="4"/>
+				</D140527090011>
+				<D140527090054>
+					<Alpha type="number" value="-0.33333333333333"/>
+					<AngleLocal type="number" value="-0.94478095366169"/>
+					<ScaleX type="number" value="1.0449286718194"/>
+					<ScaleY type="number" value="0.99207902784348"/>
+					<Zorder type="number" value="1"/>
+				</D140527090054>
+			</bones>
+		</Element>
+		<Element index="208">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="209">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="210">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="211">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="212">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="213">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="214">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="215">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="216">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="217">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="218">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="219">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="220">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="221">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="222">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="223">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="224">
+			<bones>
+				<D140527085903>
+					<Alpha type="number" value="-1"/>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+			</bones>
+		</Element>
+		<Element index="225">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="226">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="227">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="228">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="229">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="230">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="231">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="232">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="233">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="234">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="235">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="236">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="237">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="238">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="239">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="240">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="241">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="242">
+			<bones>
+			</bones>
+		</Element>
+		<Element index="243">
+			<bones>
+				<D140522164450>
+					<AngleLocal type="number" value="90"/>
+					<PosLocal type="vector" x="1.0258530378342" y="-0.94071215391159" z="0"/>
+					<ScaleX type="number" value="1.0286362817168"/>
+					<ScaleY type="number" value="1.0286362817168"/>
+				</D140522164450>
+				<D140527085903>
+					<PosLocal type="vector" x="-0.034586794674397" y="0.75929647684097" z="0"/>
+					<ScaleX type="number" value="3.496200656265"/>
+					<ScaleY type="number" value="3.496200656265"/>
+					<Zorder type="number" value="1"/>
+				</D140527085903>
+				<D140527085942>
+					<PosLocal type="vector" x="-0.084930896759033" y="-1.3866410255432" z="0"/>
+					<ScaleX type="number" value="0.80690159770106"/>
+					<ScaleY type="number" value="0.80690159770106"/>
+				</D140527085942>
+				<D140527090006>
+					<AngleLocal type="number" value="-0.81851840652729"/>
+					<PosLocal type="vector" x="-0.38369402289391" y="-0.010399341583252" z="0"/>
+					<ScaleX type="number" value="0.6729108948351"/>
+					<ScaleY type="number" value="0.6729108948351"/>
+					<Zorder type="number" value="4"/>
+				</D140527090006>
+				<D140527090011>
+					<AngleLocal type="number" value="-30.034288879699"/>
+					<ScaleX type="number" value="0.70808467894213"/>
+					<ScaleY type="number" value="0.70808467894213"/>
+					<Zorder type="number" value="4"/>
+				</D140527090011>
+				<D140527090054>
+					<Alpha type="number" value="-0.33333333333333"/>
+					<AngleLocal type="number" value="-0.94478095366169"/>
+					<ScaleX type="number" value="1.0138352110419"/>
+					<ScaleY type="number" value="1.0225052450476"/>
+					<Zorder type="number" value="1"/>
+				</D140527090054>
+			</bones>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="world/_ww1/common/hud/ui_mainmenu/start_menu/Animation/Start_Menu_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="2.5160250663757"/>
+		<xMin type="number" value="-1.8637710809708"/>
+		<yMax type="number" value="1.2456901073456"/>
+		<yMin type="number" value="-2.435818195343"/>
+	</aabb>
+</root>

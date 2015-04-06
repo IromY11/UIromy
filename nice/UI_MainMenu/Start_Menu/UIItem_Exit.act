@@ -1,0 +1,31 @@
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        --RELATIVEZ = 2.000000,
+        LUA = "world/_ww1/common/hud/ui_mainmenu/start_menu/UIItem_Exit.tpl",
+        COMPONENTS =
+        {
+            {
+                NAME = "UIItemBasic",
+                UIItemBasic =
+                {
+                    transition = 0,
+                    screenSpace = vector2dNew(1280.000000,720.000000),
+                },
+            },
+			{                     
+                NAME = "UITextBox",
+                UITextBox =
+                {
+                    style=4,
+					scaleToMatchWithArea=1,
+					area=vector2dNew(240,32),
+					--Offset = vector2dNew(100.0, 0.0),
+                },
+            },
+            
+        },
+    }
+}

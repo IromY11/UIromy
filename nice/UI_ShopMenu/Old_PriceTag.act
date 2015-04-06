@@ -1,0 +1,41 @@
+
+act_path_texture = "world/_WW1/common/hud/UI_Textures/UI_Shop_PriceTag.png"
+
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+       -- SCALE = vector2dNew(1.0,1.0),
+        LUA = "world/_WW1/common/hud/UI_ShopMenu/Old_PriceTag.tpl",
+        COMPONENTS =
+        {
+            {
+                NAME = "TextureGraphicComponent",
+                TextureGraphicComponent =
+                {
+					disableLight = 0,
+                    material =
+                    {
+                        GFXMaterialSerializable =
+                        {
+                            textureSet =
+                            {
+                                GFXMaterialTexturePathSet =
+                                {
+                                    diffuse = act_path_texture,
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+			{                     
+                NAME = "UITextBox",
+                UITextBox =
+                {
+                },
+            },			
+        },
+    },
+}

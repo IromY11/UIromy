@@ -1,0 +1,1249 @@
+<?xml version="1.0"?>
+<root>
+	<List>
+		<T_BG_Selected>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.06543" y="0.230469" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.06543" y="0.230469" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.475109" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B65FD0" />
+					<Name type="string" value="b_bg" />
+					<UID type="string" value="08B9C440" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6CE60" index="1" />
+						<Element type="string" value="08B6CE90" index="2" />
+						<Element type="string" value="08B6CEC0" index="3" />
+						<Element type="string" value="08B6CEF0" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.00037483" y="0.159239" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CE60" />
+					<BrotherUID type="string" value="08B9C440" />
+					<TemplateUID type="string" value="08B65FD0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C440" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.136927" y="0.0712303" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.000374193" y="0.301501" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CE90" />
+					<BrotherUID type="string" value="08B9C440" />
+					<TemplateUID type="string" value="08B65FD0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C440" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.136928" y="-0.0710324" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.549604" y="0.15709" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CEC0" />
+					<BrotherUID type="string" value="08B9C440" />
+					<TemplateUID type="string" value="08B65FD0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C440" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="1.01908" y="0.0733787" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.549604" y="0.302575" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CEF0" />
+					<BrotherUID type="string" value="08B9C440" />
+					<TemplateUID type="string" value="08B65FD0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C440" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="1.01908" y="-0.0721067" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B65FD0" />
+			<Name type="string" value="T_BG_Selected" />
+		</T_BG_Selected>
+		<T_BG_Stand>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.0673832" y="0.38524" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.0673832" y="0.38524" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.475109" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B65E70" />
+					<Name type="string" value="b_bg" />
+					<UID type="string" value="08B9C380" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6CC80" index="1" />
+						<Element type="string" value="08B6CCB0" index="2" />
+						<Element type="string" value="08B6CCE0" index="3" />
+						<Element type="string" value="08B6CD10" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.000895743" y="0.314875" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CC80" />
+					<BrotherUID type="string" value="08B9C380" />
+					<TemplateUID type="string" value="08B65E70" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C380" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.139941" y="0.070365" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.000894873" y="0.455289" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CCB0" />
+					<BrotherUID type="string" value="08B9C380" />
+					<TemplateUID type="string" value="08B65E70" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C380" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.139943" y="-0.0700495" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.555891" y="0.312726" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CCE0" />
+					<BrotherUID type="string" value="08B9C380" />
+					<TemplateUID type="string" value="08B65E70" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C380" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="1.0282" y="0.0725134" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.555891" y="0.456364" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CD10" />
+					<BrotherUID type="string" value="08B9C380" />
+					<TemplateUID type="string" value="08B65E70" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C380" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="1.0282" y="-0.0711237" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B65E70" />
+			<Name type="string" value="T_BG_Stand" />
+		</T_BG_Stand>
+		<T_BG_Unselected>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.0683597" y="0.0742188" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.0683597" y="0.0742188" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.475109" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B65D10" />
+					<Name type="string" value="b_bg" />
+					<UID type="string" value="08B9C2C0" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6CAA0" index="1" />
+						<Element type="string" value="08B6CAD0" index="2" />
+						<Element type="string" value="08B6CB00" index="3" />
+						<Element type="string" value="08B6CB30" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.000788988" y="0.00240746" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CAA0" />
+					<BrotherUID type="string" value="08B9C2C0" />
+					<TemplateUID type="string" value="08B65D10" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C2C0" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.142222" y="0.0718113" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.000788082" y="0.146134" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CAD0" />
+					<BrotherUID type="string" value="08B9C2C0" />
+					<TemplateUID type="string" value="08B65D10" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C2C0" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.142223" y="-0.0719149" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.551992" y="0.000259042" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CB00" />
+					<BrotherUID type="string" value="08B9C2C0" />
+					<TemplateUID type="string" value="08B65D10" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C2C0" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="1.01794" y="0.0739597" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.551992" y="0.147208" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6CB30" />
+					<BrotherUID type="string" value="08B9C2C0" />
+					<TemplateUID type="string" value="08B65D10" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C2C0" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="1.01794" y="-0.0729891" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B65D10" />
+			<Name type="string" value="T_BG_Unselected" />
+		</T_BG_Unselected>
+		<T_Clue>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.612914" y="0.0560591" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.612914" y="0.0560591" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.063395" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B65BB0" />
+					<Name type="string" value="b_icon" />
+					<UID type="string" value="08B9C080" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6C500" index="1" />
+						<Element type="string" value="08B6C530" index="2" />
+						<Element type="string" value="08B6C560" index="3" />
+						<Element type="string" value="08B6C590" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.562756" y="0.000631392" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C500" />
+					<BrotherUID type="string" value="08B9C080" />
+					<TemplateUID type="string" value="08B65BB0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C080" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.791202" y="0.0554277" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.562756" y="0.114748" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C530" />
+					<BrotherUID type="string" value="08B9C080" />
+					<TemplateUID type="string" value="08B65BB0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C080" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.791202" y="-0.0586886" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.682691" y="0.000631392" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C560" />
+					<BrotherUID type="string" value="08B9C080" />
+					<TemplateUID type="string" value="08B65BB0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C080" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="1.10066" y="0.0554277" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.682691" y="0.114734" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C590" />
+					<BrotherUID type="string" value="08B9C080" />
+					<TemplateUID type="string" value="08B65BB0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C080" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="1.10066" y="-0.0586749" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B65BB0" />
+			<Name type="string" value="T_Clue" />
+		</T_Clue>
+		<T_Continue>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.85285" y="0.0553058" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.85285" y="0.0553058" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.063395" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B65B00" />
+					<Name type="string" value="b_icon" />
+					<UID type="string" value="08B9C020" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6C410" index="1" />
+						<Element type="string" value="08B6C440" index="2" />
+						<Element type="string" value="08B6C470" index="3" />
+						<Element type="string" value="08B6C4A0" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.797469" y="0.0002442" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C410" />
+					<BrotherUID type="string" value="08B9C020" />
+					<TemplateUID type="string" value="08B65B00" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C020" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.873592" y="0.0550616" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.797469" y="0.1042" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C440" />
+					<BrotherUID type="string" value="08B9C020" />
+					<TemplateUID type="string" value="08B65B00" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C020" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.873592" y="-0.0488937" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.908907" y="0.0002442" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C470" />
+					<BrotherUID type="string" value="08B9C020" />
+					<TemplateUID type="string" value="08B65B00" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C020" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="0.884255" y="0.0550616" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.908907" y="0.104186" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C4A0" />
+					<BrotherUID type="string" value="08B9C020" />
+					<TemplateUID type="string" value="08B65B00" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9C020" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="0.884255" y="-0.0488799" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B65B00" />
+			<Name type="string" value="T_Continue" />
+		</T_Continue>
+		<T_Diaries>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.737692" y="0.0556812" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.737692" y="0.0556812" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.063395" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B65A50" />
+					<Name type="string" value="b_icon" />
+					<UID type="string" value="08B9BFC0" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6C320" index="1" />
+						<Element type="string" value="08B6C350" index="2" />
+						<Element type="string" value="08B6C380" index="3" />
+						<Element type="string" value="08B6C3B0" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.687534" y="0.000253439" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C320" />
+					<BrotherUID type="string" value="08B9BFC0" />
+					<TemplateUID type="string" value="08B65A50" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BFC0" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.791202" y="0.0554277" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.687534" y="0.11437" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C350" />
+					<BrotherUID type="string" value="08B9BFC0" />
+					<TemplateUID type="string" value="08B65A50" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BFC0" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.791202" y="-0.0586887" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.794167" y="0.000253439" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C380" />
+					<BrotherUID type="string" value="08B9BFC0" />
+					<TemplateUID type="string" value="08B65A50" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BFC0" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="0.890844" y="0.0554277" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.794167" y="0.114356" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C3B0" />
+					<BrotherUID type="string" value="08B9BFC0" />
+					<TemplateUID type="string" value="08B65A50" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BFC0" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="0.890844" y="-0.0586749" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B65A50" />
+			<Name type="string" value="T_Diaries" />
+		</T_Diaries>
+		<T_Exit>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.722564" y="0.174175" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.722564" y="0.174175" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.063395" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B659A0" />
+					<Name type="string" value="b_icon" />
+					<UID type="string" value="08B9BF60" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6C230" index="1" />
+						<Element type="string" value="08B6C260" index="2" />
+						<Element type="string" value="08B6C290" index="3" />
+						<Element type="string" value="08B6C2C0" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.672405" y="0.125273" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C230" />
+					<BrotherUID type="string" value="08B9BF60" />
+					<TemplateUID type="string" value="08B659A0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BF60" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.791202" y="0.0489025" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.672405" y="0.234621" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C260" />
+					<BrotherUID type="string" value="08B9BF60" />
+					<TemplateUID type="string" value="08B659A0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BF60" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.791202" y="-0.0604455" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.773229" y="0.125273" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C290" />
+					<BrotherUID type="string" value="08B9BF60" />
+					<TemplateUID type="string" value="08B659A0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BF60" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="0.7992" y="0.0489025" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.773229" y="0.234607" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6C2C0" />
+					<BrotherUID type="string" value="08B9BF60" />
+					<TemplateUID type="string" value="08B659A0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BF60" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="0.7992" y="-0.0604317" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B659A0" />
+			<Name type="string" value="T_Exit" />
+		</T_Exit>
+		<T_HistoricalFacts>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.619917" y="0.282701" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.619917" y="0.282701" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.063395" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B658F0" />
+					<Name type="string" value="b_icon" />
+					<UID type="string" value="08B9BF00" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6D310" index="1" />
+						<Element type="string" value="08B6D340" index="2" />
+						<Element type="string" value="08B6D370" index="3" />
+						<Element type="string" value="08B6D3A0" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.56258" y="0.234484" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6D310" />
+					<BrotherUID type="string" value="08B9BF00" />
+					<TemplateUID type="string" value="08B658F0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BF00" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.90444" y="0.0482171" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.56258" y="0.327683" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6D340" />
+					<BrotherUID type="string" value="08B9BF00" />
+					<TemplateUID type="string" value="08B658F0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BF00" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.90444" y="-0.0449825" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.679886" y="0.234484" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6D370" />
+					<BrotherUID type="string" value="08B9BF00" />
+					<TemplateUID type="string" value="08B658F0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BF00" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="0.94595" y="0.0482171" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.679886" y="0.32767" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6D3A0" />
+					<BrotherUID type="string" value="08B9BF00" />
+					<TemplateUID type="string" value="08B658F0" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BF00" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="0.94595" y="-0.0449688" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B658F0" />
+			<Name type="string" value="T_HistoricalFacts" />
+		</T_HistoricalFacts>
+		<T_Option>
+			<BonesListT>
+				<Element index="1">
+					<Pos type="vector" x="0.617209" y="0.178881" z="0" />
+					<Angle type="number" value="0" />
+					<Alpha type="number" value="1" />
+					<PosLocal type="vector" x="0.617209" y="0.178881" z="0" />
+					<AngleLocal type="number" value="0" />
+					<ScaleX type="number" value="0.063395" />
+					<ScaleY type="number" value="1" />
+					<Zorder type="number" value="0" />
+					<TemplateUID type="string" value="08B65790" />
+					<Name type="string" value="b_icon" />
+					<UID type="string" value="08B9BE40" />
+					<noBegin type="boolean" value="true" />
+					<noEnd type="boolean" value="true" />
+					<Mirror type="boolean" value="false" />
+					<RefsUID>
+						<Element type="string" value="08B6D4F0" index="1" />
+						<Element type="string" value="08B6D520" index="2" />
+						<Element type="string" value="08B6D550" index="3" />
+						<Element type="string" value="08B6D580" index="4" />
+					</RefsUID>
+				</Element>
+			</BonesListT>
+			<PatchPointList>
+				<Element index="1">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.563286" y="0.125462" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6D4F0" />
+					<BrotherUID type="string" value="08B9BE40" />
+					<TemplateUID type="string" value="08B65790" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BE40" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="-0.850585" y="0.0534199" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="2">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.563286" y="0.230794" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6D520" />
+					<BrotherUID type="string" value="08B9BE40" />
+					<TemplateUID type="string" value="08B65790" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BE40" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="-0.850585" y="-0.0519124" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="3">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.66992" y="0.125462" z="0" />
+					<NormaleUV type="vector" x="0" y="-1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6D550" />
+					<BrotherUID type="string" value="08B9BE40" />
+					<TemplateUID type="string" value="08B65790" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BE40" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="1" z="0" />
+							<Pos type="vector" x="0.831461" y="0.0534199" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+				<Element index="4">
+					<Angle type="number" value="0" />
+					<Hiden type="number" value="0" />
+					<PosUV type="vector" x="0.66992" y="0.23078" z="0" />
+					<NormaleUV type="vector" x="0" y="1" z="0" />
+					<SetPicking type="boolean" value="true" />
+					<Zorder type="number" value="0" />
+					<isInversed type="boolean" value="false" />
+					<Type type="number" value="0" />
+					<UID type="string" value="08B6D580" />
+					<BrotherUID type="string" value="08B9BE40" />
+					<TemplateUID type="string" value="08B65790" />
+					<Color>
+						<A type="number" value="255" />
+						<B type="number" value="255" />
+						<G type="number" value="255" />
+						<R type="number" value="255" />
+					</Color>
+					<LocalData>
+						<Element index="1">
+							<BoneUID type="string" value="08B9BE40" />
+							<Influence type="number" value="1" />
+							<Normale type="vector" x="0" y="-1" z="0" />
+							<Pos type="vector" x="0.831461" y="-0.0518987" z="0" />
+						</Element>
+					</LocalData>
+				</Element>
+			</PatchPointList>
+			<UID type="string" value="08B65790" />
+			<Name type="string" value="T_Option" />
+		</T_Option>
+	</List>
+	<MediaWidth type="number" value="1" />
+	<Ratio type="number" value="2" />
+</root>

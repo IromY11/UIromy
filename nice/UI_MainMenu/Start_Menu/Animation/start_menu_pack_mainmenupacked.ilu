@@ -1,0 +1,258 @@
+animPackage =
+{
+    NAME="AnimResourcePackage",
+    AnimResourcePackage =
+    {
+        skeleton = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/start_menu_squeleton.skl",
+        textureBank =
+        {
+            {
+                TextureBankPath =
+                {
+                    id = "Mainmenu_buttons",
+                    patchBank = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/start_menu_pack_mainmenu_001.pbk",
+                    textureSet =
+                    {
+                        GFXMaterialTexturePathSet =
+                        {
+                            diffuse = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/start_menu_pack_mainmenu_001_0.tga",
+                            back_light = "",
+                            normal = "",
+                            separateAlpha = "",
+                            diffuse_2 = "",
+                            back_light_2 = "",
+                            specular = "",
+                            colorMask = "",
+                            anim_impostor = "",
+                        },
+                    },
+                    materialShader = "",
+                },
+            },
+            {
+                TextureBankPath =
+                {
+                    id = "Chapters_Buttons",
+                    patchBank = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/start_menu_pack_mainmenu_001.pbk",
+                    textureSet =
+                    {
+                        GFXMaterialTexturePathSet =
+                        {
+                            diffuse = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/start_menu_pack_mainmenu_001_0.tga",
+                            back_light = "",
+                            normal = "",
+                            separateAlpha = "",
+                            diffuse_2 = "",
+                            back_light_2 = "",
+                            specular = "",
+                            colorMask = "",
+                            anim_impostor = "",
+                        },
+                    },
+                    materialShader = "",
+                },
+            },
+        },
+        animPathAABB =
+        {
+            {
+                AnimPathAABB =
+                {
+                    name = "Play_Stand",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/play_stand.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.417870,-0.938163),
+                            MAX = vector2dNew(5.611792,0.721915),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Social_Disabled",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/social_disabled.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.060207,-0.757936),
+                            MAX = vector2dNew(5.667047,0.740942),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Shop_Stand",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/shop_stand.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.049156,-1.000000),
+                            MAX = vector2dNew(5.611792,0.738400),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Option_Stand",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/option_stand.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.049156,-0.743184),
+                            MAX = vector2dNew(5.611792,0.721915),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "NewGame_Stand",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/newgame_stand.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-1.671431,-0.461499),
+                            MAX = vector2dNew(1.777237,0.453301),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Option_Disabled",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/option_disabled.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.491919,-0.757936),
+                            MAX = vector2dNew(5.562062,0.740942),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Social_Stand",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/social_stand.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.049156,-0.936174),
+                            MAX = vector2dNew(5.611792,0.738400),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "NewGame_Locked",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/newgame_locked.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-1.671431,-0.461499),
+                            MAX = vector2dNew(2.653919,0.453301),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Play_Selected",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/play_selected.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.034547,-1.000000),
+                            MAX = vector2dNew(5.567588,0.731941),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "NewGame_Selected",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/newgame_selected.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-1.671431,-0.461499),
+                            MAX = vector2dNew(3.349319,0.683657),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Social_Selected",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/social_selected.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.036163,-0.780762),
+                            MAX = vector2dNew(5.622843,0.738400),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Shop_Selected",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/shop_selected.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.034549,-0.752010),
+                            MAX = vector2dNew(5.622843,0.731941),
+                        },
+                    },
+                },
+            },
+            {
+                AnimPathAABB =
+                {
+                    name = "Option_Selected",
+                    path = "world/_ww1/common/hud/ui_mainmenu/start_menu/animation/option_selected.anm",
+                    aabb =
+                    {
+                        AABB =
+                        {
+                            MIN = vector2dNew(-0.036163,-0.752010),
+                            MAX = vector2dNew(5.622843,0.738400),
+                        },
+                    },
+                },
+            },
+        },
+        needPack = 1,
+        packed = 1,
+        fromHD = 0,
+    },
+}

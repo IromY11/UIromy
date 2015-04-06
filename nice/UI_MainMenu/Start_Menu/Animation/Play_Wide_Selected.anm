@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<Mainmenu_buttons type="string" value="world/_WW1/common/hud/UI_MainMenu/Start_Menu/Animation/Mainmenu_buttons.tga"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140522164421>
+					<PosLocal type="vector" x="-0.83802676200867" y="0.60152590274811" z="0"/>
+				</D140522164421>
+				<D140522164450>
+					<PosLocal type="vector" x="-0.90294271707535" y="-0.010443413630128" z="0"/>
+					<ScaleX type="number" value="1.1777518084758"/>
+					<ScaleY type="number" value="1.1777518084758"/>
+				</D140522164450>
+				<D140527085804>
+					<PosLocal type="vector" x="-0.052080940455198" y="-0.38135915994644" z="0"/>
+				</D140527085804>
+				<D140527085903>
+					<PosLocal type="vector" x="-0.30132547020912" y="0.56880670785904" z="0"/>
+				</D140527085903>
+				<D140527085942>
+					<AngleLocal type="number" value="-90.381919622055"/>
+					<PosLocal type="vector" x="-0.02232038974762" y="-1.4478718042374" z="0"/>
+				</D140527085942>
+				<D140527085947>
+				</D140527085947>
+				<D140527090006>
+					<AngleLocal type="number" value="-83.881459188072"/>
+					<PosLocal type="vector" x="-1.4024655818939" y="-1.6547107696533" z="0"/>
+				</D140527090006>
+				<D140527090011>
+					<AngleLocal type="number" value="-30.658898638231"/>
+				</D140527090011>
+				<D140527090054>
+					<AngleLocal type="number" value="-98.018679787194"/>
+					<PosLocal type="vector" x="-0.20832376182079" y="-1.6094646453857" z="0"/>
+				</D140527090054>
+				<D140527090725>
+					<PosLocal type="vector" x="0.0026675874833018" y="-0.46538734436035" z="0"/>
+				</D140527090725>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Mainmenu_buttons"/>
+					<Element index="2" type="string" value="T_BG_Selected_Wide"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="Mainmenu_buttons"/>
+					<Element index="2" type="string" value="T_Play"/>
+				</Element>
+			</fpl>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="world/_ww1/common/hud/ui_mainmenu/start_menu/Animation/Start_Menu_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="4.2876405715942"/>
+		<xMin type="number" value="-6.1068954467773"/>
+		<yMax type="number" value="1.09330534935"/>
+		<yMin type="number" value="-1.0087710618973"/>
+	</aabb>
+</root>

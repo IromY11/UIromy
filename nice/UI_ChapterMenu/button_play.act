@@ -1,0 +1,8 @@
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        LUA = "world/_ww1/common/hud/ui_chaptermenu/button_play.tpl",
+	}
+}

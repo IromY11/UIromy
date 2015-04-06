@@ -1,0 +1,35 @@
+
+act_path_texture = "world/_WW1/common/hud/UI_Pause/basic_UI_Pause/maps_thumbnails/maps_thumbnails_E4S4.tga"
+
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+       -- SCALE = vector2dNew(1.0,1.0),
+        LUA = "world/_WW1/common/hud/UI_ChapterMenu/thumbnail_common.tpl",
+        COMPONENTS =
+        {
+            {
+                NAME = "TextureGraphicComponent",
+                TextureGraphicComponent =
+                {
+					disableLight = 0,
+                    material =
+                    {
+                        GFXMaterialSerializable =
+                        {
+                            textureSet =
+                            {
+                                GFXMaterialTexturePathSet =
+                                {
+                                    diffuse = act_path_texture,
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    },
+}

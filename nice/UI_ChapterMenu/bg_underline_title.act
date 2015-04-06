@@ -1,0 +1,35 @@
+
+act_path_texture = "world/_WW1/common/hud/UI_Textures/Underline_Title.tga"
+
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        --SCALE = vector2dNew(1.0,1.0),
+        LUA = "world/_WW1/common/hud/UI_ChapterMenu/bg_underline_title.tpl",
+        COMPONENTS =
+        {
+            {
+                NAME = "TextureGraphicComponent",
+                TextureGraphicComponent =
+                {
+					disableLight = 0,
+                    material =
+                    {
+                        GFXMaterialSerializable =
+                        {
+                            textureSet =
+                            {
+                                GFXMaterialTexturePathSet =
+                                {
+                                    diffuse = act_path_texture,
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    },
+}
