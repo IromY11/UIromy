@@ -1,0 +1,32 @@
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        --RELATIVEZ = 2.000000,
+        LUA = "world/_WW1/common/hud/UI_VH/UI_Option/OptionActors/UIItem_Veteran.tpl",
+        COMPONENTS =
+        {
+            {
+                NAME = "UIItemBasic",
+                UIItemBasic =
+                {
+					cursorOffset= vector2dNew(-160,0),     cursorOffset_4_3= vector2dNew(-160,0),
+                    transition = 0,
+                    screenSpace = vector2dNew(1280.000000,720.000000),
+                },
+            },
+			{                     
+                NAME = "UITextBox",
+                UITextBox =
+                {
+                    style=4,
+					--scaleToMatchWithArea=1,
+					--area=vector2dNew(240,32),
+					--Offset = vector2dNew(0.0, 0.0),
+				},
+            },
+            
+        },
+    }
+}

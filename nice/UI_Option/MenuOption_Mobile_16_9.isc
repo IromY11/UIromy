@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<Scene ENGINE_VERSION="170143" GRIDUNIT="4.000000" DEPTH_SEPARATOR="0" NEAR_SEPARATOR="1.000000 0.000000 0.000000 0.000000, 0.000000 1.000000 0.000000 0.000000, 0.000000 0.000000 1.000000 0.000000, 0.000000 0.000000 0.000000 1.000000" FAR_SEPARATOR="1.000000 0.000000 0.000000 0.000000, 0.000000 1.000000 0.000000 0.000000, 0.000000 0.000000 1.000000 0.000000, 0.000000 0.000000 0.000000 1.000000">
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="4.000000" SCALE="1.000000 1.000000" xFLIPPED="0" USERFRIENDLY="UI_MENU_OPTION_16_9" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="0.000000 0.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/common/ui/menuoption/uimenu_optionmobile.act" persistenceId="0" LUA="world/common/ui/menuoption/uimenu_optionmobile.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<COMPONENTS NAME="W1W_OptionMobilePage">
+					<W1W_OptionMobilePage transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" loadResource="0" afxDuration="0.000000" defaultItem="UI_MYPROFIL_BUTTON" backItem="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="menuType" SEL="6" />
+					</W1W_OptionMobilePage>
+				</COMPONENTS>
+				<COMPONENTS NAME="AFXPostProcessComponent">
+					<AFXPostProcessComponent>
+						<blur>
+							<AFX_BlurParam use="0" pixelSize="8.000000" quality="1" />
+						</blur>
+						<glow>
+							<AFX_GlowParam use="0" factor="1.000000" pixelSize="8" quality="1" useToneMap="0" threshold="0.000000" thresholdScale="1.000000" />
+						</glow>
+						<colorSetting>
+							<AFX_ColorSettingParam use="0" saturation="1.000000" contrast="0.000000" contrastScale="1.000000" bright="0.000000" colorCorrection="1.000000 1.000000 1.000000 1.000000" />
+						</colorSetting>
+						<refraction>
+							<AFX_RefractionParam use="0" />
+						</refraction>
+						<tile>
+							<AFX_TileParam use="0" repetition="2.000000" />
+						</tile>
+						<mosaic>
+							<AFX_MosaicParam use="0" pixelSize="2.000000" />
+						</mosaic>
+						<negatif>
+							<AFX_NegatifParam use="0" />
+						</negatif>
+						<kaleidoscope>
+							<AFX_KaleiParam use="0" pixelSize="1.000000" UV1="0.000000 1.000000" UV2="1.000000 1.000000" UV3="1.000000 0.000000" />
+						</kaleidoscope>
+						<eyeFish>
+							<AFX_EyeFishParam use="0" height="2.000000" scale="1.000000" />
+						</eyeFish>
+						<mirror>
+							<AFX_MirrorParam use="0" offsetX="0.000000" offsetY="0.000000" />
+						</mirror>
+						<oldTV>
+							<AFX_OldTVParam use="0" lineFade="0.500000" useScanLine="0" scanLineFade="0.500000" scanLineSpeed="2.000000" scanLineSize="0.200000" />
+						</oldTV>
+						<noise>
+							<AFX_NoiseParam use="0" blendFactor="0.500000" size="1.000000" />
+						</noise>
+						<radial>
+							<AFX_RadialParam use="0" centerOffset="0.000000 0.000000" strength="1.000000" size="10.000000" />
+						</radial>
+					</AFXPostProcessComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="1.245110 1.245110" xFLIPPED="0" USERFRIENDLY="W1W_Mobile_Button_Back" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="14.000000 671.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_common/back.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_common/back.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="14.000000 671.000000 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="W1W_Mobile_Button_Back" rightComponentID="UI_SUPPORT_BUTTON" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="1.570000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="1.000000 1.000000" xFLIPPED="0" USERFRIENDLY="UI_MYPROFIL_BUTTON" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="203.000000 111.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_profile.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_profile.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="203.000000 111.000000 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="UI_MYPROFIL_BUTTON" rightComponentID="UI_SOCIALCONNEXION_CONNECTFB" upComponentID="" downComponentID="" cursorOffset="-160.000000 0.000000" cursorOffset_4_3="-160.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="4" offset="70.000000 0.000000" depth="0.000000" scale="1.400000 1.400000" area="220.000000 -1.000000" maxWidth="-1.000000" rawText="My Profil" locId="2156" overridingColor="0.000000 0.000000 0.000000 0.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="1" />
+						<ENUM NAME="overridingHAlignment" SEL="-1" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="-1" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="1.000000 1.000000" xFLIPPED="0" USERFRIENDLY="UI_SUPPORT_BUTTON" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="865.999878 587.500000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_support.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_support.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="865.999878 587.500000 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="W1W_Mobile_Button_Back" rightComponentID="UI_LEGAL_BUTTON" upComponentID="UI_VETERANMODE_BUTTON" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="4" offset="0.000000 0.000000" depth="0.000000" scale="1.200000 1.200000" area="-1.000000 -1.000000" maxWidth="-1.000000" rawText="" locId="4294967295" overridingColor="0.000000 0.000000 0.000000 0.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="1" />
+						<ENUM NAME="overridingHAlignment" SEL="-1" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="-1" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="0.978664 0.978664" xFLIPPED="0" USERFRIENDLY="UI_VETERANMODE_BUTTON" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="749.999878 430.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_veteran.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_veteran.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="749.999878 430.000000 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="UI_CREDITS_BUTTON" rightComponentID="UI_VETERANMODE_BUTTON" upComponentID="" downComponentID="" cursorOffset="-160.000000 0.000000" cursorOffset_4_3="-160.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="4" offset="70.000000 -35.000000" depth="0.000000" scale="1.400000 1.400000" area="250.000000 -1.000000" maxWidth="-1.000000" rawText="Veteran Mode" locId="1351" overridingColor="0.000000 0.000000 0.000000 0.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="1" />
+						<ENUM NAME="overridingHAlignment" SEL="-1" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="-1" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="1.000000 1.000000" xFLIPPED="0" USERFRIENDLY="UI_HELP_BUTTON" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="203.000000 270.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_controls.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_controls.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="203.000000 270.000000 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="UI_HELP_BUTTON" rightComponentID="UI_LANGUES_TEXTS_BT_CHEKED" upComponentID="" downComponentID="" cursorOffset="-160.000000 0.000000" cursorOffset_4_3="-160.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="4" offset="70.000000 0.000000" depth="0.000000" scale="1.400000 1.400000" area="220.000000 -1.000000" maxWidth="-1.000000" rawText="Help" locId="2157" overridingColor="0.000000 0.000000 0.000000 0.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="1" />
+						<ENUM NAME="overridingHAlignment" SEL="-1" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="-1" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="1.000000 1.000000" xFLIPPED="0" USERFRIENDLY="UI_CREDITS_BUTTON" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="203.000000 430.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_credits.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_credits.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="203.000000 430.000000 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="UI_CREDITS_BUTTON" rightComponentID="UI_VETERANMODE_BUTTON" upComponentID="" downComponentID="" cursorOffset="-160.000000 0.000000" cursorOffset_4_3="-160.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="4" offset="70.000000 0.000000" depth="0.000000" scale="1.400000 1.400000" area="220.000000 -1.000000" maxWidth="-1.000000" rawText="Credits" locId="2160" overridingColor="0.000000 0.000000 0.000000 0.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="1" />
+						<ENUM NAME="overridingHAlignment" SEL="-1" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="-1" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="1.000000 1.000000" xFLIPPED="0" USERFRIENDLY="UI_LEGAL_BUTTON" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="1031.000000 587.499878" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_legal.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_legal.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="1031.000000 587.499878 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="UI_SUPPORT_BUTTON" rightComponentID="UI_LEGAL_BUTTON" upComponentID="UI_VETERANMODE_BUTTON" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="4" offset="0.000000 0.000000" depth="0.000000" scale="1.200000 1.200000" area="-1.000000 -1.000000" maxWidth="-1.000000" rawText="" locId="4294967295" overridingColor="0.000000 0.000000 0.000000 0.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="1" />
+						<ENUM NAME="overridingHAlignment" SEL="-1" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="-1" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="6.000000" SCALE="1.000000 1.000000" xFLIPPED="0" USERFRIENDLY="text" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="818.000122 451.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/text.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/text.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="818.000122 451.000000 2.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="1" offset="0.000000 0.000000" depth="0.000000" scale="0.800000 0.800000" area="400.000000 -1.000000" maxWidth="-1.000000" rawText="TextTextTextTextText TextTextTextText  TextTextText " locId="2202" overridingColor="0.164706 0.164706 0.164706 1.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="0" />
+						<ENUM NAME="overridingHAlignment" SEL="0" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="2" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="1.150000 1.150000" xFLIPPED="0" USERFRIENDLY="UI_SOCIALCONNEXION_CONNECTFB" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="749.999878 111.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_social/socialactors/uiitem_facebook.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_social/socialactors/uiitem_facebook.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="749.999878 111.000000 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="UI_MYPROFIL_BUTTON" rightComponentID="UI_SOCIALCONNEXION_CONNECTFB" upComponentID="" downComponentID="" cursorOffset="-160.000000 0.000000" cursorOffset_4_3="-160.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="4" offset="65.000000 -30.000000" depth="0.000000" scale="1.200000 1.200000" area="220.000000 -1.000000" maxWidth="-1.000000" rawText="Connect with Facebook" locId="2161" overridingColor="0.000000 0.000000 0.000000 0.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="1" />
+						<ENUM NAME="overridingHAlignment" SEL="-1" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="-1" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="6.000000" SCALE="1.000000 1.000000" xFLIPPED="0" USERFRIENDLY="text@1" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="814.389709 132.380493" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/text.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/text.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="814.389709 132.380493 2.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="1" offset="0.000000 0.000000" depth="0.000000" scale="0.800000 0.800000" area="400.000000 -1.000000" maxWidth="-1.000000" rawText="Text" locId="2164" overridingColor="0.164706 0.164706 0.164706 1.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="0" />
+						<ENUM NAME="overridingHAlignment" SEL="0" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="2" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<ACTORS NAME="Actor">
+			<Actor RELATIVEZ="5.000000" SCALE="0.978664 0.978664" xFLIPPED="0" USERFRIENDLY="UI_LANGUES_TEXTS_BT_CHEKED" STARTPAUSE="0" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" POS2D="749.999878 270.000000" ANGLE="0.000000" INSTANCEDATAFILE="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_veteran.act" persistenceId="0" LUA="world/_ww1/common/hud/ui_vh/ui_option/optionactors/uiitem_veteran.tpl">
+				<ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+				<parentBind>
+					<Bind parentPath="UI_MENU_OPTION_16_9" offsetPos="749.999878 270.000000 1.000000" offsetAngle="0.000000" typeData="0" useParentFlip="1" useParentScale="0" useParentAlpha="0" removeWithParent="0">
+						<ENUM NAME="type" SEL="0" />
+					</Bind>
+				</parentBind>
+				<COMPONENTS NAME="UIItemBasic">
+					<UIItemBasic transition="0" display="1" leftComponentID="UI_HELP_BUTTON" rightComponentID="UI_LANGUES_TEXTS_BT_CHEKED" upComponentID="" downComponentID="" cursorOffset="-160.000000 0.000000" cursorOffset_4_3="-160.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" selectTextStyle="1" PathForMap="">
+						<ENUM NAME="displayMask" SEL="3" />
+						<WwiseOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseOnValidate>
+						<WwiseMoreOnValidate>
+							<EventSender triggerOnce="1" triggerSelf="1" triggerChildren="1" discardChildrenWithTag="1" triggerActivator="0" triggerBroadcast="0">
+								<event NAME="" />
+							</EventSender>
+						</WwiseMoreOnValidate>
+					</UIItemBasic>
+				</COMPONENTS>
+				<COMPONENTS NAME="SoundComponent">
+					<SoundComponent />
+				</COMPONENTS>
+				<COMPONENTS NAME="AnimLightComponent">
+					<AnimLightComponent colorComputerTagId="0" renderInTarget="0" disableLight="0" disableShadow="-1" depthOffset="0.000000" AlphaInit="1.000000" syncOffset="0.000000" startOffset="0.000000" MatShader="" subSkeleton="" EmitFluid="0" AttractFluid="0" BasicRender="1" defaultAnim="" useZOffset="1">
+						<PrimitiveParameters>
+							<GFXPrimitiveParam colorFactor="1.000000 1.000000 1.000000 1.000000" FrontLightBrightness="0.000000" FrontLightContrast="1.000000" BackLightBrightness="0.000000" BackLightContrast="1.000000" colorFog="0.000000 0.000000 0.000000 0.000000" DynamicFogFactor="1.000000" useStaticFog="0" UseGlobalLighting="1" RenderInReflections="1" UseZInject="0" OutlineColor="1.000000 1.000000 1.000000 0.000000" OutlineWidth="0.000000" OutlineGlow="0.000000" ViewportVisibility="65535" colorForMask1="1.000000 1.000000 1.000000 1.000000" colorForMask2="1.000000 1.000000 1.000000 1.000000" colorForMask3="1.000000 1.000000 1.000000 1.000000" saturation="0.000000">
+								<ENUM NAME="gfxOccludeInfo" SEL="0" />
+								<ENUM NAME="gfxMaskInfo" SEL="0" />
+							</GFXPrimitiveParam>
+						</PrimitiveParameters>
+						<subAnimInfo>
+							<SubAnimSet>
+								<animPackage>
+									<AnimResourcePackage skeleton="" needPack="0" packed="0" fromHD="0" />
+								</animPackage>
+							</SubAnimSet>
+						</subAnimInfo>
+					</AnimLightComponent>
+				</COMPONENTS>
+				<COMPONENTS NAME="UITextBox">
+					<UITextBox transition="0" display="1" leftComponentID="" rightComponentID="" upComponentID="" downComponentID="" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" cursorAngle="0.000000" screenSpace="1280.000000 720.000000" style="4" offset="70.000000 0.000000" depth="0.000000" scale="1.400000 1.400000" area="210.000000 -1.000000" maxWidth="-1.000000" rawText="Text" locId="2170" overridingColor="0.000000 0.000000 0.000000 0.000000" autoScrollSpeed="0.000000" autoScrollWaitTime="0.000000" autoScrollLoop="0" autoScrollLoopGap="1">
+						<ENUM NAME="displayMask" SEL="3" />
+						<ENUM NAME="scaleToMatchWithArea" SEL="1" />
+						<ENUM NAME="overridingHAlignment" SEL="-1" />
+						<ENUM NAME="overridingVAlignment" SEL="-1" />
+						<ENUM NAME="overridingAnchor" SEL="-1" />
+					</UITextBox>
+				</COMPONENTS>
+			</Actor>
+		</ACTORS>
+		<sceneConfigs>
+			<SceneConfigs activeSceneConfig="0" />
+		</sceneConfigs>
+	</Scene>
+</root>

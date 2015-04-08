@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<root>
+	<PatchBankList>
+		<Options_A1 type="string" value="world/_WW1/common/hud/UI_VH/UI_Option/OptionActors/Animation/Options_A1.tga"/>
+	</PatchBankList>
+	<PostureTab>
+		<Element index="1">
+			<bones>
+				<Bone_110316134524>
+				</Bone_110316134524>
+				<D140703123415>
+				</D140703123415>
+				<D140703123517>
+					<PosLocal type="vector" x="0.0054639731533825" y="0.0021808911114931" z="0"/>
+				</D140703123517>
+			</bones>
+			<fpl>
+				<Element index="1">
+					<Element index="1" type="string" value="Options_A1"/>
+					<Element index="2" type="string" value="T_Envelope_Selected"/>
+				</Element>
+				<Element index="2">
+					<Element index="1" type="string" value="Options_A1"/>
+					<Element index="2" type="string" value="T_Profile"/>
+				</Element>
+			</fpl>
+		</Element>
+	</PostureTab>
+	<RemoveLocks type="number" value="1"/>
+	<Squeleton type="string" value="world/_ww1/common/hud/ui_vh/ui_option/optionactors/Animation/OptionActors_Squeleton.skl"/>
+	<aabb>
+		<xMax type="number" value="6.2975554466248"/>
+		<xMin type="number" value="-1.1537139415741"/>
+		<yMax type="number" value="1.2273216247559"/>
+		<yMin type="number" value="-1.1144688129425"/>
+	</aabb>
+</root>

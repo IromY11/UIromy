@@ -1,0 +1,19 @@
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        --RELATIVEZ = 2.000000,
+        LUA = "world/_ww1/common/hud/ui_vh/ui_option/optionactors/text.tpl",
+        COMPONENTS =
+        {
+			{                     
+                NAME = "UITextBox",
+                UITextBox =
+                {
+                },
+            },
+            
+        },
+    }
+}
