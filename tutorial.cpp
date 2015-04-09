@@ -17,147 +17,7 @@ void main_loop();
 using namespace CEGUI;
 using namespace std;
 
-class GameConsoleWindow
-{
-    public:
-       GameConsoleWindow(string s);                   // Constructor
-       void setVisible(bool visible);         // Hide or show the console
-       bool isVisible();                      // return true if console is visible, false if is hidden
-	CEGUI::Window *m_ConsoleWindow;
-    private:
-       void CreateCEGUIWindow();                                  // The function which will load in the CEGUI Window and register event handlers
-       void RegisterHandlers();                                   // Register our handler functions
-       bool Handle_TextSubmitted(const CEGUI::EventArgs &e);      // Handle when we press Enter after typing
-       bool Handle_SendButtonPressed(const CEGUI::EventArgs &e);  // Handle when we press the Send button         
-       void ParseText(CEGUI::String inMsg);                       // Parse the text the user submitted.
-       void OutputText(CEGUI::String inMsg,                       // Post the message to the ChatHistory listbox.
-              CEGUI::Colour colour = CEGUI::Colour( 0xFFFFFFFF)); //   with a white color default
- 
-                                   // This will be a pointer to the ConsoleRoot window.
-       CEGUI::String sNamePrefix;                                  // This will be the prefix name we give the layout
-       static int iInstanceNumber;                                 // This will be the instance number for this class.
-       bool m_bConsole;
-};
 
- 
-GameConsoleWindow::GameConsoleWindow(string s)
-{
-   m_ConsoleWindow = NULL;   
-   sNamePrefix = "";
-   CreateCEGUIWindow();
-   m_ConsoleWindow->setName(s);
-   setVisible(false);
-   m_bConsole = false;
-}
-
-void GameConsoleWindow::CreateCEGUIWindow()
-{
-        //sNamePrefix = ++iInstanceNumber + "_";
-        m_ConsoleWindow = WindowManager::getSingleton().loadLayoutFromFile("ChatWindow.layout","layouts");
-        if (m_ConsoleWindow)
-        {
-            CEGUI::System::getSingleton().getDefaultGUIContext().getRootWindow()->addChild(m_ConsoleWindow);
-            (this)->RegisterHandlers();
-        }
-        else CEGUI::Logger::getSingleton().logEvent("Error: Unable to load the ConsoleWindow from .layout");
-}
-
-void GameConsoleWindow::RegisterHandlers()
-{
-    m_ConsoleWindow->getChild(sNamePrefix + "Submit")->subscribeEvent(
-                        PushButton::EventClicked,   
-                        Event::Subscriber(&GameConsoleWindow::Handle_SendButtonPressed,this));    
-    m_ConsoleWindow->getChild(sNamePrefix + "EditBox")->subscribeEvent(Editbox::EventTextAccepted,
-                        Event::Subscriber(&GameConsoleWindow::Handle_TextSubmitted,this));
-}
-bool GameConsoleWindow::Handle_TextSubmitted(const CEGUI::EventArgs &e)
-{
-    const CEGUI::WindowEventArgs* args = static_cast<const CEGUI::WindowEventArgs*>(&e);
-    CEGUI::String Msg = m_ConsoleWindow->getChild(sNamePrefix + "EditBox")->getText();
-    (this)->ParseText(Msg);
-    m_ConsoleWindow->getChild(sNamePrefix + "EditBox")->setText("");
-    return true;
-}
-bool GameConsoleWindow::Handle_SendButtonPressed(const CEGUI::EventArgs &e)
-{
-    CEGUI::String Msg = m_ConsoleWindow->getChild(sNamePrefix + "EditBox")->getText();
-    (this)->ParseText(Msg);
-    m_ConsoleWindow->getChild(sNamePrefix + "EditBox")->setText("");
-    return true;
-}
-void GameConsoleWindow::ParseText(CEGUI::String inMsg)
-{
- 
-       std::string inString = inMsg.c_str();
- 
-	if (inString.length() >= 1) 
-	{
-		if (inString.at(0) == '/') 
-		{
-			std::string::size_type commandEnd = inString.find(" ", 1);
-			std::string command = inString.substr(1, commandEnd - 1);
-			std::string commandArgs = inString.substr(commandEnd + 1, inString.length() - (commandEnd + 1));
-			//convert command to lower case
-			for(std::string::size_type i=0; i < command.length(); i++)
-			{
-				command[i] = tolower(command[i]);
-			}
- 
-			// Begin processing
- 
-			if (command == "say")
-			{
-				std::string outString = "You:" + inString; // Append our 'name' to the message we'll display in the list
-                         	OutputText(outString);
-			}
-			else if (command == "quit")
-			{
-				// do a /quit 
-			}
-			else if (command == "help")
-			{
-				// do a /help
-			}
-			else
-			{
-				std::string outString = "<" + inString + "> is an invalid command.";
-				(this)->OutputText(outString,CEGUI::Colour(1.0f,0.0f,0.0f)); // With red ANGRY colors!
-			}
-		} // End if /
-		else
-		{
-	 (this)->OutputText(inString); // no commands, just output what they wrote
-		}
-	} 
-}
-void GameConsoleWindow::OutputText(CEGUI::String inMsg, CEGUI::Colour colour)
-{
- 
-	// Get a pointer to the ChatBox so we don't have to use this ugly getChild function everytime.
-	CEGUI::Listbox *outputWindow = static_cast<CEGUI::Listbox*>(m_ConsoleWindow->getChild(sNamePrefix + "History"));
- 
-	CEGUI::ListboxTextItem* newItem=0; // This will hold the actual text and will be the listbox segment / item
- 
-	newItem = new CEGUI::ListboxTextItem(inMsg); // instance new item
-        newItem->setTextColours(colour); // Set the text color
-	outputWindow->addItem(newItem); // Add the new ListBoxTextItem to the ListBox
-}
-void GameConsoleWindow::setVisible(bool visible)
-{
-    m_ConsoleWindow->setVisible(visible);
-    m_bConsole = visible;
- 
-	CEGUI::Editbox* editBox =static_cast<Editbox*> ( m_ConsoleWindow->getChild(sNamePrefix + "EditBox"));
-    if(visible)
-       editBox->activate();
-    else
-       editBox->deactivate();
-}
- 
-bool GameConsoleWindow::isVisible()
-{
-    return m_ConsoleWindow->isVisible();
-}
 int main(int argc, char *argv[])
 {
 	SDL_Surface * screen;
@@ -219,6 +79,79 @@ int main(int argc, char *argv[])
 	af2->createKeyFrame(0.6,"{{0,470},{0,0}}",KeyFrame::P_Linear);
 	af2->createKeyFrame(1.8,"{{0,200},{0,0}}",KeyFrame::P_Linear);
 
+
+	Animation *anim3 = AnimationManager::getSingleton().createAnimation("walo3");
+	anim3->setDuration(0.3f);
+	anim3->setReplayMode(Animation::RM_Once);
+	Affector* af3 = anim3->createAffector("Position","UVector2");
+	af3->setApplicationMethod(af1->AM_Absolute);
+	af3->createKeyFrame(0,"{{0,15},{0,280}}");
+	af3->createKeyFrame(0.3,"{{0,95},{0,280}}",KeyFrame::P_Linear);
+	anim3->defineAutoSubscription("MouseEntersArea","Start");
+
+	Animation *anim4 = AnimationManager::getSingleton().createAnimation("walo4");
+	anim4->setDuration(0.3f);
+	anim4->setReplayMode(Animation::RM_Once);
+	Affector* af4 = anim4->createAffector("Position","UVector2");
+	af4->setApplicationMethod(af1->AM_Absolute);
+	af4->createKeyFrame(0,"{{0,95},{0,280}}");
+	af4->createKeyFrame(0.3,"{{0,15},{0,280}}",KeyFrame::P_Linear);
+	anim4->defineAutoSubscription("MouseLeavesArea","Start");
+
+	Animation *anim5 = AnimationManager::getSingleton().createAnimation("walo5");
+	anim5->setDuration(0.3f);
+	anim5->setReplayMode(Animation::RM_Once);
+	Affector* af5 = anim5->createAffector("Position","UVector2");
+	af5->setApplicationMethod(af1->AM_Absolute);
+	af5->createKeyFrame(0,"{{0,15},{0,325}}");
+	af5->createKeyFrame(0.3,"{{0,95},{0,325}}",KeyFrame::P_Linear);
+	anim5->defineAutoSubscription("MouseEntersArea","Start");
+
+	Animation *anim6 = AnimationManager::getSingleton().createAnimation("walo6");
+	anim6->setDuration(0.3f);
+	anim6->setReplayMode(Animation::RM_Once);
+	Affector* af6 = anim6->createAffector("Position","UVector2");
+	af6->setApplicationMethod(af1->AM_Absolute);
+	af6->createKeyFrame(0,"{{0,95},{0,325}}");
+	af6->createKeyFrame(0.3,"{{0,15},{0,325}}",KeyFrame::P_Linear);
+	anim6->defineAutoSubscription("MouseLeavesArea","Start");
+
+	Animation *anim7 = AnimationManager::getSingleton().createAnimation("walo7");
+	anim7->setDuration(0.3f);
+	anim7->setReplayMode(Animation::RM_Once);
+	Affector* af7 = anim7->createAffector("Position","UVector2");
+	af7->setApplicationMethod(af1->AM_Absolute);
+	af7->createKeyFrame(0,"{{0,15},{0,370}}");
+	af7->createKeyFrame(0.3,"{{0,95},{0,370}}",KeyFrame::P_Linear);
+	anim7->defineAutoSubscription("MouseEntersArea","Start");
+
+	Animation *anim8 = AnimationManager::getSingleton().createAnimation("walo8");
+	anim8->setDuration(0.3f);
+	anim8->setReplayMode(Animation::RM_Once);
+	Affector* af8 = anim8->createAffector("Position","UVector2");
+	af8->setApplicationMethod(af1->AM_Absolute);
+	af8->createKeyFrame(0,"{{0,95},{0,370}}");
+	af8->createKeyFrame(0.3,"{{0,15},{0,370}}",KeyFrame::P_Linear);
+	anim8->defineAutoSubscription("MouseLeavesArea","Start");
+
+	Animation *anim9 = AnimationManager::getSingleton().createAnimation("walo9");
+	anim9->setDuration(0.3f);
+	anim9->setReplayMode(Animation::RM_Once);
+	Affector* af9 = anim9->createAffector("Position","UVector2");
+	af9->setApplicationMethod(af1->AM_Absolute);
+	af9->createKeyFrame(0,"{{0,15},{0,415}}");
+	af9->createKeyFrame(0.3,"{{0,95},{0,415}}",KeyFrame::P_Linear);
+	anim9->defineAutoSubscription("MouseEntersArea","Start");
+
+	Animation *anim10 = AnimationManager::getSingleton().createAnimation("walo10");
+	anim10->setDuration(0.3f);
+	anim10->setReplayMode(Animation::RM_Once);
+	Affector* af10 = anim10->createAffector("Position","UVector2");
+	af10->setApplicationMethod(af1->AM_Absolute);
+	af10->createKeyFrame(0,"{{0,95},{0,415}}");
+	af10->createKeyFrame(0.3,"{{0,15},{0,415}}",KeyFrame::P_Linear);
+	anim10->defineAutoSubscription("MouseLeavesArea","Start");
+
 	/*Affector* af2 = anim->createAffector("Alpha","float");
 	af2->createKeyFrame(0,"0.0");
 	af2->createKeyFrame(0.8,"0.1",KeyFrame::P_Linear);*/
@@ -229,14 +162,32 @@ int main(int argc, char *argv[])
 	Window *bg3 = myRoot->getChild("Image")->getChild("newgame3");
 	Window *bg4 = myRoot->getChild("Image")->getChild("newgame4");
 
-	AnimationInstance* inst = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim);
-	AnimationInstance* inst2 = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim2);
-	AnimationInstance* inst3 = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim);
-	AnimationInstance* inst4 = CEGUI::AnimationManager::getSingleton().instantiateAnimation(anim2);
-	inst->setTargetWindow(bg); inst->start();
+	AnimationManager& v = AnimationManager::getSingleton();
+
+	AnimationInstance* inst = v.instantiateAnimation(anim);
+	AnimationInstance* inst2 = v.instantiateAnimation(anim2);
+	AnimationInstance* inst3 = v.instantiateAnimation(anim);
+	AnimationInstance* inst4 = v.instantiateAnimation(anim2);
+	AnimationInstance* inst5 = v.instantiateAnimation(anim3);
+	AnimationInstance* inst6 = v.instantiateAnimation(anim4);
+	AnimationInstance* inst7 = v.instantiateAnimation(anim5);
+	AnimationInstance* inst8 = v.instantiateAnimation(anim6);
+	AnimationInstance* inst9 = v.instantiateAnimation(anim7);
+	AnimationInstance* inst10 = v.instantiateAnimation(anim8);
+	AnimationInstance* inst11 = v.instantiateAnimation(anim9);
+	AnimationInstance* inst12 = v.instantiateAnimation(anim10);
+	inst5->setTargetWindow(bg);
+	inst6->setTargetWindow(bg);
+	inst7->setTargetWindow(bg2);
+	inst8->setTargetWindow(bg2);
+	inst9->setTargetWindow(bg3);
+	inst10->setTargetWindow(bg3);
+	inst11->setTargetWindow(bg4);
+	inst12->setTargetWindow(bg4);
+	/*inst->setTargetWindow(bg); inst->start();
 	inst2->setTargetWindow(bg2); inst2->start();
 	inst3->setTargetWindow(bg3); inst3->start();
-	inst4->setTargetWindow(bg4); inst4->start();
+	inst4->setTargetWindow(bg4); inst4->start();*/
 	
 	//bg->setAlpha(0.4f);
 

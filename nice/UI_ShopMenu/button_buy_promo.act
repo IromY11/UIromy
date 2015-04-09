@@ -1,8 +1,0 @@
-params =
-{
-    NAME="Actor",
-    Actor =
-    {
-        LUA = "world/_ww1/common/hud/ui_shopmenu/button_buy_promo.tpl",
-	}
-}
