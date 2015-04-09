@@ -1,7 +1,0 @@
-<?xml version="1.0" standalone="yes"?>
-<root>
-  <TextureConfiguration TargetName="PC" CompressionMode="DXT3" MipmapLevelStart="0" UseMipmap="True" WrapMode="WrapMode_Repeat" Filter="MipmapFilter_Box" AllowDegradation="False" LodBias="0" />
-  <TextureConfiguration TargetName="WII" CompressionMode="DXT3" MipmapLevelStart="1" UseMipmap="True" WrapMode="WrapMode_Repeat" Filter="MipmapFilter_Box" AllowDegradation="False" LodBias="0" />
-  <TextureConfiguration TargetName="PS3" CompressionMode="DXT3" MipmapLevelStart="0" UseMipmap="True" WrapMode="WrapMode_Repeat" Filter="MipmapFilter_Box" AllowDegradation="False" LodBias="0" />
-  <TextureConfiguration TargetName="X360" CompressionMode="DXT3" MipmapLevelStart="0" UseMipmap="True" WrapMode="WrapMode_Repeat" Filter="MipmapFilter_Box" AllowDegradation="False" LodBias="0" />
-</root>

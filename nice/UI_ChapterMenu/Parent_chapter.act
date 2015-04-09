@@ -1,8 +1,0 @@
-params =
-{
-    NAME="Actor",
-    Actor =
-    {
-        LUA = "world/_ww1/common/hud/ui_chaptermenu/parent_chapter.tpl",
-	}
-}

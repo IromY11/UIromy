@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'C:\Users\mybahaoui\Documents\GitHub\UIromy\cegui-ceed\ceed\ui\AboutDialog.ui'
 #
-# Created: Mon Apr 06 12:40:08 2015
+# Created: Thu Apr 09 19:00:21 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
