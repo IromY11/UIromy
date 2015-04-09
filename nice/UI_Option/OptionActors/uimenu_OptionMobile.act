@@ -1,8 +1,0 @@
-params =
-{
-    NAME="Actor",
-    Actor =
-    {
-        LUA = "world/common/UI/MenuOption/uimenu_OptionMobile.tpl",
-	}
-}
