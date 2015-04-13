@@ -1,22 +1,4 @@
-﻿Build started 12/04/2015 11:38:39.
-     1>Project "C:\Users\Iromys\documents\visual studio 2012\Projects\cegui\cegui.vcxproj" on node 2 (Build target(s)).
-     1>InitializeBuildStatus:
-         Creating "bin\cegui.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\cegui-0.8.4\cegui\include" /I"C:\cegui-0.8.4\build\cegui\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"bin\\" /Fd"bin\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-         Macro definition of max detected - undefining
-         Macro definition of min detected - undefining
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Iromys\documents\visual studio 2012\Projects\cegui\bin\cegui.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\cegui-0.8.4\build\lib" /LIBPATH:"C:\cegui-0.8.4\dependencies\lib\dynamic" SDL.lib SDLmain.lib d3d9.lib d3dx9.lib "CEGUIBase-0.lib" "CEGUIDirect3D9Renderer-0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Iromys\documents\visual studio 2012\Projects\cegui\bin\cegui.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Iromys\documents\visual studio 2012\Projects\cegui\bin\cegui.lib" /MACHINE:X86 /SAFESEH:NO bin\main.obj
-         Generating code
-         Finished generating code
-         cegui.vcxproj -> C:\Users\Iromys\documents\visual studio 2012\Projects\cegui\bin\cegui.exe
-       FinalizeBuildStatus:
-         Deleting file "bin\cegui.unsuccessfulbuild".
-         Touching "bin\cegui.lastbuildstate".
-     1>Done Building Project "C:\Users\Iromys\documents\visual studio 2012\Projects\cegui\cegui.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:03.31
+﻿  main.cpp
+  Macro definition of max detected - undefining
+  Macro definition of min detected - undefining
+  cegui.vcxproj -> C:\Users\mybahaoui\Documents\GitHub\UIromy\cegui\bin\cegui.exe

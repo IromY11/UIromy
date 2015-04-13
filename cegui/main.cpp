@@ -24,7 +24,7 @@ using namespace std;
 using namespace CEGUI;
 
 
-string root = "C:/Users/Iromys/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/";
+string root = "C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/";
 void initialiseResourceGroupDirectories(){
 	CEGUI::DefaultResourceProvider* rp = static_cast<CEGUI::DefaultResourceProvider*>
 		(CEGUI::System::getSingleton().getResourceProvider());

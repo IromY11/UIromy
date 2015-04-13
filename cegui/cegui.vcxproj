@@ -41,8 +41,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Iromys\Desktop\IromY\Interesting\SDKs\Librairies\SDL Tools\SDL-1.2.13_vc9_\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Iromys\Desktop\IromY\Interesting\SDKs\Librairies\SDL Tools\SDL-1.2.13_vc9_\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Librairies\SDL Tools\SDL-1.2.13_vc9_\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Librairies\SDL Tools\SDL-1.2.13_vc9_\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)bin\</OutDir>
     <IntDir>bin\</IntDir>
   </PropertyGroup>
@@ -59,7 +59,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\cegui-0.8.4\cegui\include;C:\cegui-0.8.4\build\cegui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cegui-0.8.4\cegui\include;D:\cegui-0.8.4\build\cegui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName />
       <AssemblerOutput />
       <AssemblerListingLocation />
@@ -74,7 +74,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>SDL.lib;SDLmain.lib;d3d9.lib;d3dx9.lib;CEGUIBase-0_d.lib;CEGUIDirect3D9Renderer-0_d.lib;freetype_d.lib;pcre_d.lib;winmm.lib;DbgHelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\cegui-0.8.4\build\lib;C:\cegui-0.8.4\dependencies\lib\dynamic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\cegui-0.8.4\build\lib;D:\cegui-0.8.4\dependencies\lib\dynamic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>
