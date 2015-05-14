@@ -23,7 +23,6 @@ from PySide import QtGui
 from PySide import QtOpenGL
 
 import os
-
 from ceed import paths
 
 from ceed import settings
@@ -80,7 +79,7 @@ class MainWindow(QtGui.QMainWindow):
         MainWindow.instance = self
 
         super(MainWindow, self).__init__()
-
+        
         self.app = app
 
         # whether the app was maximized before going fullscreen
@@ -93,7 +92,6 @@ class MainWindow(QtGui.QMainWindow):
 
         self.recentlyUsedProjects = recentlyused.RecentlyUsedMenuEntry(self.app.qsettings, "Projects")
         self.recentlyUsedFiles = recentlyused.RecentlyUsedMenuEntry(self.app.qsettings, "Files")
-
         if not QtOpenGL.QGLFramebufferObject.hasOpenGLFramebufferObjects():
             messages.warning(self.app, self, "No FBO support!",
                 "UIED uses OpenGL frame buffer objects for various tasks, "
@@ -101,7 +99,6 @@ class MainWindow(QtGui.QMainWindow):
                 "FBO support was not detected on your system!\n\n"
                 "The editor will run but you may experience rendering artifacts.",
                 "no_fbo_support")
-
         import ceed.editors.animation_list as animation_list_editor
         import ceed.editors.bitmap as bitmap_editor
         import ceed.editors.imageset as imageset_editor
@@ -109,7 +106,7 @@ class MainWindow(QtGui.QMainWindow):
         import ceed.editors.looknfeel as looknfeel_editor
         #import ceed.editors.property_mappings as property_mappings_editor
         import ceed.editors.text as text_editor
-
+        
         self.editorFactories = [
             animation_list_editor.AnimationListTabbedEditorFactory(),
             bitmap_editor.BitmapTabbedEditorFactory(),
@@ -119,6 +116,7 @@ class MainWindow(QtGui.QMainWindow):
             #property_mappings_editor.PropertyMappingsTabbedEditorFactory(),
             text_editor.TextTabbedEditorFactory()
         ]
+        
         # File dialog filters, keep indices in sync with the list above
         self.editorFactoryFileFilters = [
             "Animation files (%s)" % ("*." + " *.".join(self.editorFactories[0].getFileExtensions())),
@@ -128,6 +126,7 @@ class MainWindow(QtGui.QMainWindow):
             #"Property Mapping files (%s)" % ("*." + " *.".join(self.editorFactories[4].getFileExtensions())),
             "Text files (%s)" % ("*." + " *.".join(self.editorFactories[4].getFileExtensions()))
         ]
+        
         #print self.editorFactoryFileFilters
         allExt = []
         for factory in self.editorFactories:
@@ -167,7 +166,7 @@ class MainWindow(QtGui.QMainWindow):
 
         # stores all active tab editors
         self.tabEditors = []
-
+        
 
         self.projectManager = project.ProjectManager()
         self.projectManager.fileOpenRequested.connect(self.slot_openFile)
@@ -194,8 +193,8 @@ class MainWindow(QtGui.QMainWindow):
         self.setupToolbars()
 
         self.restoreSettings()
-        #self.openProject("C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
-        self.openProject("C:/Users/Iromys/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
+        self.openProject("C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
+        #self.openProject("C:/Users/Iromys/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
         
 
     def setupActions(self):

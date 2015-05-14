@@ -12,8 +12,10 @@
     <OutputPath>.</OutputPath>
     <Name>UIromy</Name>
     <RootNamespace>UIromy</RootNamespace>
-    <InterpreterId>{897fc960-b2d3-4156-8a97-c4a1bdb16189}</InterpreterId>
-    <InterpreterVersion>2.7</InterpreterVersion>
+    <InterpreterId>
+    </InterpreterId>
+    <InterpreterVersion>
+    </InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -170,9 +172,6 @@
     <Compile Include="ceed\xmledit.py" />
     <Compile Include="ceed\__init__.py" />
     <Compile Include="UIromy.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="{897fc960-b2d3-4156-8a97-c4a1bdb16189}\2.7" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />

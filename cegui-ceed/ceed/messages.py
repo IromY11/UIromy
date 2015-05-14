@@ -39,7 +39,6 @@ def warning(app, parentWidget, title, message, token = None):
     info inside will change, thus changing the token and user will see the
     same warning again. Passing a proper descriptive token is advised.
     """
-
     if app is None:
         app = QtGui.QApplication.instance()
 

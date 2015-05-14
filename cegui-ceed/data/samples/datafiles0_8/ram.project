@@ -102,6 +102,7 @@
             <Item path="layouts/VanillaConsole.layout" type="file" />
             <Item path="layouts/VanillaWindows.layout" type="file" />
             <Item path="layouts/vhdemo.layout" type="file" />
+            <Item path="layouts/ubi.layout" type="file" />
         </Item>
     </Items>
 </Project>

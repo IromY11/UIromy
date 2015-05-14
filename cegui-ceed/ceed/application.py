@@ -30,7 +30,7 @@ class SplashScreen(QSplashScreen):
         super(SplashScreen, self).__init__(QPixmap("images/ubisoft.jpg"))
 
         self.setWindowModality(Qt.ApplicationModal)
-        self.setWindowFlags(Qt.SplashScreen | Qt.WindowStaysOnTopHint)
+        self.setWindowFlags(Qt.SplashScreen)
         self.showMessage("version: %s" % (version.CEED), Qt.AlignBottom | Qt.AlignRight, Qt.GlobalColor.white)
 
 class Application(QApplication):
