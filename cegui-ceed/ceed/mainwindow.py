@@ -83,6 +83,8 @@ class MainWindow(QtGui.QMainWindow):
 
         self.app = app
 
+        #self.app.setStyleSheet(qdarkstyle.load_stylesheet())
+
         # whether the app was maximized before going fullscreen
         self.wasMaximized = False
 
@@ -163,8 +165,7 @@ class MainWindow(QtGui.QMainWindow):
         
         #print os.path.dirname(__file__)
         #qfile = open("../ceed/qss.qss","r")
-        #self.setStyleSheet(qdarkstyle.load_stylesheet())
-
+        #self.app.setStyleSheet(qfile.read())
         # stores all active tab editors
         self.tabEditors = []
 
@@ -229,6 +230,10 @@ class MainWindow(QtGui.QMainWindow):
         self.saveAsAction = self.actionManager.getAction("files/save_file_as")
         self.saveAsAction.setEnabled(False)
         self.connectionGroup.add(self.saveAsAction, receiver = self.slot_saveAs)
+
+        self.exportToUAFAction = self.actionManager.getAction("files/export_to_uaf")
+        self.exportToUAFAction.setEnabled(False)
+        self.connectionGroup.add(self.exportToUAFAction, receiver = self.slot_exportToUAF)
 
         self.saveAllAction = self.actionManager.getAction("files/save_all")
         self.connectionGroup.add(self.saveAllAction, receiver = self.slot_saveAll)
@@ -374,6 +379,8 @@ class MainWindow(QtGui.QMainWindow):
         # TODO: Revert
         #self.fileMenu.addSeparator()
         #self.fileMenu.addAction(self.revertAction)
+        self.fileMenu.addSeparator()
+        self.fileMenu.addActions([self.exportToUAFAction])
         self.fileMenu.addSeparator()
         menu = QtGui.QMenu("&Recent Files")
         self.fileMenu.addMenu(menu)
@@ -1163,6 +1170,7 @@ Details of this error: %s""" % (e))
     def slot_openFile(self, absolutePath):
         self.openEditorTab(absolutePath)
 
+
     def slot_openFileDialog(self):
         defaultDir = ""
         if self.project:
@@ -1197,6 +1205,7 @@ Details of this error: %s""" % (e))
 
         if self.activeEditor:
             self.activeEditor.deactivate()
+            
 
         # it's the tabbed editor's responsibility to handle these,
         # we disable them by default
@@ -1335,6 +1344,12 @@ Details of this error: %s""" % (e))
             self.activeEditor.save()
 
     def slot_saveAs(self):
+        if self.activeEditor:
+            filePath, _ = QtGui.QFileDialog.getSaveFileName(self, "Save as", os.path.dirname(self.activeEditor.filePath))
+            if filePath: # make sure user hasn't cancelled the dialog
+                self.activeEditor.saveAs(filePath)
+
+    def slot_exportToUAF(self):
         if self.activeEditor:
             filePath, _ = QtGui.QFileDialog.getSaveFileName(self, "Save as", os.path.dirname(self.activeEditor.filePath))
             if filePath: # make sure user hasn't cancelled the dialog

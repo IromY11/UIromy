@@ -6,7 +6,7 @@
         <Property name="Image" value="menu/backgound" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Window type="vhdemo/ImageButton" name="newgame" >
-            <Property name="Area" value="{{0.0390625,0},{0.433333,0},{0.39375,0},{0.497222,0}}" />
+            <Property name="Area" value="{{0.0390625,340},{0.433333,-4},{0.39375,340},{0.497222,-4}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="New Game" />
             <Property name="HoverImage" value="menu/hover" />

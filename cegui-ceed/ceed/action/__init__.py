@@ -231,6 +231,10 @@ class ActionManager(declaration.ActionManager):
                            help_ = "Saves currently opened (and active - currently edited) file to a custom location.",
                            icon = QIcon("icons/actions/save_as.png"),
                            defaultShortcut = QKeySequence(QKeySequence.SaveAs))
+        files.createAction(name = "export_to_uaf", label = "Export to UAF", settingsLabel = "Export to UAF",
+                           help_ = "Saves currently opened layout to a UbiArt scene.",
+                           icon = QIcon("icons/actions/save_as.png"),
+                           defaultShortcut = QKeySequence(QKeySequence.SaveAs))
         files.createAction(name = "save_all", label = "Save A&ll",
                            help_ = "Saves currently opened project file (if any) and all currently opened files to their original location.",
                            icon = QIcon("icons/actions/save_all.png"),
