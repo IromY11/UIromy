@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'C:\Users\Iromys\Documents\GitHub\UIromy\cegui-ceed\ceed\ui\editors\layout\HierarchyDockWidget.ui'
 #
-# Created: Sun May 17 21:41:54 2015
+# Created: Mon May 18 01:37:27 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!

@@ -374,19 +374,12 @@ class MultiModeTabbedEditor(editors.UndoStackTabbedEditor, QTabWidget):
     def slot_currentChanged(self, newTabIndex):
         if self.ignoreCurrentChanged:
             return
-
         oldTab = self.widget(self.currentTabIndex)
-
-        if isinstance(self,editors.layout.LayoutTabbedEditor):
-                self.mainWindow.exportToUAFAction.setEnabled(True)
-        else :
-                self.mainWindow.exportToUAFAction.setEnabled(False)
 
         # FIXME: workaround for PySide 1.0.6, I suspect this is a bug in PySide! http://bugs.pyside.org/show_bug.cgi?id=988
         if newTabIndex is None:
             newTabIndex = -1
 
-        
         elif isinstance(newTabIndex, QWidget):
             for i in xrange(0, self.count()):
                 if newTabIndex is self.widget(i):

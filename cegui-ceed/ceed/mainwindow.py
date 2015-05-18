@@ -1185,6 +1185,10 @@ Details of this error: %s""" % (e))
             self.openEditorTab(fileName)
 
     def slot_currentTabChanged(self, index):
+        if isinstance(self.activeEditor,editors.layout.LayoutTabbedEditor):
+                self.exportToUAFAction.setEnabled(False)
+        else :
+                self.exportToUAFAction.setEnabled(True)
         # to fight flicker
         self.tabs.setUpdatesEnabled(False)
 

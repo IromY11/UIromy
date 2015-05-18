@@ -28,7 +28,6 @@ from PySide import QtGui
 
 import os.path
 import codecs
-
 from ceed import compatibility
 
 import ceed.ui.editors.notypedetected
@@ -174,6 +173,7 @@ class TabbedEditor(object):
         self.tabWidget.tabbedEditor = self
 
         self.mainWindow.tabs.addTab(self.tabWidget, self.tabLabel)
+       
 
         if self.compatibilityManager is not None:
             rawData = codecs.open(self.filePath, mode = "r", encoding = "utf-8").read()
