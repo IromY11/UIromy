@@ -374,7 +374,6 @@ class MultiModeTabbedEditor(editors.UndoStackTabbedEditor, QTabWidget):
     def slot_currentChanged(self, newTabIndex):
         if self.ignoreCurrentChanged:
             return
-
         oldTab = self.widget(self.currentTabIndex)
 
         # FIXME: workaround for PySide 1.0.6, I suspect this is a bug in PySide! http://bugs.pyside.org/show_bug.cgi?id=988

@@ -2,7 +2,11 @@
 
 # Form implementation generated from reading ui file 'C:\Users\mybahaoui\Documents\GitHub\UIromy\cegui-ceed\ceed\ui\editors\animation_list\KeyFramePropertiesDockWidget.ui'
 #
+<<<<<<< HEAD
 # Created: Wed Apr 29 10:56:49 2015
+=======
+# Created: Mon May 18 01:37:27 2015
+>>>>>>> 8d71f48158ce6577737b930a8dc24036e2e85210
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
