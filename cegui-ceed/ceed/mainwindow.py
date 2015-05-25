@@ -23,6 +23,7 @@ from PySide import QtGui
 from PySide import QtOpenGL
 
 import os
+import codecs
 
 from ceed import paths
 
@@ -41,9 +42,13 @@ from ceed import messages
 #from ceed import help
 from ceed import recentlyused
 from ceed import about
+from ceed import xmledit
 
 import ceed.ui.mainwindow
 import qdarkstyle
+import PyCEGUI
+
+from xml.etree import cElementTree as ElementTree
 
 class MainWindow(QtGui.QMainWindow):
     """The central window of the application.
@@ -1169,6 +1174,10 @@ Details of this error: %s""" % (e))
 
     def slot_openFile(self, absolutePath):
         self.openEditorTab(absolutePath)
+        if self.activeEditor.filePath.endswith("layout"):
+                self.exportToUAFAction.setEnabled(True)
+        else :
+                self.exportToUAFAction.setEnabled(False)
 
 
     def slot_openFileDialog(self):
@@ -1191,7 +1200,6 @@ Details of this error: %s""" % (e))
                 self.exportToUAFAction.setEnabled(True)
         # to fight flicker
         self.tabs.setUpdatesEnabled(False)
-
         # FIXME: workaround for PySide 1.0.6, I suspect this is a bug in PySide! http://bugs.pyside.org/show_bug.cgi?id=988
         if index is None:
             index = -1
@@ -1357,7 +1365,43 @@ Details of this error: %s""" % (e))
         if self.activeEditor:
             filePath, _ = QtGui.QFileDialog.getSaveFileName(self, "Save as", os.path.dirname(self.activeEditor.filePath))
             if filePath: # make sure user hasn't cancelled the dialog
-                self.activeEditor.saveAs(filePath)
+                rooot = ElementTree.Element("root")
+                scene = ElementTree.SubElement(rooot,"Scene")
+                scene.set("ENGINE_VERSION","170143")
+                scene.set("GRIDUNIT","4.000000")
+                scene.set("DEPTH_SEPARATOR","0")
+                scene.set("NEAR_SEPARATOR","1.000000 0.000000 0.000000 0.000000, 0.000000 1.000000 0.000000 0.000000, 0.000000 0.000000 1.000000 0.000000, 0.000000 0.000000 0.000000 1.000000")
+                scene.set("FAR_SEPARATOR","1.000000 0.000000 0.000000 0.000000, 0.000000 1.000000 0.000000 0.000000, 0.000000 0.000000 1.000000 0.000000, 0.000000 0.000000 0.000000 1.000000")
+                actors =  ElementTree.SubElement(scene,"Actors")
+                actors.set("NAME","Actor")
+                actor = ElementTree.SubElement(actors,"Actor")
+                actor.set("RELATIVEZ","0.000000")
+                actor.set("SCALE","1.000000 1.000000")
+                actor.set("xFLIPPED","0") 
+                actor.set("USERFRIENDLY","UI_MENU_"+os.path.splitext(os.path.basename(self.activeEditor.filePath))[0].upper())
+                actor.set("STARTPAUSE","0")
+                actor.set("ICONCOLOR","1.000000 1.000000 1.000000 1.000000" )
+                actor.set("POS2D","0.000000 0.000000") 
+                actor.set("ANGLE","0.000000")
+                actor.set("INSTANCEDATAFILE","uimenu_"+os.path.splitext(os.path.basename(self.activeEditor.filePath))[0].lower()+".act")
+                actor.set("persistenceId","0")
+                actor.set("LUA","uimenu_"+os.path.splitext(os.path.basename(self.activeEditor.filePath))[0].lower()+".tpl")
+                
+                sys = PyCEGUI.System.getSingleton()
+                #print sys.getDefaultGUIContext().getRootWindow().getName()
+                xmledit.indent(rooot)
+                outputData = ElementTree.tostring(rooot,encoding="ISO-8859-1", method="xml")
+                try:
+                    f = codecs.open(filePath, mode = "w", encoding = "utf-8")
+                    f.write(outputData)
+                    f.close()
+
+                except IOError as e:
+                    # The rest of the code is skipped, so be sure to turn file
+                    # monitoring back on
+                    QtGui.QMessageBox.critical(self, "Error saving file!",
+                                               "CEED encountered an error trying to save the file.\n\n(exception details: %s)" % (e))
+                    return False
 
     def slot_saveAll(self):
         """Saves all opened tabbed editors and opened project (if any)
