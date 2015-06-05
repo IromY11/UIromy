@@ -26,6 +26,7 @@ from OpenGL import GL
 
 import os.path
 
+from xml.etree import cElementTree as ElementTree
 import PyCEGUI
 import PyCEGUIOpenGLRenderer
 
@@ -182,7 +183,8 @@ class Instance(object):
     def syncToProject(self, project, mainWindow = None):
         """Synchronises the instance with given project, respecting it's paths and resources
         """
-
+        mainWindow.imagesetMap = dict()
+        mainWindow.schemes = []
         progress = QtGui.QProgressDialog(mainWindow)
         progress.setWindowModality(QtCore.Qt.WindowModal)
         progress.setWindowTitle("Synchronising embedded CEGUI with the project")
@@ -199,6 +201,7 @@ class Instance(object):
             for file_ in os.listdir(absoluteSchemesPath):
                 if file_.endswith(".scheme"):
                     schemeFiles.append(file_)
+                    mainWindow.schemes.append(os.path.basename(file_))
         else:
             progress.reset()
             raise IOError("Can't list scheme path '%s'" % (absoluteSchemesPath))
@@ -300,6 +303,11 @@ class Instance(object):
                     imagesetNativeData = imageset_compatibility.manager.transform(imagesetRawDataType, imageset_compatibility.manager.EditorNativeType, imagesetRawData)
 
                     PyCEGUI.ImageManager.getSingleton().loadImagesetFromString(imagesetNativeData)
+                    _root = ElementTree.fromstring(imagesetNativeData)
+                    _name = _root.get("name")
+                    _filename = _root.get("imagefile")
+                    _path = os.path.abspath(os.path.join(imagesetFilePath, os.pardir))+"\\"+_filename
+                    mainWindow.imagesetMap[_name] = _path
                     xmlImagesetIterator.next()
 
                 updateProgress("Loading image file imagesets")

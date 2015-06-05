@@ -6,44 +6,52 @@
         <Property name="Image" value="menu/backgound" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Window type="vhdemo/ImageButton" name="newgame" >
-            <Property name="Area" value="{{0.0390625,340},{0.433333,-4},{0.39375,340},{0.497222,-4}}" />
+            <Property name="Area" value="{{0.589063,0},{0.441666,0},{0.94375,0},{0.505555,0}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="New Game" />
+            <Property name="Rotation" value="w:0.965926 x:0 y:0.258819 z:0" />
             <Property name="HoverImage" value="menu/hover" />
             <Property name="NormalImage" value="menu/released" />
             <Property name="PushedImage" value="menu/pressed" />
             <Property name="HoverTextColour" value="FFFFFFFF" />
             <Property name="PushedTextColour" value="FFFFFFFF" />
+            <Property name="AutoRenderingSurface" value="true" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame4" >
-            <Property name="Area" value="{{0.0390625,0},{0.666667,0},{0.39375,0},{0.730556,0}}" />
+            <Property name="Area" value="{{0.589063,0},{0.680556,0},{0.94375,0},{0.744445,0}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Exit" />
+            <Property name="Rotation" value="w:0.965926 x:0 y:0.258819 z:0" />
             <Property name="HoverImage" value="menu/hover" />
             <Property name="NormalImage" value="menu/released" />
             <Property name="PushedImage" value="menu/pressed" />
             <Property name="HoverTextColour" value="FFFFFFFF" />
             <Property name="PushedTextColour" value="FFFFFFFF" />
+            <Property name="AutoRenderingSurface" value="true" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame3" >
-            <Property name="Area" value="{{0.0390625,0},{0.586667,0},{0.39375,0},{0.650556,0}}" />
+            <Property name="Area" value="{{0.589063,0},{0.600556,0},{0.94375,0},{0.664445,0}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Settings" />
+            <Property name="Rotation" value="w:0.965926 x:0 y:0.258819 z:0" />
             <Property name="HoverImage" value="menu/hover" />
             <Property name="NormalImage" value="menu/released" />
             <Property name="PushedImage" value="menu/pressed" />
             <Property name="HoverTextColour" value="FFFFFFFF" />
             <Property name="PushedTextColour" value="FFFFFFFF" />
+            <Property name="AutoRenderingSurface" value="true" />
         </Window>
         <Window type="vhdemo/ImageButton" name="newgame2" >
-            <Property name="Area" value="{{0.0390625,0},{0.51,0},{0.39375,0},{0.573889,0}}" />
+            <Property name="Area" value="{{0.589063,0},{0.523889,0},{0.94375,0},{0.587778,0}}" />
             <Property name="Font" value="vhdemo" />
             <Property name="Text" value="Load Game" />
+            <Property name="Rotation" value="w:0.965926 x:0 y:0.258819 z:0" />
             <Property name="HoverImage" value="menu/hover" />
             <Property name="NormalImage" value="menu/released" />
             <Property name="PushedImage" value="menu/pressed" />
             <Property name="HoverTextColour" value="FFFFFFFF" />
             <Property name="PushedTextColour" value="FFFFFFFF" />
+            <Property name="AutoRenderingSurface" value="true" />
         </Window>
     </Window>
 </GUILayout>

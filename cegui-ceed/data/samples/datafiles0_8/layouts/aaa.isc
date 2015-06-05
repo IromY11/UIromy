@@ -2,7 +2,90 @@
 <root>
     <Scene DEPTH_SEPARATOR="0" ENGINE_VERSION="170143" FAR_SEPARATOR="1.000000 0.000000 0.000000 0.000000, 0.000000 1.000000 0.000000 0.000000, 0.000000 0.000000 1.000000 0.000000, 0.000000 0.000000 0.000000 1.000000" GRIDUNIT="4.000000" NEAR_SEPARATOR="1.000000 0.000000 0.000000 0.000000, 0.000000 1.000000 0.000000 0.000000, 0.000000 0.000000 1.000000 0.000000, 0.000000 0.000000 0.000000 1.000000">
         <Actors NAME="Actor">
-            <Actor ANGLE="0.000000" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" INSTANCEDATAFILE="uimenu_vhdemo.act" LUA="uimenu_vhdemo.tpl" POS2D="0.000000 0.000000" RELATIVEZ="0.000000" SCALE="1.000000 1.000000" STARTPAUSE="0" USERFRIENDLY="UI_MENU_VHDEMO" persistenceId="0" xFLIPPED="0" />
+            <Actor ANGLE="0.000000" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" INSTANCEDATAFILE="test/ceguimenu.act" LUA="test/ceguimenu.tpl" POS2D="0.000000 0.000000" RELATIVEZ="0.000000" SCALE="1.000000 1.000000" STARTPAUSE="0" USERFRIENDLY="UI_MENU_UBI" persistenceId="0" xFLIPPED="0">
+                <ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+                <COMPONENTS NAME="CEGUIMenuBasic">
+                    <CEGUIMenuBasic afxDuration="0.300000" backItem="" cursorAngle="0.000000" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" defaultItem="" display="1" downComponentID="" leftComponentID="" loadResource="0" rightComponentID="" screenSpace="1280.000000 720.000000" transition="0" upComponentID="">
+                        <ENUM NAME="displayMask" SEL="3" />
+                        <ENUM NAME="menuType" SEL="2" />
+                    </CEGUIMenuBasic>
+                </COMPONENTS>
+            </Actor>
+        </Actors>
+        <Actors NAME="Actor">
+            <Actor ANGLE="0.000000" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" INSTANCEDATAFILE="test/texture/layout.act" LUA="test/texture/layout.tpl" POS2D="0.000000 0.000000" RELATIVEZ="0.000000" SCALE="1.000000 1.000000" STARTPAUSE="0" USERFRIENDLY="DefaultWindow" persistenceId="0" xFLIPPED="0">
+                <ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+                <parentBind>
+                    <Bind offsetAngle="0.000000" offsetPos="0.000000 0.000000 0.000000" parentPath="UI_MENU_UBI" removeWithParent="0" typeData="0" useParentAlpha="0" useParentFlip="1" useParentScale="0">
+                        <ENUM NAME="type" SEL="0" />
+                    </Bind>
+                </parentBind>
+                <COMPONENTS NAME="CEGUILayoutComponent">
+                    <CEGUILayoutComponent cursorAngle="0.000000" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" display="1" downComponentID="" leftComponentID="" rightComponentID="" screenSpace="1280.000000 720.000000" transition="0" upComponentID="">
+                        <ENUM NAME="displayMask" SEL="3" />
+                    </CEGUILayoutComponent>
+                </COMPONENTS>
+            </Actor>
+        </Actors>
+        <Actors NAME="Actor">
+            <Actor ANGLE="0.000000" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" INSTANCEDATAFILE="test/texture/button.act" LUA="test/texture/button.tpl" POS2D="32.000000 342.000000" RELATIVEZ="0.000000" SCALE="1.000000 1.000000" STARTPAUSE="0" USERFRIENDLY="newgame3" persistenceId="0" xFLIPPED="0">
+                <ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+                <parentBind>
+                    <Bind offsetAngle="0.000000" offsetPos="32.000000 342.000000 0.000000" parentPath="UI_MENU_UBI" removeWithParent="0" typeData="0" useParentAlpha="0" useParentFlip="1" useParentScale="0">
+                        <ENUM NAME="type" SEL="0" />
+                    </Bind>
+                </parentBind>
+                <COMPONENTS NAME="CEGUIWidgetComponent">
+                    <CEGUIWidgetComponent cursorAngle="0.000000" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" display="1" downComponentID="" leftComponentID="" rightComponentID="" screenSpace="1280.000000 720.000000" transition="0" upComponentID="">
+                        <ENUM NAME="displayMask" SEL="3" />
+                    </CEGUIWidgetComponent>
+                </COMPONENTS>
+            </Actor>
+        </Actors>
+        <Actors NAME="Actor">
+            <Actor ANGLE="0.000000" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" INSTANCEDATAFILE="test/texture/button.act" LUA="test/texture/button.tpl" POS2D="32.000000 244.000000" RELATIVEZ="0.000000" SCALE="1.000000 1.000000" STARTPAUSE="0" USERFRIENDLY="newgame" persistenceId="0" xFLIPPED="0">
+                <ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+                <parentBind>
+                    <Bind offsetAngle="0.000000" offsetPos="32.000000 244.000000 0.000000" parentPath="UI_MENU_UBI" removeWithParent="0" typeData="0" useParentAlpha="0" useParentFlip="1" useParentScale="0">
+                        <ENUM NAME="type" SEL="0" />
+                    </Bind>
+                </parentBind>
+                <COMPONENTS NAME="CEGUIWidgetComponent">
+                    <CEGUIWidgetComponent cursorAngle="0.000000" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" display="1" downComponentID="" leftComponentID="" rightComponentID="" screenSpace="1280.000000 720.000000" transition="0" upComponentID="">
+                        <ENUM NAME="displayMask" SEL="3" />
+                    </CEGUIWidgetComponent>
+                </COMPONENTS>
+            </Actor>
+        </Actors>
+        <Actors NAME="Actor">
+            <Actor ANGLE="0.000000" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" INSTANCEDATAFILE="test/texture/button.act" LUA="test/texture/button.tpl" POS2D="32.000000 293.000000" RELATIVEZ="0.000000" SCALE="1.000000 1.000000" STARTPAUSE="0" USERFRIENDLY="newgame2" persistenceId="0" xFLIPPED="0">
+                <ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+                <parentBind>
+                    <Bind offsetAngle="0.000000" offsetPos="32.000000 293.000000 0.000000" parentPath="UI_MENU_UBI" removeWithParent="0" typeData="0" useParentAlpha="0" useParentFlip="1" useParentScale="0">
+                        <ENUM NAME="type" SEL="0" />
+                    </Bind>
+                </parentBind>
+                <COMPONENTS NAME="CEGUIWidgetComponent">
+                    <CEGUIWidgetComponent cursorAngle="0.000000" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" display="1" downComponentID="" leftComponentID="" rightComponentID="" screenSpace="1280.000000 720.000000" transition="0" upComponentID="">
+                        <ENUM NAME="displayMask" SEL="3" />
+                    </CEGUIWidgetComponent>
+                </COMPONENTS>
+            </Actor>
+        </Actors>
+        <Actors NAME="Actor">
+            <Actor ANGLE="0.000000" ICONCOLOR="1.000000 1.000000 1.000000 1.000000" INSTANCEDATAFILE="test/texture/button.act" LUA="test/texture/button.tpl" POS2D="32.000000 393.000000" RELATIVEZ="0.000000" SCALE="1.000000 1.000000" STARTPAUSE="0" USERFRIENDLY="newgame4" persistenceId="0" xFLIPPED="0">
+                <ENUM NAME="ObjectDeviceSpeed" SEL="-1" />
+                <parentBind>
+                    <Bind offsetAngle="0.000000" offsetPos="32.000000 393.000000 0.000000" parentPath="UI_MENU_UBI" removeWithParent="0" typeData="0" useParentAlpha="0" useParentFlip="1" useParentScale="0">
+                        <ENUM NAME="type" SEL="0" />
+                    </Bind>
+                </parentBind>
+                <COMPONENTS NAME="CEGUIWidgetComponent">
+                    <CEGUIWidgetComponent cursorAngle="0.000000" cursorOffset="0.000000 0.000000" cursorOffset_4_3="0.000000 0.000000" display="1" downComponentID="" leftComponentID="" rightComponentID="" screenSpace="1280.000000 720.000000" transition="0" upComponentID="">
+                        <ENUM NAME="displayMask" SEL="3" />
+                    </CEGUIWidgetComponent>
+                </COMPONENTS>
+            </Actor>
         </Actors>
     </Scene>
 </root>

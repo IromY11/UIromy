@@ -23,11 +23,8 @@ from PySide import QtGui
 from PySide import QtOpenGL
 
 import os
-<<<<<<< HEAD
-=======
 import codecs
 
->>>>>>> 5c99a2e5037babbf80457f6614ef5105ed6e4b86
 from ceed import paths
 
 from ceed import settings
@@ -90,6 +87,8 @@ class MainWindow(QtGui.QMainWindow):
         super(MainWindow, self).__init__()
         
         self.app = app
+        self.imagesetMap = dict()
+        self.schemes =  []
 
         #self.app.setStyleSheet(qdarkstyle.load_stylesheet())
 
@@ -203,7 +202,7 @@ class MainWindow(QtGui.QMainWindow):
         self.setupToolbars()
 
         self.restoreSettings()
-        self.openProject("C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
+        #self.openProject("C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
         #self.openProject("C:/Users/Iromys/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
         
 
@@ -1367,7 +1366,182 @@ Details of this error: %s""" % (e))
     def slot_exportToUAF(self):
         if self.activeEditor:
             filePath, _ = QtGui.QFileDialog.getSaveFileName(self, "Save as", os.path.dirname(self.activeEditor.filePath))
-            if filePath: # make sure user hasn't cancelled the dialog
+            _root = ""
+            self.slot_save()
+            if bool(self.imagesetMap) :
+                _root = self.imagesetMap.values()[0][:self.imagesetMap.values()[0].find("\\imagesets")]
+            if filePath and self.activeEditor.nativeData != "" : # make sure user hasn't cancelled the dialog
+                parentName = "UI_MENU_"+os.path.splitext(os.path.basename(self.activeEditor.filePath))[0].upper()
+                relativePath = os.path.abspath(os.path.join(filePath, os.pardir))+"\\actors"
+                print relativePath
+                if not os.path.exists(relativePath):
+                    os.makedirs(relativePath)
+                rel =  relativePath[relativePath.find("data")+5:]
+                menuluact = open(relativePath+"\\"+parentName.lower()+".act","w")
+                menuluatpl = open(relativePath+"\\"+parentName.lower()+".tpl","w")
+                menuluact.write("""params =
+{
+    NAME="Actor",
+    Actor =
+    {
+        LUA = "%s",
+        COMPONENTS =
+        {	
+            { 
+                NAME = "CEGUIMenuBasic",
+                CEGUIMenuBasic = 
+                { 
+                }, 
+            }, 
+        },
+    },
+}""" %(rel+"\\"+parentName.lower()+".tpl").replace("\\","/") )
+                menuluatpl.write("""params =
+{
+	NAME = "Actor_Template",
+	Actor_Template =
+    {
+		UPDATELAYER = UpdateLayer.Menu,
+        COMPONENTS =
+        {
+			 {
+                NAME = "CEGUIMenuBasic_Template",
+                CEGUIMenuBasic_Template =
+                {
+					dataRoot = "%s",
+                    schemes = 
+                    { """% _root.replace("\\","/"))
+                for sc in self.schemes :
+                    menuluatpl.write("""
+                        {
+                            SchemeName = 
+							{
+								name = "%s",
+							},
+                        },"""% sc)
+                menuluatpl.write("""
+                    },
+                    imagesetTextures = 
+					{ """)
+                for key in self.imagesetMap :
+                    _frel = self.imagesetMap[key]
+                    menuluatpl.write("""
+                        {
+							TexturePair = 
+							{
+								name = "%s",
+								path = "%s",
+							},
+						},"""% (key, _frel[_frel.find("data")+5:].replace("\\","/")))
+                menuluatpl.write("""
+                    },
+                    styles =
+					{
+                    },
+                },
+            },
+        },
+    },
+}""")
+
+                menuluact.close()
+                layoutluact = open(relativePath+"\\"+"layout.act","w")
+                layoutluatpl = open(relativePath+"\\"+"layout.tpl","w")
+                layoutluact.write("""
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+		RELATIVEZ = 0.0,
+        LUA = "%s",
+		
+        COMPONENTS = 
+        {
+            {
+                NAME = "CEGUILayoutComponent",
+                CEGUILayoutComponent =
+                {
+					name = "%s",
+					
+                },
+            },
+        },
+    },
+}"""%((relativePath[relativePath.find("data")+5:]+"\\"+"layout.tpl").replace("\\","/"),os.path.basename(self.activeEditor.filePath)))
+                layoutluact.close()
+                layoutluatpl.write("""
+params =
+{
+	NAME = "Actor_Template",
+	Actor_Template =
+    {
+		UPDATELAYER = UpdateLayer.Menu,
+        STARTPAUSED = 0,
+		
+        COMPONENTS =
+        {
+			{
+                NAME = "CEGUILayoutComponent_Template",
+                CEGUILayoutComponent_Template =
+                {
+					style = 0,
+					
+                },
+				
+            },
+        },
+    },
+}""")
+                layoutluatpl.close()
+                widgetluact = open(relativePath+"\\"+"widget.act","w")
+                widgetluatpl = open(relativePath+"\\"+"widget.tpl","w")
+                widgetluact.write("""
+params =
+{
+    NAME="Actor",
+    Actor =
+    {
+		RELATIVEZ = 0.0,
+        LUA = "%s",
+		
+        COMPONENTS = 
+        {
+            {
+                NAME = "CEGUIWidgetComponent",
+                CEGUIWidgetComponent =
+                {
+                },
+            },
+        },
+    },
+}"""% (relativePath[relativePath.find("data")+5:]+"\\widget.tpl").replace("\\","/"))
+                widgetluatpl.write("""
+params =
+{
+	NAME = "Actor_Template",
+	Actor_Template =
+    {
+		UPDATELAYER = UpdateLayer.Menu,
+        STARTPAUSED = 0,
+		
+        COMPONENTS =
+        {
+			{
+                NAME = "CEGUIWidgetComponent_Template",
+                CEGUIWidgetComponent_Template =
+                {
+					style = 0,
+                },
+				
+            },
+        },
+    },
+}""")
+
+                widgetluatpl.close()
+                widgetluact.close()
+                
                 rooot = ElementTree.Element("root")
                 scene = ElementTree.SubElement(rooot,"Scene")
                 scene.set("ENGINE_VERSION","170143")
@@ -1381,16 +1555,46 @@ Details of this error: %s""" % (e))
                 actor.set("RELATIVEZ","0.000000")
                 actor.set("SCALE","1.000000 1.000000")
                 actor.set("xFLIPPED","0") 
-                actor.set("USERFRIENDLY","UI_MENU_"+os.path.splitext(os.path.basename(self.activeEditor.filePath))[0].upper())
+                actor.set("USERFRIENDLY",parentName)
                 actor.set("STARTPAUSE","0")
                 actor.set("ICONCOLOR","1.000000 1.000000 1.000000 1.000000" )
                 actor.set("POS2D","0.000000 0.000000") 
                 actor.set("ANGLE","0.000000")
-                actor.set("INSTANCEDATAFILE","uimenu_"+os.path.splitext(os.path.basename(self.activeEditor.filePath))[0].lower()+".act")
+                actor.set("INSTANCEDATAFILE",(relativePath[relativePath.find("data")+5:]+"\\"+parentName.lower()+".act").replace("\\","/"))
                 actor.set("persistenceId","0")
-                actor.set("LUA","uimenu_"+os.path.splitext(os.path.basename(self.activeEditor.filePath))[0].lower()+".tpl")
+                actor.set("LUA",(relativePath[relativePath.find("data")+5:]+"\\"+parentName.lower()+".tpl").replace("\\","/"))
+                #actor.set("LUA",parentName.lower()+".tpl")
+                enum = ElementTree.SubElement(actor,"ENUM")
+                enum.set("NAME","ObjectDeviceSpeed")
+                enum.set("SEL","-1")
+
+                cmp = ElementTree.SubElement(actor,"COMPONENTS")
+                cmp.set("NAME","CEGUIMenuBasic")
+                ceguimenu = ElementTree.SubElement(cmp,"CEGUIMenuBasic")
+                ceguimenu.set("transition","0") 
+                ceguimenu.set("display","1") 
+                ceguimenu.set("leftComponentID","") 
+                ceguimenu.set("rightComponentID","") 
+                ceguimenu.set("upComponentID","") 
+                ceguimenu.set("downComponentID","")
+                ceguimenu.set("cursorOffset","0.000000 0.000000")
+                ceguimenu.set("cursorOffset_4_3","0.000000 0.000000")
+                ceguimenu.set("cursorAngle","0.000000")
+                ceguimenu.set("screenSpace","1280.000000 720.000000") 
+                ceguimenu.set("loadResource","0")
+                ceguimenu.set("afxDuration","0.300000")
+                ceguimenu.set("defaultItem","")
+                ceguimenu.set("backItem","")
+                enum = ElementTree.SubElement(ceguimenu,"ENUM")
+                enum.set("NAME","displayMask",)
+                enum.set("SEL","3")
+                enum = ElementTree.SubElement(ceguimenu,"ENUM") 
+                enum.set("NAME","menuType",)
+                enum.set("SEL","2")
+                root = PyCEGUI.WindowManager.getSingleton().loadLayoutFromString(self.activeEditor.nativeData)
                 
-                sys = PyCEGUI.System.getSingleton()
+                self.serializeWidget(root,parentName,"CEGUILayoutComponent",scene,relativePath[relativePath.find("data")+5:])
+
                 #print sys.getDefaultGUIContext().getRootWindow().getName()
                 xmledit.indent(rooot)
                 outputData = ElementTree.tostring(rooot,encoding="ISO-8859-1", method="xml")
@@ -1405,7 +1609,64 @@ Details of this error: %s""" % (e))
                     QtGui.QMessageBox.critical(self, "Error saving file!",
                                                "CEED encountered an error trying to save the file.\n\n(exception details: %s)" % (e))
                     return False
+    def serializeWidget(self,widget,parentName,type,scene,rel):
+        name = ""
+        if type == "CEGUILayoutComponent":
+            name = (rel+"\\"+"layout").replace("\\","/")
+        else :
+            name = (rel+"\\"+"widget").replace("\\","/")
+        pos  = "%4.6f " % widget.getPixelPosition().d_x+"%4.6f" % widget.getPixelPosition().d_y
+        actors =  ElementTree.SubElement(scene,"Actors")
+        actors.set("NAME","Actor")
+        actor = ElementTree.SubElement(actors,"Actor")
+        actor.set("RELATIVEZ","0.000000")
+        actor.set("SCALE","1.000000 1.000000")
+        actor.set("xFLIPPED","0") 
+        actor.set("USERFRIENDLY",widget.getName())
+        actor.set("STARTPAUSE","0")
+        actor.set("ICONCOLOR","1.000000 1.000000 1.000000 1.000000" )
+        actor.set("POS2D",pos) 
+        actor.set("ANGLE","0.000000")
+        actor.set("INSTANCEDATAFILE",name+".act")
+        actor.set("persistenceId","0")
+        actor.set("LUA",name+".tpl")
+        enum = ElementTree.SubElement(actor,"ENUM")
+        enum.set("NAME","ObjectDeviceSpeed")
+        enum.set("SEL","-1")
+        parbind = ElementTree.SubElement(actor,"parentBind")
+        bind = ElementTree.SubElement(parbind,"Bind")
+        bind.set("parentPath",parentName)
+        bind.set("offsetPos",pos+" 0.000000") 
+        bind.set("offsetAngle","0.000000")
+        bind.set("typeData","0")
+        bind.set("useParentFlip","1")
+        bind.set("useParentScale","0")
+        bind.set("useParentAlpha","0")
+        bind.set("removeWithParent","0")
+        enum = ElementTree.SubElement(bind,"ENUM")
+        enum.set("NAME","type")
+        enum.set("SEL","0")
 
+
+        cmp = ElementTree.SubElement(actor,"COMPONENTS")
+        cmp.set("NAME",type)
+        ceguilayout = ElementTree.SubElement(cmp,type)
+        ceguilayout.set("transition","0") 
+        ceguilayout.set("display","1") 
+        ceguilayout.set("leftComponentID","") 
+        ceguilayout.set("rightComponentID","") 
+        ceguilayout.set("upComponentID","") 
+        ceguilayout.set("downComponentID","")
+        ceguilayout.set("cursorOffset","0.000000 0.000000")
+        ceguilayout.set("cursorOffset_4_3","0.000000 0.000000")
+        ceguilayout.set("cursorAngle","0.000000")
+        ceguilayout.set("screenSpace","1280.000000 720.000000") 
+        enum = ElementTree.SubElement(ceguilayout,"ENUM")
+        enum.set("NAME","displayMask",)
+        enum.set("SEL","3")
+        for x in range(0, widget.getChildCount()):
+            self.serializeWidget(widget.getChildAtIdx(x),parentName,"CEGUIWidgetComponent",scene,rel)
+        
     def slot_saveAll(self):
         """Saves all opened tabbed editors and opened project (if any)
         """
