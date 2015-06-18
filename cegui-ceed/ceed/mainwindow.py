@@ -204,6 +204,7 @@ class MainWindow(QtGui.QMainWindow):
         self.restoreSettings()
         #self.openProject("C:/Users/mybahaoui/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
         #self.openProject("C:/Users/Iromys/Documents/GitHub/UIromy/cegui-ceed/data/samples/datafiles0_8/ram.project")
+        self.openProject("D:/ValiantHeart_IOS/data/test/projetUIromy/test.project")
         
 
     def setupActions(self):
@@ -1372,7 +1373,7 @@ Details of this error: %s""" % (e))
                 _root = self.imagesetMap.values()[0][:self.imagesetMap.values()[0].find("\\imagesets")]
             if filePath and self.activeEditor.nativeData != "" : # make sure user hasn't cancelled the dialog
                 parentName = "UI_MENU_"+os.path.splitext(os.path.basename(self.activeEditor.filePath))[0].upper()
-                relativePath = os.path.abspath(os.path.join(filePath, os.pardir))+"\\actors"
+                relativePath = os.path.abspath(os.path.join(filePath, os.pardir))+"\\"+parentName+"_Actors"
                 print relativePath
                 if not os.path.exists(relativePath):
                     os.makedirs(relativePath)
@@ -1437,6 +1438,20 @@ Details of this error: %s""" % (e))
                     },
                     styles =
 					{
+                        {
+				            Style =
+				            {
+					            fontSet = font02,
+                                fontPath = "EngineData/Misc/Fonts/font02.tfn", -- obsolete, do not copy paste
+					            fontSize = 30.000000,
+					            color = "0xFF000000",
+					            shadowColor = "0xFF000000",
+					            shadowOffset = vector2dNew(0,0),
+					            anchor = Anchor.TopLeft,
+					            hAlignment = Align.Left,
+					            vAlignment = Align.Middle,
+				            }
+			            },
                     },
                 },
             },
@@ -1665,7 +1680,8 @@ params =
         enum.set("NAME","displayMask",)
         enum.set("SEL","3")
         for x in range(0, widget.getChildCount()):
-            self.serializeWidget(widget.getChildAtIdx(x),parentName,"CEGUIWidgetComponent",scene,rel)
+            if not widget.getChildAtIdx(x).isAutoWindow():
+                self.serializeWidget(widget.getChildAtIdx(x),parentName,"CEGUIWidgetComponent",scene,rel)
         
     def slot_saveAll(self):
         """Saves all opened tabbed editors and opened project (if any)
